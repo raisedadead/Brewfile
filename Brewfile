@@ -5,6 +5,7 @@ tap homebrew/core
 brew pkg-config
 brew thefuck
 brew go
+brew zsh-autosuggestions
 brew python3
 brew gdbm
 brew python
@@ -19,6 +20,7 @@ brew zplug
 brew mongodb@3.2
 brew pcre
 brew zsh
+brew zsh-syntax-highlighting
 brew openssl
 brew makedepend
 brew hub
