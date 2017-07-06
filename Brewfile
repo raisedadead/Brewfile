@@ -16,7 +16,6 @@ brew readline
 brew sqlite
 brew xz
 brew bash
-brew zplug
 brew mongodb@3.2
 brew pcre
 brew zsh
