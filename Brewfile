@@ -42,6 +42,7 @@ cask iterm2
 cask 1password
 cask firefox
 cask google-chrome
+cask whatsapp
 cask alfred
 
 tap rcmdnk/file
