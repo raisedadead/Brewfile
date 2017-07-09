@@ -16,7 +16,6 @@ brew readline
 brew sqlite
 brew xz
 brew bash
-brew mongodb@3.2
 brew pcre
 brew zsh
 brew zsh-syntax-highlighting
@@ -37,12 +36,14 @@ cask flux
 cask gitter
 cask screenhero
 cask webtorrent
+cask vlc
 cask skype
 cask spectacle
 cask iterm2
 cask 1password
 cask firefox
 cask google-chrome
+cask hyper
 cask whatsapp
 cask alfred
 
