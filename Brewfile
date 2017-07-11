@@ -42,7 +42,6 @@ cask skype
 cask spectacle
 cask iterm2
 cask 1password
-cask google-drive
 cask firefox
 cask google-chrome
 cask hyper
