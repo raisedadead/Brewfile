@@ -15,6 +15,7 @@ brew zsh-completions
 brew readline
 brew sqlite
 brew xz
+brew mongodb
 brew bash
 brew pcre
 brew zsh
@@ -41,11 +42,21 @@ cask skype
 cask spectacle
 cask iterm2
 cask 1password
+cask google-drive
 cask firefox
 cask google-chrome
 cask hyper
 cask whatsapp
+cask brave
 cask alfred
 
 tap rcmdnk/file
 brew brew-file
+
+# App Store applications
+appstore 406056744 Evernote (6.11.1)
+appstore 1082624744 Gifox (1.2.10)
+appstore 1040029915 SHAREit (0.9.0)
+appstore 425955336 Skitch (2.8)
+appstore 803453959 Slack (2.6.2)
+appstore 409789998 Twitter (4.3.2)
