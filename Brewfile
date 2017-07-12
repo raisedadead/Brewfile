@@ -45,6 +45,7 @@ cask 1password
 cask firefox
 cask google-chrome
 cask hyper
+cask nylas-mail
 cask whatsapp
 cask brave
 cask alfred
