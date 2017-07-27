@@ -1,54 +1,62 @@
 
 # tap repositories and their packages
 
-tap homebrew/core
-brew pkg-config
-brew thefuck
-brew go
-brew zsh-autosuggestions
-brew python3
-brew gdbm
-brew python
-brew icu4c
-brew scons
-brew zsh-completions
-brew readline
-brew sqlite
-brew xz
-brew mongodb
-brew bash
-brew pcre
-brew zsh
-brew zsh-syntax-highlighting
-brew openssl
-brew makedepend
-brew hub
-brew git
-brew git-extras
+tap caskformula/caskformula
+
+tap caskroom/cask
+cask 1password
+cask alfred
+cask atom
+cask brave
+cask firefox
+cask flux
+cask gitter
+cask google-chrome
+cask hyper
+cask iterm2
+cask nylas-mail
+cask robo-3t
+cask screenhero
+cask skype
+cask spectacle
+cask vlc
+cask webtorrent
+cask whatsapp
 
 tap homebrew/bundle
 
+tap homebrew/core
+brew bash
+brew gdbm
+brew git
+brew git-extras
+brew go
+brew hub
+brew icu4c
+brew makedepend
+brew mas
+brew mongodb
+brew openssl
+brew pcre
+brew pkg-config
+brew python
+brew python3
+brew readline
+brew scons
+brew sqlite
+brew thefuck
+brew xz
+brew zplug
+brew zsh
+brew zsh-autosuggestions
+brew zsh-completions
+brew zsh-syntax-highlighting
+
+tap homebrew/fuse
+
 tap homebrew/services
 
-tap caskroom/cask
-cask robo-3t
-cask atom
-cask flux
-cask gitter
-cask screenhero
-cask webtorrent
-cask vlc
-cask skype
-cask spectacle
-cask iterm2
-cask 1password
-cask firefox
-cask google-chrome
-cask hyper
-cask nylas-mail
-cask whatsapp
-cask brave
-cask alfred
+tap neovim/neovim
 
 tap rcmdnk/file
 brew brew-file
