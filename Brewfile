@@ -14,7 +14,6 @@ cask gitter
 cask google-chrome
 cask hyper
 cask iterm2
-cask nylas-mail
 cask robo-3t
 cask screenhero
 cask skype
