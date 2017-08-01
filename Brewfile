@@ -25,6 +25,7 @@ cask whatsapp
 tap homebrew/bundle
 
 tap homebrew/core
+brew awk
 brew bash
 brew gdbm
 brew git
@@ -45,7 +46,6 @@ brew scons
 brew sqlite
 brew thefuck
 brew xz
-brew zplug
 brew zsh
 brew zsh-autosuggestions
 brew zsh-completions
