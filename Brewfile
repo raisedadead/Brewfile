@@ -10,6 +10,7 @@ cask atom
 cask brave
 cask firefox
 cask flux
+cask github-desktop
 cask gitter
 cask google-chrome
 cask hyper
@@ -25,31 +26,31 @@ cask whatsapp
 tap homebrew/bundle
 
 tap homebrew/core
-brew awk
-brew bash
-brew gdbm
-brew git
-brew git-extras
-brew go
-brew hub
-brew icu4c
-brew makedepend
-brew mas
-brew mongodb
-brew openssl
-brew pcre
-brew pkg-config
-brew python
-brew python3
-brew readline
-brew scons
 brew sqlite
-brew thefuck
+brew mas
 brew xz
-brew zsh
-brew zsh-autosuggestions
 brew zsh-completions
+brew thefuck
+brew go
+brew gdbm
+brew pcre
+brew git
+brew scons
+brew python3
+brew git-extras
+brew hub
+brew python
+brew mongodb
+brew awk
+brew readline
+brew bash
 brew zsh-syntax-highlighting
+brew makedepend
+brew zsh-autosuggestions
+brew openssl
+brew icu4c
+brew zsh
+brew pkg-config
 
 tap homebrew/fuse
 
@@ -61,9 +62,9 @@ tap rcmdnk/file
 brew brew-file
 
 # App Store applications
-appstore 406056744 Evernote (6.11.1)
-appstore 1082624744 Gifox (1.2.10)
+appstore 406056744 Evernote (6.12)
+appstore 1082624744 Gifox (1.3.0)
 appstore 1040029915 SHAREit (0.9.0)
 appstore 425955336 Skitch (2.8)
-appstore 803453959 Slack (2.6.2)
+appstore 803453959 Slack (2.7.1)
 appstore 409789998 Twitter (4.3.2)
