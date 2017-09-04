@@ -23,6 +23,9 @@ cask vlc
 cask webtorrent
 cask whatsapp
 
+tap caskroom/versions
+cask google-chrome-canary
+
 tap homebrew/bundle
 
 tap homebrew/core
@@ -50,6 +53,7 @@ brew zsh-autosuggestions
 brew openssl
 brew icu4c
 brew zsh
+brew awscli
 brew pkg-config
 
 tap homebrew/fuse
@@ -61,9 +65,13 @@ tap neovim/neovim
 tap rcmdnk/file
 brew brew-file
 
+tap wallix/awless
+brew awless
+
 # App Store applications
 appstore 406056744 Evernote (6.12)
 appstore 1082624744 Gifox (1.3.0)
+appstore 1207744923 GravitDesigner (3.1.3)
 appstore 1040029915 SHAREit (0.9.0)
 appstore 425955336 Skitch (2.8)
 appstore 803453959 Slack (2.7.1)
