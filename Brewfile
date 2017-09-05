@@ -8,6 +8,7 @@ cask 1password
 cask alfred
 cask atom
 cask brave
+cask caprine
 cask firefox
 cask flux
 cask github-desktop
