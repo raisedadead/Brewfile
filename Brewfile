@@ -16,6 +16,7 @@ cask gitter
 cask google-chrome
 cask hyper
 cask iterm2
+cask now
 cask robo-3t
 cask screenhero
 cask skype
@@ -70,10 +71,12 @@ tap wallix/awless
 brew awless
 
 # App Store applications
-appstore 406056744 Evernote (6.12)
+appstore 406056744 Evernote (6.12.2)
 appstore 1082624744 Gifox (1.3.0)
 appstore 1207744923 GravitDesigner (3.1.3)
+appstore 1039633667 Irvue (2.5.7)
 appstore 1040029915 SHAREit (0.9.0)
 appstore 425955336 Skitch (2.8)
-appstore 803453959 Slack (2.7.1)
+appstore 803453959 Slack (2.8.0)
+appstore 1278508951 Trello (2.9.1)
 appstore 409789998 Twitter (4.3.2)
