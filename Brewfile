@@ -16,6 +16,7 @@ cask gitter
 cask google-chrome
 cask hyper
 cask iterm2
+cask keybase
 cask now
 cask robo-3t
 cask screenhero
@@ -78,5 +79,5 @@ appstore 1039633667 Irvue (2.5.7)
 appstore 1040029915 SHAREit (0.9.0)
 appstore 425955336 Skitch (2.8)
 appstore 803453959 Slack (2.8.0)
-appstore 1278508951 Trello (2.9.1)
+appstore 1278508951 Trello (2.9.5)
 appstore 409789998 Twitter (4.3.2)
