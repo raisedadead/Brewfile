@@ -1,43 +1,40 @@
 
 # tap repositories and their packages
 
-tap homebrew/fuse
-
 tap homebrew/core
-brew sqlite
-brew git-extras
-brew xz
-brew zsh-completions
-brew thefuck
-brew go
-brew gdbm
-brew pcre
-brew git
-brew scons
-brew mailhog
-brew mas
-brew hub
-brew python
-brew mongodb
 brew awk
-brew readline
-brew bash
-brew zsh-syntax-highlighting
-brew makedepend
-brew zsh-autosuggestions
-brew zsh
-brew openssl
-brew icu4c
-brew python3
 brew awscli
+brew bash
+brew gdbm
+brew git
+brew git-extras
+brew go
+brew hub
+brew icu4c
+brew mailhog
+brew makedepend
+brew mas
+brew mongodb
+brew openssl
+brew pcre
 brew pkg-config
+brew python
+brew python3
+brew readline
+brew scons
+brew sqlite
+brew thefuck
+brew xz
+brew zsh
+brew zsh-autosuggestions
+brew zsh-completions
+brew zsh-syntax-highlighting
 
 tap homebrew/bundle
 
-tap homebrew/services
+tap homebrew/fuse
 
-tap caskroom/versions
-cask google-chrome-canary
+tap homebrew/services
 
 tap caskroom/cask
 cask robo-3t
@@ -62,17 +59,22 @@ cask whatsapp
 cask brave
 cask alfred
 
-tap wallix/awless
-brew awless
+tap caskroom/versions
+cask google-chrome-canary
 
 tap caskformula/caskformula
+
+tap neovim/neovim
 
 tap rcmdnk/file
 brew brew-file
 
-tap neovim/neovim
+tap wallix/awless
+brew awless
 
 # App Store applications
+appstore 443987910 1Password (6.8.2)
+appstore 921458519 DrCleaner (3.3.1)
 appstore 406056744 Evernote (6.12.3)
 appstore 682658836 GarageBand (10.2.0)
 appstore 1082624744 Gifox (1.3.1)
