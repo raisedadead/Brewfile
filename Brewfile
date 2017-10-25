@@ -5,10 +5,10 @@ tap homebrew/core
 brew awk
 brew awscli
 brew bash
+brew fzy
 brew gdbm
 brew gettext
 brew git
-brew git-extras
 brew go
 brew hub
 brew icu4c
