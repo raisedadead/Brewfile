@@ -5,6 +5,9 @@ tap homebrew/core
 brew awk
 brew awscli
 brew bash
+brew docker
+brew docker-compose
+brew docker-machine
 brew fzy
 brew gcc
 brew gdbm
@@ -20,6 +23,7 @@ brew libmpc
 brew libtermkey
 brew libuv
 brew libvterm
+brew libyaml
 brew mailhog
 brew makedepend
 brew mas
