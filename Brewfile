@@ -8,6 +8,7 @@ brew bash
 brew docker
 brew docker-compose
 brew docker-machine
+brew fzf
 brew fzy
 brew gcc
 brew gdbm
@@ -42,6 +43,7 @@ brew scons
 brew sqlite
 brew thefuck
 brew unibilium
+brew watchman
 brew xz
 brew yarn --without-node
 brew zsh
@@ -60,6 +62,7 @@ cask robo-3t
 cask atom
 cask flux
 cask gitter
+cask visual-studio-code
 cask webtorrent
 cask vlc
 cask skype
@@ -69,6 +72,7 @@ cask keybase
 cask iterm2
 cask now
 cask 1password
+cask franz
 cask firefox
 cask google-chrome
 cask hyper
@@ -94,4 +98,4 @@ cask github-desktop
 cask screenhero
 
 # App Store applications
-appstore 443987910 1Password (6.8.3)
+appstore 443987910 1Password (6.8.4)
