@@ -99,3 +99,4 @@ cask screenhero
 
 # App Store applications
 appstore 443987910 1Password (6.8.4)
+appstore 1207744923 GravitDesigner (3.2.5)
