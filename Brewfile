@@ -25,6 +25,7 @@ brew libtermkey
 brew libuv
 brew libvterm
 brew libyaml
+brew luajit
 brew mailhog
 brew makedepend
 brew mas
