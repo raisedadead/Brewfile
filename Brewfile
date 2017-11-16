@@ -79,6 +79,7 @@ cask google-chrome
 cask hyper
 cask whatsapp
 cask brave
+cask cakebrew
 cask alfred
 
 tap caskroom/versions
