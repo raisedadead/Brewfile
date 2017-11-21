@@ -59,6 +59,7 @@ tap homebrew/fuse
 tap homebrew/services
 
 tap caskroom/cask
+cask slack
 cask robo-3t
 cask atom
 cask flux
