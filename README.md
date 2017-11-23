@@ -46,4 +46,4 @@ brew file install
 
 ## License
 
-CC0 © 2017 Mrugesh Mohapatra
+The Unlicense © 2017 Mrugesh Mohapatra
