@@ -5,8 +5,14 @@ tap homebrew/core
 brew gdbm
 brew git
 brew hub
+brew icu4c
+brew mailhog
 brew mas
+brew mongodb
+brew node
+brew openssl
 brew pcre
+brew yarn
 brew zplug
 brew zsh
 brew zsh-completions
