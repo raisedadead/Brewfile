@@ -13,7 +13,6 @@ brew node
 brew openssl
 brew pcre
 brew yarn
-brew zplug
 brew zsh
 brew zsh-completions
 
