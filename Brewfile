@@ -4,6 +4,7 @@
 tap homebrew/core
 brew gdbm
 brew git
+brew hub
 brew mas
 brew pcre
 brew zplug
