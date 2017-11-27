@@ -6,6 +6,7 @@ brew gdbm
 brew git
 brew mas
 brew pcre
+brew zplug
 brew zsh
 brew zsh-completions
 
