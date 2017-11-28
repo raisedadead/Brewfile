@@ -32,20 +32,16 @@ cask visual-studio-code
 cask webtorrent
 cask vlc
 cask skype
-cask caprine
 cask spectacle
 cask google-backup-and-sync
 cask keybase
 cask iterm2
-cask now
 cask 1password
-cask franz
 cask firefox
 cask google-chrome
 cask hyper
 cask whatsapp
 cask brave
-cask cakebrew
 cask alfred
 
 tap caskroom/versions
