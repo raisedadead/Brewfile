@@ -36,6 +36,7 @@ cask spectacle
 cask google-backup-and-sync
 cask keybase
 cask iterm2
+cask devdocs
 cask 1password
 cask firefox
 cask google-chrome
