@@ -55,3 +55,12 @@ tap rcmdnk/file
 brew brew-file
 
 tap wallix/awless
+
+# App Store applications
+appstore 406056744 Evernote (6.13)
+appstore 1082624744 Gifox (1.3.1)
+appstore 1207744923 GravitDesigner (3.2.5)
+appstore 1039633667 Irvue (2.5.11)
+appstore 425955336 Skitch (2.8)
+appstore 1278508951 Trello (2.10.0)
+appstore 409789998 Twitter (4.3.2)
