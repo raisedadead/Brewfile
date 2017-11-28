@@ -34,6 +34,7 @@ cask vlc
 cask skype
 cask caprine
 cask spectacle
+cask google-backup-and-sync
 cask keybase
 cask iterm2
 cask now
