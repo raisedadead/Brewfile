@@ -3,15 +3,24 @@
 
 tap homebrew/core
 brew gdbm
+brew gettext
 brew git
 brew hub
 brew icu4c
+brew jemalloc
+brew libtermkey
+brew libuv
+brew libvterm
+brew luajit
 brew mailhog
 brew mas
 brew mongodb
+brew msgpack
+brew neovim
 brew node
 brew openssl
 brew pcre
+brew unibilium
 brew yarn
 brew zsh
 brew zsh-completions
@@ -44,6 +53,7 @@ cask hyper
 cask whatsapp
 cask brave
 cask alfred
+cask studio-3t
 
 tap caskroom/versions
 cask google-chrome-canary
