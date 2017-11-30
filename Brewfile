@@ -2,6 +2,7 @@
 # tap repositories and their packages
 
 tap homebrew/core
+brew fzy
 brew gdbm
 brew gettext
 brew git
@@ -36,6 +37,7 @@ cask slack
 cask robo-3t
 cask atom
 cask flux
+cask github
 cask gitter
 cask visual-studio-code
 cask webtorrent
