@@ -68,7 +68,6 @@ tap rcmdnk/file
 brew brew-file
 
 tap thoughtbot/formulae
-brew rcm
 
 tap wallix/awless
 
