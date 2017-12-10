@@ -2,11 +2,14 @@
 # tap repositories and their packages
 
 tap homebrew/core
+brew ack
 brew diff-so-fancy
+brew fzf
 brew fzy
 brew gdbm
 brew gettext
 brew git
+brew homeshick
 brew hub
 brew icu4c
 brew jemalloc
