@@ -7,7 +7,6 @@
 - [Install](#install)
 - [Usage](#usage)
 - [Maintainers](#maintainers)
-- [Contribute](#contribute)
 - [License](#license)
 
 ## Install
@@ -46,4 +45,4 @@ brew file install
 
 ## License
 
-The Unlicense © 2017 Mrugesh Mohapatra
+[The Unlicense](/LICENSE.md) © 2017 Mrugesh Mohapatra
