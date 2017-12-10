@@ -12,23 +12,23 @@
 
 ## Install
 
-- These instructions are strictly for me and only me. Please use at your discreation.
+> These instructions work for my config. Please use at your discreation. 
 
-- Install Homebrew-file
+Install Homebrew-file (which will also install Homebrew if not installed already)
 
  ```bash
  $ curl -fsSL https://raw.github.com/rcmdnk/homebrew-file/install/install.sh |sh
 
  ```
 
-- Add following lines to `~/.zshrc`
+Add following lines to `~/.zshrc`
  ```bash
  if [ -f $(brew --prefix)/etc/brew-wrap ];then
    source $(brew --prefix)/etc/brew-wrap
  fi
  ```
 
-- Setup GitHub repo
+Setup GitHub repo
  ```bash
  brew file set_repo
  # raisedadead/Brewfile
