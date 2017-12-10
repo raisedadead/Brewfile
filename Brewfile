@@ -2,6 +2,7 @@
 # tap repositories and their packages
 
 tap homebrew/core
+brew diff-so-fancy
 brew fzy
 brew gdbm
 brew gettext
@@ -21,6 +22,7 @@ brew neovim
 brew node
 brew openssl
 brew pcre
+brew tree
 brew unibilium
 brew yarn
 brew zsh
@@ -33,6 +35,7 @@ tap homebrew/fuse
 tap homebrew/services
 
 tap caskroom/cask
+cask imageoptim
 cask slack
 cask robo-3t
 cask atom
@@ -74,7 +77,7 @@ tap wallix/awless
 # App Store applications
 appstore 406056744 Evernote (6.13.1)
 appstore 1082624744 Gifox (1.4.0)
-appstore 1207744923 GravitDesigner (3.2.5)
+appstore 1207744923 GravitDesigner (3.2.63)
 appstore 1039633667 Irvue (2.5.11)
 appstore 425955336 Skitch (2.8)
 appstore 1278508951 Trello (2.10.0)
