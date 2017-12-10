@@ -28,12 +28,6 @@ brew yarn
 brew zsh
 brew zsh-completions
 
-tap homebrew/bundle
-
-tap homebrew/fuse
-
-tap homebrew/services
-
 tap caskroom/cask
 cask imageoptim
 cask slack
@@ -63,16 +57,8 @@ cask studio-3t
 tap caskroom/versions
 cask google-chrome-canary
 
-tap caskformula/caskformula
-
-tap neovim/neovim
-
 tap rcmdnk/file
 brew brew-file
-
-tap thoughtbot/formulae
-
-tap wallix/awless
 
 # App Store applications
 appstore 406056744 Evernote (6.13.1)
