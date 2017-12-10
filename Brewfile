@@ -9,6 +9,8 @@ brew fzy
 brew gdbm
 brew gettext
 brew git
+brew git-extras
+brew git-fresh
 brew homeshick
 brew hub
 brew icu4c
