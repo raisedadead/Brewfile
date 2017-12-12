@@ -66,9 +66,7 @@ cask firefox
 cask google-chrome
 cask hyper
 cask whatsapp
-cask brave
 cask alfred
-cask studio-3t
 
 tap caskroom/versions
 cask google-chrome-canary
