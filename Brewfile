@@ -15,6 +15,7 @@ brew homeshick
 brew hub
 brew icu4c
 brew jemalloc
+brew libevent
 brew libtermkey
 brew libuv
 brew libvterm
@@ -30,7 +31,7 @@ brew pcre
 brew python3
 brew readline
 brew sqlite
-brew thefuck
+brew tor
 brew tree
 brew unibilium
 brew xz
@@ -46,6 +47,7 @@ tap homebrew/services
 
 tap caskroom/cask
 cask imageoptim
+cask torbrowser
 cask slack
 cask robo-3t
 cask atom
