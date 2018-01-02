@@ -31,7 +31,6 @@ brew msgpack
 brew nano
 brew ncurses
 brew neovim
-brew node
 brew openssl
 brew openssl@1.1
 brew pcre
@@ -43,7 +42,6 @@ brew tree
 brew unibilium
 brew wget
 brew xz
-brew yarn
 brew zsh
 brew zsh-completions
 
@@ -94,7 +92,7 @@ tap wallix/awless
 
 # App Store applications
 appstore 406056744 Evernote (6.13.1)
-appstore 1082624744 Gifox (1.4.0)
+appstore 1082624744 Gifox (1.5.0)
 appstore 1207744923 GravitDesigner (3.2.63)
 appstore 1039633667 Irvue (2.5.11)
 appstore 425955336 Skitch (2.8)
