@@ -12,7 +12,6 @@ brew git
 brew git-extras
 brew git-fresh
 brew go
-brew homeshick
 brew hub
 brew icu4c
 brew jemalloc
