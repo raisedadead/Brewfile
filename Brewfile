@@ -91,6 +91,7 @@ cask google-chrome-canary
 tap caskformula/caskformula
 
 tap mkchoi212/fac
+brew fac
 
 tap neovim/neovim
 
