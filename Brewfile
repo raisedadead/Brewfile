@@ -4,6 +4,7 @@
 tap homebrew/core
 brew ack
 brew diff-so-fancy
+brew freetype
 brew fzf
 brew fzy
 brew gdbm
@@ -14,13 +15,19 @@ brew git-fresh
 brew go
 brew hub
 brew icu4c
+brew imagemagick
 brew jemalloc
+brew jpeg
 brew libevent
 brew libidn2
+brew libpng
 brew libtermkey
+brew libtiff
+brew libtool
 brew libunistring
 brew libuv
 brew libvterm
+brew libzip
 brew luajit
 brew mackup
 brew mailhog
@@ -36,6 +43,7 @@ brew pcre
 brew python3
 brew readline
 brew sqlite
+brew tldr
 brew tor
 brew tree
 brew unibilium
@@ -67,18 +75,22 @@ cask spectacle
 cask google-backup-and-sync
 cask keybase
 cask iterm2
+cask docker
 cask devdocs
 cask 1password
 cask firefox
 cask google-chrome
 cask hyper
 cask whatsapp
+cask sourcetree
 cask alfred
 
 tap caskroom/versions
 cask google-chrome-canary
 
 tap caskformula/caskformula
+
+tap mkchoi212/fac
 
 tap neovim/neovim
 
