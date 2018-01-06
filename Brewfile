@@ -37,6 +37,7 @@ brew msgpack
 brew nano
 brew ncurses
 brew neovim
+brew node
 brew openssl
 brew openssl@1.1
 brew pcre
@@ -49,6 +50,7 @@ brew tree
 brew unibilium
 brew wget
 brew xz
+brew yarn
 brew zsh
 brew zsh-completions
 
