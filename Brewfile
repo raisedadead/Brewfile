@@ -71,6 +71,7 @@ cask atom
 cask flux
 cask github
 cask gitter
+cask visual-studio-code
 cask webtorrent
 cask vlc
 cask skype
