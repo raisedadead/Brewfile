@@ -69,6 +69,7 @@ cask slack
 cask robo-3t
 cask atom
 cask flux
+cask mongodb-compass
 cask github
 cask gitter
 cask visual-studio-code
