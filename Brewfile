@@ -83,6 +83,7 @@ cask iterm2
 cask docker
 cask devdocs
 cask 1password
+cask signal
 cask firefox
 cask google-chrome
 cask hyper
