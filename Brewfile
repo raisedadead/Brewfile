@@ -43,6 +43,7 @@ brew openssl
 brew openssl@1.1
 brew pcre
 brew python
+brew python@2
 brew readline
 brew ruby
 brew sqlite
@@ -67,6 +68,7 @@ cask imageoptim
 cask torbrowser
 cask slack
 cask robo-3t
+cask james
 cask atom
 cask flux
 cask mongodb-compass
@@ -116,7 +118,7 @@ appstore 406056744 Evernote (7.0.2)
 appstore 1082624744 Gifox (1.5.0)
 appstore 1207744923 GravitDesigner (3.2.63)
 appstore 1039633667 Irvue (2.6.2)
-appstore Install macOS High Sierra (13105)
-appstore 425955336 Skitch (2.8)
+appstore  Install macOS High Sierra (13105)
+appstore 425955336 Skitch (2.8.1)
 appstore 1278508951 Trello (2.10.2)
 appstore 409789998 Twitter (4.3.2)
