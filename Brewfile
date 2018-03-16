@@ -79,6 +79,7 @@ cask visual-studio-code
 cask webtorrent
 cask vlc
 cask skype
+cask amazon-workspaces
 cask spectacle
 cask obs
 cask google-backup-and-sync
@@ -87,12 +88,14 @@ cask keybase
 cask iterm2
 cask docker
 cask devdocs
+cask caffeine
 cask 1password
 cask signal
 cask firefox
 cask google-chrome
 cask hyper
 cask whatsapp
+cask ngrok
 cask sourcetree
 cask alfred
 
@@ -115,7 +118,7 @@ tap wallix/awless
 
 # App Store applications
 appstore 406056744 Evernote (7.0.2)
-appstore 1082624744 Gifox (1.5.0)
+appstore 1082624744 Gifox (1.5.1)
 appstore 1207744923 GravitDesigner (3.2.63)
 appstore 1039633667 Irvue (2.6.2)
 appstore  Install macOS High Sierra (13105)
