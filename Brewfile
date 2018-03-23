@@ -106,7 +106,6 @@ tap thoughtbot/formulae
 tap wallix/awless
 
 # App Store applications
-appstore 406056744 Evernote (7.0.2)
 appstore 1082624744 Gifox (1.5.1)
 appstore 1207744923 GravitDesigner (3.3.0)
 appstore 1039633667 Irvue (2.6.2)
