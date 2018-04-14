@@ -68,7 +68,6 @@ cask 1password
 cask alfred
 cask amazon-music
 cask atom
-cask bitwarden
 cask caffeine
 cask docker
 cask firefox
