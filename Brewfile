@@ -109,6 +109,6 @@ tap wallix/awless
 appstore 1082624744 Gifox (1.5.1)
 appstore 1207744923 GravitDesigner (3.3.1)
 appstore 1039633667 Irvue (2.6.2)
-appstore 784801555 Microsoft OneNote (16.11)
+appstore 784801555 Microsoft OneNote (16.12)
 appstore 425955336 Skitch (2.8.1)
 appstore 1278508951 Trello (2.10.3)
