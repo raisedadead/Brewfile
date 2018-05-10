@@ -78,6 +78,7 @@ cask graphiql
 cask imageoptim
 cask iterm2
 cask james
+cask lastpass
 cask mongodb-compass
 cask origami-studio
 cask signal
@@ -108,7 +109,7 @@ tap wallix/awless
 
 # App Store applications
 appstore 1082624744 Gifox (1.6.0)
-appstore 1207744923 GravitDesigner (3.3.1)
+appstore 1207744923 GravitDesigner (3.3.2)
 appstore 1039633667 Irvue (2.6.3)
 appstore 784801555 Microsoft OneNote (16.12)
 appstore 425955336 Skitch (2.8.1)
