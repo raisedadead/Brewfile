@@ -81,6 +81,7 @@ cask james
 cask lastpass
 cask mongodb-compass
 cask origami-studio
+cask robo-3t
 cask signal
 cask skype
 cask slack
