@@ -38,6 +38,7 @@ brew msgpack
 brew nano
 brew ncurses
 brew neovim
+brew nginx
 brew node@8
 brew openssl
 brew openssl@1.1
