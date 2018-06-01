@@ -64,6 +64,24 @@ tap homebrew/fuse
 tap homebrew/services
 
 tap caskroom/cask
+
+tap caskroom/versions
+
+tap caskformula/caskformula
+
+tap mkchoi212/fac
+brew fac
+
+tap neovim/neovim
+
+tap rcmdnk/file
+brew brew-file
+
+tap thoughtbot/formulae
+
+tap wallix/awless
+
+# Other Cask applications
 cask 1password
 cask alfred
 cask amazon-music
@@ -92,22 +110,6 @@ cask visual-studio-code
 cask vlc
 cask webtorrent
 cask whatsapp
-
-tap caskroom/versions
-
-tap caskformula/caskformula
-
-tap mkchoi212/fac
-brew fac
-
-tap neovim/neovim
-
-tap rcmdnk/file
-brew brew-file
-
-tap thoughtbot/formulae
-
-tap wallix/awless
 
 # App Store applications
 appstore 1082624744 Gifox (1.6.0)
