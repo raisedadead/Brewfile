@@ -93,6 +93,7 @@ cask flux
 cask gitter
 cask google-backup-and-sync
 cask google-chrome
+cask google-hangouts
 cask graphiql
 cask imageoptim
 cask iterm2
