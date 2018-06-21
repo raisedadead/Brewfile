@@ -39,6 +39,7 @@ brew nano
 brew ncurses
 brew neovim
 brew nginx
+brew node
 brew node@8
 brew openssl
 brew openssl@1.1
@@ -59,13 +60,24 @@ brew zsh-completions
 
 tap homebrew/bundle
 
+tap homebrew/cask-versions
+
 tap homebrew/fuse
 
 tap homebrew/services
 
-tap caskroom/cask
-
-tap caskroom/versions
+tap homebrew/cask
+cask 1password
+cask atom
+cask firefox
+cask gitter
+cask graphiql
+cask iterm2
+cask mongodb-compass
+cask signal
+cask slack
+cask visual-studio-code
+cask webtorrent
 
 tap caskformula/caskformula
 
@@ -82,34 +94,23 @@ tap thoughtbot/formulae
 tap wallix/awless
 
 # Other Cask applications
-cask 1password
 cask alfred
-cask atom
 cask docker
-cask firefox
 cask flux
-cask gitter
 cask google-backup-and-sync
-cask google-chrome
-cask graphiql
 cask imageoptim
-cask iterm2
 cask lastpass
-cask mongodb-compass
 cask robo-3t
-cask signal
 cask skype
-cask slack
 cask spectacle
-cask visual-studio-code
 cask vlc
-cask webtorrent
 cask whatsapp
 
 # App Store applications
 appstore 1082624744 Gifox (1.6.0)
 appstore 1207744923 GravitDesigner (3.3.2)
-appstore 1039633667 Irvue (2.6.3)
-appstore 784801555 Microsoft OneNote (16.12)
-appstore 425955336 Skitch (2.8.1)
-appstore 1278508951 Trello (2.10.3)
+appstore 1039633667 Irvue (2.6.6)
+appstore 926036361 LastPass (3.31.0)
+appstore 784801555 Microsoft OneNote (16.14.1)
+appstore 425955336 Skitch (2.8.2)
+appstore 1278508951 Trello (2.10.4)
