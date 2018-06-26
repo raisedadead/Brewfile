@@ -76,8 +76,8 @@ cask iterm2
 cask mongodb-compass
 cask signal
 cask slack
-cask visual-studio-code
-cask webtorrent
+cask vlc
+cask whatsapp
 
 tap caskformula/caskformula
 
@@ -103,8 +103,7 @@ cask lastpass
 cask robo-3t
 cask skype
 cask spectacle
-cask vlc
-cask whatsapp
+cask webtorrent
 
 # App Store applications
 appstore 1082624744 Gifox (1.6.0)
