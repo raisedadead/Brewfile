@@ -3,6 +3,7 @@
 
 tap homebrew/core
 brew ack
+brew azure-cli
 brew diff-so-fancy
 brew freetype
 brew fzf
@@ -10,8 +11,6 @@ brew fzy
 brew gdbm
 brew gettext
 brew git
-brew git-extras
-brew git-fresh
 brew go
 brew hub
 brew icu4c
@@ -44,10 +43,12 @@ brew node@8
 brew openssl
 brew openssl@1.1
 brew pcre
+brew python
 brew python@2
 brew readline
 brew ruby
 brew sqlite
+brew telnet
 brew tldr
 brew tor
 brew tree
@@ -73,11 +74,10 @@ cask firefox
 cask gitter
 cask graphiql
 cask iterm2
-cask mongodb-compass
-cask signal
-cask slack
-cask vlc
-cask whatsapp
+cask robo-3t
+cask skype
+cask spectacle
+cask webtorrent
 
 tap caskformula/caskformula
 
@@ -100,10 +100,10 @@ cask flux
 cask google-backup-and-sync
 cask imageoptim
 cask lastpass
-cask robo-3t
-cask skype
-cask spectacle
-cask webtorrent
+cask signal
+cask slack
+cask vlc
+cask whatsapp
 
 # App Store applications
 appstore 1082624744 Gifox (1.6.0)
