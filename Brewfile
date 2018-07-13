@@ -32,7 +32,7 @@ brew luajit
 brew mackup
 brew mailhog
 brew mas
-brew mongodb
+brew mongodb@3.6
 brew msgpack
 brew nano
 brew ncurses
@@ -70,10 +70,10 @@ tap homebrew/services
 tap homebrew/cask
 cask 1password
 cask atom
-cask firefox
-cask gitter
-cask graphiql
-cask iterm2
+cask evernote
+cask flux
+cask google-backup-and-sync
+cask imageoptim
 cask robo-3t
 cask skype
 cask spectacle
@@ -96,9 +96,10 @@ tap wallix/awless
 # Other Cask applications
 cask alfred
 cask docker
-cask flux
-cask google-backup-and-sync
-cask imageoptim
+cask firefox
+cask gitter
+cask graphiql
+cask iterm2
 cask lastpass
 cask signal
 cask slack
@@ -106,10 +107,10 @@ cask vlc
 cask whatsapp
 
 # App Store applications
-appstore 1082624744 Gifox (1.6.0)
+appstore 1082624744 Gifox (1.6.1)
 appstore 1207744923 GravitDesigner (3.3.2)
 appstore 1039633667 Irvue (2.6.6)
 appstore 926036361 LastPass (3.31.0)
-appstore 784801555 Microsoft OneNote (16.14.1)
+appstore 784801555 Microsoft OneNote (16.15)
 appstore 425955336 Skitch (2.8.2)
 appstore 1278508951 Trello (2.10.4)
