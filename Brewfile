@@ -3,6 +3,7 @@
 
 tap homebrew/core
 brew ack
+brew asciinema
 brew azure-cli
 brew diff-so-fancy
 brew freetype
@@ -110,9 +111,13 @@ cask webtorrent
 # App Store applications
 appstore 1319884285 Black Out (1.2.0)
 appstore 1082624744 Gifox (1.6.1)
-appstore 1207744923 GravitDesigner (3.4.0)
+appstore 1207744923 GravitDesigner (3.4.1)
 appstore 1039633667 Irvue (2.6.6)
-appstore 926036361 LastPass (4.0.0)
+appstore 926036361 LastPass (4.0.1)
+appstore 1263070803 Lungo (1.3.0)
+appstore  Install macOS Mojave Beta (14015)
 appstore 784801555 Microsoft OneNote (16.15)
+appstore 897118787 Shazam (1.3.2)
 appstore 425955336 Skitch (2.8.2)
-appstore 1278508951 Trello (2.10.4)
+appstore 803453959 Slack (3.2.0)
+appstore 1278508951 Trello (2.10.5)
