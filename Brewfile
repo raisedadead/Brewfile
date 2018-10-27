@@ -29,6 +29,7 @@ brew libuv
 brew libvterm
 brew libyaml
 brew libzip
+brew little-cms2
 brew luajit
 brew mackup
 brew mailhog
@@ -40,10 +41,11 @@ brew ncurses
 brew neovim
 brew nginx
 brew node
-brew node@8
+brew openjpeg
 brew openssl
 brew openssl@1.1
 brew pcre
+brew pcre2
 brew python
 brew python@2
 brew readline
@@ -51,9 +53,12 @@ brew ruby
 brew sqlite
 brew telnet
 brew tldr
+brew tmux
 brew tor
+brew travis
 brew tree
 brew unibilium
+brew webp
 brew wget
 brew xz
 brew yarn
@@ -63,6 +68,7 @@ brew zsh-completions
 tap homebrew/bundle
 
 tap homebrew/cask-versions
+cask google-chrome-beta
 
 tap homebrew/fuse
 
@@ -73,8 +79,9 @@ cask 1password
 cask atom
 cask evernote
 cask flux
-cask google-backup-and-sync
-cask imageoptim
+cask gitter
+cask graphiql
+cask iterm2
 cask robo-3t
 cask skype
 cask spectacle
@@ -82,6 +89,10 @@ cask vlc
 cask whatsapp
 
 tap caskformula/caskformula
+
+tap heroku/brew
+brew heroku
+brew heroku-node
 
 tap mkchoi212/fac
 brew fac
@@ -99,9 +110,9 @@ tap wallix/awless
 cask alfred
 cask docker
 cask firefox
-cask gitter
-cask graphiql
-cask iterm2
+cask github
+cask google-backup-and-sync
+cask imageoptim
 cask lastpass
 cask signal
 cask slack
@@ -109,15 +120,14 @@ cask spotify
 cask webtorrent
 
 # App Store applications
-appstore 1319884285 Black Out (1.2.0)
+appstore 1319884285 Black Out (1.4.0)
+appstore 406056744 Evernote (7.5.2)
+appstore 1081413713 GIF Brewery 3 (3.9.2)
 appstore 1082624744 Gifox (1.6.1)
-appstore 1207744923 GravitDesigner (3.4.1)
-appstore 0 Install macOS Mojave Beta (14.0.15)
-appstore 1039633667 Irvue (2.6.6)
-appstore 926036361 LastPass (4.0.1)
-appstore 1263070803 Lungo (1.3.0)
-appstore 784801555 Microsoft OneNote (16.16)
-appstore 897118787 Shazam (1.3.2)
+appstore 1207744923 GravitDesigner (3.4.4)
+appstore 1039633667 Irvue (2.7)
+appstore 926036361 LastPass (4.1.0)
+appstore 1263070803 Lungo (1.5.0)
 appstore 425955336 Skitch (2.8.2)
-appstore 803453959 Slack (3.2.0)
+appstore 803453959 Slack (3.3.2)
 appstore 1278508951 Trello (2.10.7)
