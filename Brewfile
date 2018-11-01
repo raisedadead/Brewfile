@@ -123,7 +123,6 @@ cask whatsapp
 
 # App Store applications
 appstore 1319884285 Black Out (1.4.0)
-appstore 406056744 Evernote (7.5.2)
 appstore 1081413713 GIF Brewery 3 (3.9.2)
 appstore 1082624744 Gifox (1.6.1)
 appstore 1207744923 GravitDesigner (3.4.4)
@@ -131,5 +130,3 @@ appstore 1039633667 Irvue (2.7)
 appstore 926036361 LastPass (4.1.0)
 appstore 1263070803 Lungo (1.5.0)
 appstore 425955336 Skitch (2.8.2)
-appstore 803453959 Slack (3.3.2)
-appstore 1278508951 Trello (2.10.7)
