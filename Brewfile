@@ -82,11 +82,12 @@ cask flux
 cask gitter
 cask graphiql
 cask imageoptim
-cask postman
-cask signal
-cask slack
-cask spotify
-cask webtorrent
+cask now
+cask robo-3t
+cask skype
+cask spectacle
+cask vlc
+cask whatsapp
 
 tap caskformula/caskformula
 
@@ -115,11 +116,11 @@ cask google-backup-and-sync
 cask hyper
 cask iterm2
 cask lastpass
-cask robo-3t
-cask skype
-cask spectacle
-cask vlc
-cask whatsapp
+cask postman
+cask signal
+cask slack
+cask spotify
+cask webtorrent
 
 # App Store applications
 appstore 1319884285 Black Out (1.4.0)
