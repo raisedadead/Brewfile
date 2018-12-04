@@ -4,6 +4,7 @@
 tap homebrew/core
 brew ack
 brew asciinema
+brew awscli
 brew azure-cli
 brew diff-so-fancy
 brew freetype
@@ -42,6 +43,7 @@ brew neovim
 brew nginx
 brew node
 brew openjpeg
+brew openssh
 brew openssl
 brew openssl@1.1
 brew pcre
@@ -61,7 +63,7 @@ brew unibilium
 brew webp
 brew wget
 brew xz
-brew yarn
+brew yarn --without-node
 brew zsh
 brew zsh-completions
 
@@ -77,11 +79,12 @@ tap homebrew/services
 tap homebrew/cask
 cask 1password
 cask atom
-cask evernote
-cask flux
-cask gitter
-cask graphiql
-cask imageoptim
+cask docker
+cask firefox
+cask github
+cask google-backup-and-sync
+cask hyper
+cask iterm2
 cask now
 cask robo-3t
 cask skype
@@ -109,12 +112,12 @@ tap wallix/awless
 
 # Other Cask applications
 cask alfred
-cask docker
-cask firefox
-cask github
-cask google-backup-and-sync
-cask hyper
-cask iterm2
+cask discord
+cask evernote
+cask flux
+cask gitter
+cask graphiql
+cask imageoptim
 cask lastpass
 cask postman
 cask signal
@@ -124,11 +127,11 @@ cask webtorrent
 
 # App Store applications
 appstore 1319884285 Black Out (1.4.0)
-appstore 1081413713 GIF Brewery 3 (3.9.2)
+appstore 1081413713 GIF Brewery 3 (3.9.4)
 appstore 1082624744 Gifox (1.6.1)
-appstore 1207744923 GravitDesigner (3.4.4)
+appstore 1207744923 GravitDesigner (3.5.3)
 appstore 1039633667 Irvue (2.7)
-appstore 926036361 LastPass (4.1.0)
+appstore 926036361 LastPass (4.2.0)
 appstore 1263070803 Lungo (1.5.0)
 appstore 425955336 Skitch (2.8.2)
-appstore 1278508951 Trello (2.10.7)
+appstore 1278508951 Trello (2.10.8)
