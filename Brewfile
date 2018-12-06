@@ -7,6 +7,7 @@ brew asciinema
 brew awscli
 brew azure-cli
 brew diff-so-fancy
+brew doctl
 brew freetype
 brew fzf
 brew fzy
