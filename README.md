@@ -2,46 +2,60 @@
 
 > apps, tools and utilities that I use on my macOS machines
 
-## Table of Contents
+## Installation
 
-- [Install](#install)
-- [Usage](#usage)
-- [Maintainers](#maintainers)
-- [License](#license)
+> **Note:** Tools and utlites in the Brewfile work for my config. You should fork, and customize if you would not want your workstation to behave like mine. 
 
-## Install
+1. Install [Homebrew-file](https://github.com/rcmdnk/homebrew-file) (which will also install Homebrew if not installed already)
 
-> These instructions work for my config. Please use at your discreation. 
+   ```bash
+   $ curl -fsSL https://raw.github.com/rcmdnk/homebrew-file/install/install.sh |sh
+   ```
 
-Install [Homebrew-file](https://github.com/rcmdnk/homebrew-file) (which will also install Homebrew if not installed already)
+2. Add following lines to `~/.zshrc`
 
- ```bash
- $ curl -fsSL https://raw.github.com/rcmdnk/homebrew-file/install/install.sh |sh
+   ```bash
+   if [ -f $(brew --prefix)/etc/brew-wrap ];then
+     source $(brew --prefix)/etc/brew-wrap
+   fi
+   ```
 
- ```
-
-Add following lines to `~/.zshrc`
- ```bash
- if [ -f $(brew --prefix)/etc/brew-wrap ];then
+   or use one-off if you would use [my dotfiles](https://github.com/raisedadead/dotfiles) as well later.
+ 
+   ```bash
    source $(brew --prefix)/etc/brew-wrap
- fi
- ```
+   ```
+ 
+3. Setup GitHub repo
 
-Setup GitHub repo
- ```bash
- brew file set_repo
- # raisedadead/Brewfile
- ```
+   ```bash
+   brew file set_repo
+   # raisedadead/Brewfile
+   ```
 
 ## Usage
 
-```bash
-brew file install
-```
+- Setup the tools, utilites for the first time on a fresh computer
 
-## Maintainers
+  ```bash
+  brew file install
+  ```
 
-[@raisedadead](https://github.com/raisedadead)
+- Or add/update the existing setup
+
+  ```
+  brew file update
+  ```
+  
+- Or edit the current setup
+
+  ```
+  brew file edit
+  ```
+
+## Related
+
+[my dotfiles](https://github.com/raisedadead/dotfiles)
 
 ## License
 
