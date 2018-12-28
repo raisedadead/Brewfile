@@ -58,6 +58,7 @@ brew telnet
 brew tldr
 brew tmux
 brew tor
+brew trash
 brew travis
 brew tree
 brew unibilium
@@ -69,6 +70,8 @@ brew zsh
 brew zsh-completions
 
 tap homebrew/bundle
+
+tap homebrew/cask-fonts
 
 tap homebrew/cask-versions
 cask google-chrome-beta
@@ -87,23 +90,13 @@ cask google-backup-and-sync
 cask hyper
 cask iterm2
 cask postman
-cask signal
-cask slack
-cask spotify
-cask webtorrent
-
-tap homebrew/cask
-cask alfred
-cask evernote
-cask gitter
-cask imageoptim
-cask robo-3t
+cask sequel-pro
+cask skype
 cask spectacle
+cask vlc
 cask whatsapp
 
 tap caskformula/caskformula
-
-tap caskroom/fonts
 
 tap heroku/brew
 brew heroku
@@ -122,13 +115,20 @@ tap thoughtbot/formulae
 tap wallix/awless
 
 # Other Cask applications
+cask alfred
 cask discord
+cask evernote
 cask flux
+cask gitter
 cask graphiql
+cask imageoptim
 cask keybase
 cask lastpass
-cask skype
-cask vlc
+cask robo-3t
+cask signal
+cask slack
+cask spotify
+cask webtorrent
 
 # App Store applications
 appstore 1081413713 GIF Brewery 3 (3.9.4)
