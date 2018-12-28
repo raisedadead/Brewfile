@@ -92,7 +92,18 @@ cask slack
 cask spotify
 cask webtorrent
 
+tap homebrew/cask
+cask alfred
+cask evernote
+cask gitter
+cask imageoptim
+cask robo-3t
+cask spectacle
+cask whatsapp
+
 tap caskformula/caskformula
+
+tap caskroom/fonts
 
 tap heroku/brew
 brew heroku
@@ -111,19 +122,13 @@ tap thoughtbot/formulae
 tap wallix/awless
 
 # Other Cask applications
-cask alfred
 cask discord
-cask evernote
 cask flux
-cask gitter
 cask graphiql
-cask imageoptim
+cask keybase
 cask lastpass
-cask robo-3t
 cask skype
-cask spectacle
 cask vlc
-cask whatsapp
 
 # App Store applications
 appstore 1081413713 GIF Brewery 3 (3.9.4)
