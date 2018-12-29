@@ -88,7 +88,7 @@ cask firefox
 cask github
 cask google-backup-and-sync
 cask hyper
-cask iterm2
+cask keybase
 cask postman
 cask sequel-pro
 cask skype
@@ -121,14 +121,14 @@ cask evernote
 cask flux
 cask gitter
 cask graphiql
-cask imageoptim
-cask keybase
+cask iterm2
 cask lastpass
 cask robo-3t
 cask signal
 cask slack
 cask spotify
 cask webtorrent
+cask zoomus
 
 # App Store applications
 appstore 1081413713 GIF Brewery 3 (3.9.4)
