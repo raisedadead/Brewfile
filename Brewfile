@@ -22,7 +22,9 @@ brew jemalloc
 brew jpeg
 brew libevent
 brew libidn2
+brew libomp
 brew libpng
+brew libscrypt
 brew libtermkey
 brew libtiff
 brew libtool
