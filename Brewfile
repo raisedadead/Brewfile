@@ -84,19 +84,15 @@ tap homebrew/services
 
 tap homebrew/cask
 cask 1password
-cask atom
 cask docker
 cask firefox
-cask github
-cask google-backup-and-sync
+cask gitter
 cask hyper
 cask keybase
-cask postman
-cask sequel-pro
-cask skype
+cask robo-3t
+cask signal
 cask spectacle
-cask vlc
-cask whatsapp
+cask zoomus
 
 tap caskformula/caskformula
 
@@ -121,22 +117,17 @@ tap wallix/awless
 
 # Other Cask applications
 cask alfred
-cask discord
 cask evernote
 cask flux
-cask gitter
-cask graphiql
+cask google-backup-and-sync
 cask iterm2
 cask lastpass
-cask robo-3t
-cask signal
-cask slack
-cask spotify
-cask webtorrent
-cask zoomus
+cask sequel-pro
+cask skype
+cask whatsapp
 
 # App Store applications
-appstore 1081413713 GIF Brewery 3 (3.9.4)
+appstore 1081413713 GIF Brewery 3 (3.9.5)
 appstore 1082624744 Gifox (1.6.1)
 appstore 1207744923 GravitDesigner (3.5.3)
 appstore 1039633667 Irvue (2.7)
