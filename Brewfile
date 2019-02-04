@@ -129,7 +129,7 @@ cask whatsapp
 # App Store applications
 appstore 1081413713 GIF Brewery 3 (3.9.5)
 appstore 1082624744 Gifox (1.6.1)
-appstore 1207744923 GravitDesigner (3.5.3)
+appstore 1207744923 GravitDesigner (3.5.8)
 appstore 1039633667 Irvue (2.7)
 appstore 926036361 LastPass (4.3.0)
 appstore 1263070803 Lungo (1.5.0)
