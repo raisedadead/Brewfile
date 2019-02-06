@@ -101,7 +101,6 @@ brew heroku
 brew heroku-node
 
 tap jondot/tap
-brew hygen
 
 tap mkchoi212/fac
 brew fac
