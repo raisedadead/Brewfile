@@ -95,7 +95,7 @@ cask keybase
 cask robo-3t
 cask signal
 cask spectacle
-cask zoomus
+cask whatsapp
 
 tap caskformula/caskformula
 
@@ -126,7 +126,8 @@ cask iterm2
 cask lastpass
 cask sequel-pro
 cask skype
-cask whatsapp
+cask webtorrent
+cask zoomus
 
 # App Store applications
 appstore 1081413713 GIF Brewery 3 (3.9.5)
