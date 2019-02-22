@@ -17,10 +17,13 @@ brew git
 brew go
 brew hub
 brew icu4c
+brew ilmbase
 brew imagemagick
 brew jemalloc
 brew jpeg
+brew libde265
 brew libevent
+brew libheif
 brew libidn2
 brew libomp
 brew libpng
@@ -45,6 +48,7 @@ brew ncurses
 brew neovim
 brew nginx
 brew node
+brew openexr
 brew openjpeg
 brew openssh
 brew openssl
@@ -66,6 +70,7 @@ brew tree
 brew unibilium
 brew webp
 brew wget
+brew x265
 brew xz
 brew yarn --without-node
 brew zsh
@@ -77,8 +82,6 @@ tap homebrew/cask-fonts
 
 tap homebrew/cask-versions
 cask google-chrome-beta
-
-tap homebrew/fuse
 
 tap homebrew/services
 
