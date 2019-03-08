@@ -68,6 +68,7 @@ brew trash
 brew travis
 brew tree
 brew unibilium
+brew watchman
 brew webp
 brew wget
 brew x265
