@@ -76,7 +76,7 @@ brew webp
 brew wget
 brew x265
 brew xz
-brew yarn
+brew yarn --ignore-dependencies
 brew zsh
 brew zsh-completions
 
