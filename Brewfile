@@ -63,6 +63,7 @@ brew python@2
 brew readline
 brew ruby
 brew shared-mime-info
+brew shfmt
 brew sqlite
 brew telnet
 brew tldr
@@ -94,10 +95,9 @@ tap homebrew/services
 tap homebrew/cask
 cask 1password
 cask cakebrew
-cask evernote
-cask flux
-cask google-backup-and-sync
-cask keybase
+cask firefox
+cask gitter
+cask hyper
 cask obs
 cask sequel-pro
 cask skype
@@ -127,10 +127,10 @@ tap wallix/awless
 
 # Other Cask applications
 cask alfred
-cask docker
-cask firefox
-cask gitter
-cask hyper
+cask evernote
+cask flux
+cask google-backup-and-sync
+cask keybase
 cask lastpass
 cask robo-3t
 cask signal
@@ -146,4 +146,4 @@ appstore 1039633667 Irvue (2.7)
 appstore 926036361 LastPass (4.4.0)
 appstore 1263070803 Lungo (1.5.1)
 appstore 425955336 Skitch (2.8.2)
-appstore 1278508951 Trello (2.10.10)
+appstore 1278508951 Trello (2.10.12)
