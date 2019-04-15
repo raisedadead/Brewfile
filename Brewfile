@@ -99,10 +99,10 @@ cask firefox
 cask gitter
 cask hyper
 cask obs
-cask sequel-pro
-cask skype
-cask spotify
-cask whatsapp
+cask signal
+cask spectacle
+cask webtorrent
+cask zoomus
 
 tap caskformula/caskformula
 
@@ -132,16 +132,15 @@ cask flux
 cask google-backup-and-sync
 cask keybase
 cask lastpass
-cask robo-3t
-cask signal
-cask spectacle
-cask webtorrent
-cask zoomus
+cask sequel-pro
+cask skype
+cask spotify
+cask whatsapp
 
 # App Store applications
 appstore 1278508951 com.atlassian.trello (2.10.12)
 appstore 1082624744 com.gifox.gifox (1.6.1)
-appstore 1207744923 com.gravit.mac.designer (3.5.8)
+appstore 1207744923 com.gravit.mac.designer (3.5.12)
 appstore 1081413713 com.helloresolven.GIF-Brewery-3 (3.9.5)
 appstore 926036361 com.lastpass.LastPass (4.4.0)
 appstore 1039633667 com.leonspok.osx.Irvue (2.7)
