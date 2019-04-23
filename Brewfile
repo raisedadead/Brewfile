@@ -23,6 +23,7 @@ brew ilmbase
 brew imagemagick
 brew jemalloc
 brew jpeg
+brew ldns
 brew libde265
 brew libevent
 brew libffi
@@ -138,11 +139,12 @@ cask spotify
 cask whatsapp
 
 # App Store applications
-appstore 1278508951 com.atlassian.trello (2.10.12)
-appstore 1082624744 com.gifox.gifox (1.6.1)
-appstore 1207744923 com.gravit.mac.designer (3.5.12)
 appstore 1081413713 com.helloresolven.GIF-Brewery-3 (3.9.5)
 appstore 926036361 com.lastpass.LastPass (4.4.0)
-appstore 1039633667 com.leonspok.osx.Irvue (2.7)
+appstore 1039633667 com.leonspok.osx.Irvue (2.7.1)
+appstore 1176895641 com.readdle.smartemail-Mac (2.3.2)
 appstore 1263070803 com.sindresorhus.Lungo (1.5.1)
-appstore 425955336 com.skitch.skitch (2.8.2)
+appstore 1082624744 Gifox (1.6.1)
+appstore 1207744923 GravitDesigner (3.5.12)
+appstore 425955336 Skitch (2.8.2)
+appstore 1278508951 Trello (2.10.12)
