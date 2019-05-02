@@ -96,9 +96,10 @@ tap homebrew/services
 tap homebrew/cask
 cask 1password
 cask cakebrew
-cask firefox
-cask gitter
-cask hyper
+cask evernote
+cask flux
+cask google-backup-and-sync
+cask keybase
 cask obs
 cask signal
 cask spectacle
@@ -128,10 +129,10 @@ tap wallix/awless
 
 # Other Cask applications
 cask alfred
-cask evernote
-cask flux
-cask google-backup-and-sync
-cask keybase
+cask coconutbattery
+cask firefox
+cask gitter
+cask hyper
 cask lastpass
 cask sequel-pro
 cask skype
@@ -147,4 +148,4 @@ appstore 1263070803 com.sindresorhus.Lungo (1.5.1)
 appstore 1082624744 Gifox (1.6.1)
 appstore 1207744923 GravitDesigner (3.5.12)
 appstore 425955336 Skitch (2.8.2)
-appstore 1278508951 Trello (2.10.12)
+appstore 1278508951 Trello (2.10.13)
