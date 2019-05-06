@@ -143,7 +143,7 @@ cask whatsapp
 appstore 1081413713 com.helloresolven.GIF-Brewery-3 (3.9.5)
 appstore 926036361 com.lastpass.LastPass (4.4.0)
 appstore 1039633667 com.leonspok.osx.Irvue (2.7.1)
-appstore 1176895641 com.readdle.smartemail-Mac (2.3.2)
+appstore 1176895641 com.readdle.smartemail-Mac (2.3.3)
 appstore 1263070803 com.sindresorhus.Lungo (1.5.1)
 appstore 1082624744 Gifox (1.6.1)
 appstore 1207744923 GravitDesigner (3.5.12)
