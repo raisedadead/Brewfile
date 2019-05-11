@@ -99,7 +99,7 @@ cask cakebrew
 cask evernote
 cask flux
 cask google-backup-and-sync
-cask keybase
+cask karabiner-elements
 cask obs
 cask signal
 cask spectacle
@@ -133,6 +133,7 @@ cask coconutbattery
 cask firefox
 cask gitter
 cask hyper
+cask keybase
 cask lastpass
 cask sequel-pro
 cask skype
