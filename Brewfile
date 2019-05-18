@@ -17,6 +17,7 @@ brew gettext
 brew git
 brew glib
 brew go
+brew htop
 brew hub
 brew icu4c
 brew ilmbase
@@ -96,16 +97,17 @@ tap homebrew/services
 tap homebrew/cask
 cask 1password
 cask cakebrew
-cask evernote
-cask flux
-cask google-backup-and-sync
-cask karabiner-elements
-cask lastpass
-cask obs
-cask signal
-cask sourcetree
-cask spotify
-cask whatsapp
+cask discord
+cask firefox
+cask gitter
+cask hyper
+cask keybase
+cask now
+cask sequel-pro
+cask skype
+cask spectacle
+cask webtorrent
+cask zoomus
 
 tap caskformula/caskformula
 
@@ -131,16 +133,16 @@ tap wallix/awless
 # Other Cask applications
 cask alfred
 cask coconutbattery
-cask firefox
-cask gitter
-cask hyper
-cask keybase
-cask now
-cask sequel-pro
-cask skype
-cask spectacle
-cask webtorrent
-cask zoomus
+cask evernote
+cask flux
+cask google-backup-and-sync
+cask karabiner-elements
+cask lastpass
+cask obs
+cask signal
+cask sourcetree
+cask spotify
+cask whatsapp
 
 # App Store applications
 appstore 1081413713 com.helloresolven.GIF-Brewery-3 (3.9.5)
