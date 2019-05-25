@@ -106,10 +106,11 @@ cask google-backup-and-sync
 cask karabiner-elements
 cask lastpass
 cask obs
-cask signal
-cask sourcetree
-cask spotify
-cask whatsapp
+cask sequel-pro
+cask skype
+cask spectacle
+cask webtorrent
+cask zoomus
 
 tap caskformula/caskformula
 
@@ -141,11 +142,11 @@ cask gitter
 cask hyper
 cask keybase
 cask now
-cask sequel-pro
-cask skype
-cask spectacle
-cask webtorrent
-cask zoomus
+cask postman
+cask signal
+cask sourcetree
+cask spotify
+cask whatsapp
 
 # App Store applications
 appstore 1081413713 GIF Brewery 3 (3.9.5)
