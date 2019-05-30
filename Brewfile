@@ -134,7 +134,7 @@ tap thoughtbot/formulae
 tap wallix/awless
 
 # Other Cask applications
-cask alfred
+# cask alfred
 cask coconutbattery
 cask docker
 cask firefox
