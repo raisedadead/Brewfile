@@ -87,18 +87,15 @@ brew zsh-completions
 
 tap homebrew/bundle
 
-tap homebrew/cask-fonts
-
 tap homebrew/cask-versions
-cask google-chrome-beta
+cask google-chrome
 cask iterm2-beta
-cask visual-studio-code-insiders
+cask visual-studio-code
 
 tap homebrew/services
 
 tap homebrew/cask
 cask 1password
-cask cakebrew
 cask discord
 cask evernote
 cask flux
@@ -112,30 +109,13 @@ cask spectacle
 cask webtorrent
 cask zoomus
 
-tap caskformula/caskformula
-
-tap heroku/brew
-brew heroku
-brew heroku-node
-
-tap jondot/tap
-brew hygen
-
-tap mkchoi212/fac
-brew fac
-
 tap neovim/neovim
 
 tap rcmdnk/file
 brew brew-file
 
-tap thoughtbot/formulae
-
-tap wallix/awless
-
 # Other Cask applications
 # cask alfred
-cask coconutbattery
 cask docker
 cask firefox
 cask gitter
