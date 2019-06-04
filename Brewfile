@@ -104,10 +104,10 @@ cask now
 cask postman
 cask sequel-pro
 cask skype
-cask sourcetree
-cask spotify
-cask webtorrent
-cask zoomus
+cask smcfancontrol
+cask spectacle
+cask visual-studio-code
+cask whatsapp
 
 tap neovim/neovim
 
@@ -126,9 +126,10 @@ cask obs
 cask scroll-reverser
 cask signal
 cask slack
-cask spectacle
-cask visual-studio-code
-cask whatsapp
+cask sourcetree
+cask spotify
+cask webtorrent
+cask zoomus
 
 # App Store applications
 appstore 1081413713 GIF Brewery 3 (3.9.5)
