@@ -88,9 +88,7 @@ brew zsh-completions
 tap homebrew/bundle
 
 tap homebrew/cask-versions
-cask google-chrome
 cask iterm2-beta
-cask visual-studio-code
 
 tap homebrew/services
 
@@ -100,12 +98,14 @@ cask discord
 cask evernote
 cask flux
 cask google-backup-and-sync
-cask karabiner-elements
-cask lastpass
-cask obs
+cask hyper
+cask keybase
+cask now
+cask postman
 cask sequel-pro
 cask skype
-cask spectacle
+cask sourcetree
+cask spotify
 cask webtorrent
 cask zoomus
 
@@ -115,17 +115,19 @@ tap rcmdnk/file
 brew brew-file
 
 # Other Cask applications
-# cask alfred
+cask bartender
 cask docker
 cask firefox
 cask gitter
-cask hyper
-cask keybase
-cask now
-cask postman
+cask google-chrome
+cask karabiner-elements
+cask lastpass
+cask obs
+cask scroll-reverser
 cask signal
-cask sourcetree
-cask spotify
+cask slack
+cask spectacle
+cask visual-studio-code
 cask whatsapp
 
 # App Store applications
@@ -135,5 +137,4 @@ appstore 1207744923 GravitDesigner (3.5.16)
 appstore 1039633667 Irvue (2.7.2)
 appstore 1263070803 Lungo (1.5.1)
 appstore 425955336 Skitch (2.8.2)
-appstore 1176895641 Spark (2.3.3)
 appstore 1278508951 Trello (2.10.13)
