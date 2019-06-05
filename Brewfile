@@ -102,12 +102,13 @@ cask hyper
 cask keybase
 cask now
 cask postman
-cask sequel-pro
-cask skype
-cask smcfancontrol
-cask spectacle
-cask visual-studio-code
-cask whatsapp
+cask scroll-reverser
+cask signal
+cask slack
+cask sourcetree
+cask spotify
+cask webtorrent
+cask zoomus
 
 tap neovim/neovim
 
@@ -123,13 +124,13 @@ cask google-chrome
 cask karabiner-elements
 cask lastpass
 cask obs
-cask scroll-reverser
-cask signal
-cask slack
-cask sourcetree
-cask spotify
-cask webtorrent
-cask zoomus
+cask prey
+cask sequel-pro
+cask skype
+cask smcfancontrol
+cask spectacle
+cask visual-studio-code
+cask whatsapp
 
 # App Store applications
 appstore 1081413713 GIF Brewery 3 (3.9.5)
