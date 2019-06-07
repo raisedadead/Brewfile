@@ -87,6 +87,8 @@ brew zsh-completions
 
 tap homebrew/bundle
 
+tap homebrew/cask-fonts
+
 tap homebrew/cask-versions
 cask iterm2-beta
 
@@ -133,10 +135,11 @@ cask visual-studio-code
 cask whatsapp
 
 # App Store applications
+appstore 918858936 Airmail (3.6.58)
 appstore 1081413713 GIF Brewery 3 (3.9.5)
 appstore 1082624744 Gifox (1.6.1)
 appstore 1207744923 GravitDesigner (3.5.16)
 appstore 1039633667 Irvue (2.7.2)
 appstore 1263070803 Lungo (1.5.1)
-appstore 425955336 Skitch (2.8.2)
+appstore 425955336 Skitch (2.8.4)
 appstore 1278508951 Trello (2.10.13)
