@@ -9,7 +9,7 @@
 1. Install [Homebrew-file](https://github.com/rcmdnk/homebrew-file) (which will also install Homebrew if not installed already)
 
    ```bash
-   $ curl -fsSL https://raw.github.com/rcmdnk/homebrew-file/install/install.sh |sh
+   curl -fsSL https://raw.github.com/rcmdnk/homebrew-file/install/install.sh |sh
    ```
 
 2. Add following lines to `~/.zshrc`
