@@ -90,7 +90,6 @@ tap homebrew/bundle
 tap homebrew/cask-fonts
 
 tap homebrew/cask-versions
-cask iterm2-beta
 
 tap homebrew/services
 
@@ -101,16 +100,18 @@ cask evernote
 cask flux
 cask google-backup-and-sync
 cask hyper
+cask java
 cask keybase
 cask now
+cask papyrus
 cask postman
 cask scroll-reverser
 cask signal
 cask slack
 cask sourcetree
 cask spotify
-cask webtorrent
-cask zoomus
+cask visual-studio-code
+cask whatsapp
 
 tap neovim/neovim
 
@@ -123,23 +124,27 @@ cask docker
 cask firefox
 cask gitter
 cask google-chrome
+cask iterm2
 cask karabiner-elements
 cask lastpass
 cask obs
+cask postgres
 cask prey
 cask sequel-pro
 cask skype
 cask smcfancontrol
 cask spectacle
-cask visual-studio-code
-cask whatsapp
+cask tunnelbear
+cask webtorrent
+cask zoomus
 
 # App Store applications
-appstore 918858936 Airmail (3.6.58)
+appstore 918858936 Airmail (3.6.60)
+appstore 1056643111 Clocker (1.6.09)
 appstore 1081413713 GIF Brewery 3 (3.9.5)
 appstore 1082624744 Gifox (1.6.1)
-appstore 1207744923 GravitDesigner (3.5.16)
-appstore 1039633667 Irvue (2.7.2)
+appstore 1207744923 GravitDesigner (3.5.18)
+appstore 1039633667 Irvue (2.7.3)
 appstore 1263070803 Lungo (1.5.1)
 appstore 425955336 Skitch (2.8.4)
 appstore 1278508951 Trello (2.10.13)
