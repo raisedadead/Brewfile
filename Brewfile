@@ -98,13 +98,14 @@ cask 1password
 cask discord
 cask evernote
 cask flux
-cask google-backup-and-sync
-cask hyper
-cask java
-cask keybase
-cask now
-cask papyrus
-cask postman
+cask gitter
+cask google-chrome
+cask iterm2
+cask karabiner-elements
+cask lastpass
+cask obs
+cask postgres
+cask prey
 cask scroll-reverser
 cask signal
 cask slack
@@ -122,14 +123,15 @@ brew brew-file
 cask bartender
 cask docker
 cask firefox
-cask gitter
-cask google-chrome
-cask iterm2
-cask karabiner-elements
-cask lastpass
-cask obs
-cask postgres
-cask prey
+cask gimp
+cask google-backup-and-sync
+cask hyper
+cask java
+cask keybase
+cask now
+cask papyrus
+cask postman
+cask quik
 cask sequel-pro
 cask skype
 cask smcfancontrol
@@ -139,12 +141,13 @@ cask webtorrent
 cask zoomus
 
 # App Store applications
-appstore 918858936 Airmail (3.6.60)
+appstore 918858936 Airmail (3.6.71)
 appstore 1056643111 Clocker (1.6.09)
 appstore 1081413713 GIF Brewery 3 (3.9.5)
 appstore 1082624744 Gifox (1.6.1)
 appstore 1207744923 GravitDesigner (3.5.18)
+appstore 408981434 iMovie (10.1.12)
 appstore 1039633667 Irvue (2.7.3)
 appstore 1263070803 Lungo (1.5.1)
 appstore 425955336 Skitch (2.8.4)
-appstore 1278508951 Trello (2.10.13)
+appstore 1278508951 Trello (2.10.14)
