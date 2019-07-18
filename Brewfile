@@ -47,8 +47,8 @@ brew luajit
 brew mackup
 brew mailhog
 brew mas
-brew mongodb@3.6
 brew msgpack
+brew mysql@5.7
 brew nano
 brew ncurses
 brew neovim
@@ -103,7 +103,6 @@ cask google-chrome
 cask iterm2
 cask karabiner-elements
 cask lastpass
-cask obs
 cask postgres
 cask prey
 cask scroll-reverser
@@ -113,6 +112,9 @@ cask sourcetree
 cask spotify
 cask visual-studio-code
 cask whatsapp
+
+tap mongodb/brew
+brew mongodb-community@3.6
 
 tap neovim/neovim
 
@@ -129,7 +131,6 @@ cask hyper
 cask java
 cask keybase
 cask now
-cask papyrus
 cask postman
 cask quik
 cask sequel-pro
@@ -138,11 +139,11 @@ cask smcfancontrol
 cask spectacle
 cask tunnelbear
 cask webtorrent
-cask zoomus
 
 # App Store applications
 appstore 918858936 Airmail (3.6.71)
-appstore 1056643111 Clocker (1.6.09)
+appstore 1056643111 Clocker (1.6.10)
+appstore 1470584107 Dato (1.1.0)
 appstore 1081413713 GIF Brewery 3 (3.9.5)
 appstore 1082624744 Gifox (1.6.1)
 appstore 1207744923 GravitDesigner (3.5.18)
