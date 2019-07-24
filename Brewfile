@@ -108,10 +108,9 @@ cask prey
 cask scroll-reverser
 cask signal
 cask slack
-cask sourcetree
-cask spotify
-cask visual-studio-code
-cask whatsapp
+cask spectacle
+cask tunnelbear
+cask webtorrent
 
 tap mongodb/brew
 brew mongodb-community@3.6
@@ -136,9 +135,9 @@ cask quik
 cask sequel-pro
 cask skype
 cask smcfancontrol
-cask spectacle
-cask tunnelbear
-cask webtorrent
+cask spotify
+cask visual-studio-code
+cask whatsapp
 
 # App Store applications
 appstore 918858936 Airmail (3.6.71)
