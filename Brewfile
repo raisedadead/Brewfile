@@ -90,6 +90,7 @@ tap homebrew/bundle
 tap homebrew/cask-fonts
 
 tap homebrew/cask-versions
+cask kap-beta
 
 tap homebrew/services
 
@@ -141,8 +142,8 @@ cask whatsapp
 
 # App Store applications
 appstore 918858936 Airmail (3.6.71)
-appstore 1056643111 Clocker (1.6.11)
-appstore 1470584107 Dato (1.2.0)
+appstore 1056643111 Clocker (1.6.12)
+appstore 1470584107 Dato (1.3.0)
 appstore 1081413713 GIF Brewery 3 (3.9.5)
 appstore 1082624744 Gifox (1.6.1)
 appstore 1207744923 GravitDesigner (3.5.18)
