@@ -99,19 +99,19 @@ cask 1password
 cask discord
 cask evernote
 cask flux
-cask gitter
-cask google-chrome
-cask iterm2
-cask karabiner-elements
-cask lastpass
-cask postgres
-cask prey
-cask scroll-reverser
-cask signal
-cask slack
-cask spectacle
-cask tunnelbear
-cask webtorrent
+cask google-backup-and-sync
+cask hyper
+cask java
+cask keybase
+cask now
+cask postman
+cask quik
+cask sequel-pro
+cask skype
+cask smcfancontrol
+cask spotify
+cask visual-studio-code
+cask whatsapp
 
 tap mongodb/brew
 brew mongodb-community@3.6
@@ -126,19 +126,18 @@ cask bartender
 cask docker
 cask firefox
 cask gimp
-cask google-backup-and-sync
-cask hyper
-cask java
-cask keybase
-cask now
-cask postman
-cask quik
-cask sequel-pro
-cask skype
-cask smcfancontrol
-cask spotify
-cask visual-studio-code
-cask whatsapp
+cask google-chrome
+cask iterm2
+cask karabiner-elements
+cask lastpass
+cask postgres
+cask prey
+cask scroll-reverser
+cask signal
+cask slack
+cask spectacle
+cask tunnelbear
+cask webtorrent
 
 # App Store applications
 appstore 918858936 Airmail (3.6.71)
