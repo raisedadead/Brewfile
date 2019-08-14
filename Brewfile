@@ -69,6 +69,7 @@ brew shared-mime-info
 brew shfmt
 brew sqlite
 brew telnet
+brew thefuck
 brew tldr
 brew tmux
 brew tor
