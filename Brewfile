@@ -97,6 +97,33 @@ tap homebrew/services
 
 tap homebrew/cask
 cask 1password
+cask brave-browser
+cask docker
+cask firefox
+cask gimp
+cask google-chrome
+cask iterm2
+cask karabiner-elements
+cask lastpass
+cask postgres
+cask prey
+cask scroll-reverser
+cask signal
+cask slack
+cask spectacle
+cask tunnelbear
+cask webtorrent
+
+tap mongodb/brew
+brew mongodb-community@3.6
+
+tap neovim/neovim
+
+tap rcmdnk/file
+brew brew-file
+
+# Other Cask applications
+cask bartender
 cask discord
 cask evernote
 cask flux
@@ -113,32 +140,6 @@ cask smcfancontrol
 cask spotify
 cask visual-studio-code
 cask whatsapp
-
-tap mongodb/brew
-brew mongodb-community@3.6
-
-tap neovim/neovim
-
-tap rcmdnk/file
-brew brew-file
-
-# Other Cask applications
-cask bartender
-cask docker
-cask firefox
-cask gimp
-cask google-chrome
-cask iterm2
-cask karabiner-elements
-cask lastpass
-cask postgres
-cask prey
-cask scroll-reverser
-cask signal
-cask slack
-cask spectacle
-cask tunnelbear
-cask webtorrent
 
 # App Store applications
 appstore 918858936 Airmail (3.6.71)
