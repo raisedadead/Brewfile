@@ -53,7 +53,6 @@ brew nano
 brew ncurses
 brew neovim
 brew nginx
-brew node
 brew openexr
 brew openjpeg
 brew openssh
@@ -68,6 +67,7 @@ brew ruby
 brew shared-mime-info
 brew shfmt
 brew sqlite
+brew starship
 brew telnet
 brew thefuck
 brew tldr
