@@ -114,6 +114,9 @@ cask spectacle
 cask tunnelbear
 cask webtorrent
 
+tap denisidoro/tools
+brew navi
+
 tap mongodb/brew
 brew mongodb-community@3.6
 
