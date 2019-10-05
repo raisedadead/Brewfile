@@ -53,6 +53,7 @@ brew nano
 brew ncurses
 brew neovim
 brew nginx
+brew node
 brew openexr
 brew openjpeg
 brew openssh
@@ -145,15 +146,9 @@ cask visual-studio-code
 cask whatsapp
 
 # App Store applications
-appstore 918858936 Airmail (3.6.71)
-appstore 1206020918 Battery Indicator (2.0.2)
-appstore 1056643111 Clocker (1.6.12)
-appstore 1470584107 Dato (1.5.1)
-appstore 1081413713 GIF Brewery 3 (3.9.5)
+appstore 1206020918 Battery Indicator (2.0.3)
+appstore 935235287 Encrypto (1.3.4)
 appstore 1082624744 Gifox (1.6.1)
-appstore 1207744923 GravitDesigner (3.5.18)
 appstore 408981434 iMovie (10.1.12)
-appstore 1039633667 Irvue (2.7.3)
-appstore 1263070803 Lungo (1.5.1)
 appstore 425955336 Skitch (2.8.4)
-appstore 1278508951 Trello (2.10.14)
+appstore 1176895641 Spark (2.3.12)
