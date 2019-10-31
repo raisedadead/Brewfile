@@ -50,6 +50,7 @@ brew mas
 brew msgpack
 brew mysql@5.7
 brew nano
+brew navi
 brew ncurses
 brew neovim
 brew nginx
@@ -116,7 +117,6 @@ cask tunnelbear
 cask webtorrent
 
 tap denisidoro/tools
-brew navi
 
 tap mongodb/brew
 brew mongodb-community@3.6
@@ -146,9 +146,13 @@ cask visual-studio-code
 cask whatsapp
 
 # App Store applications
-appstore 1206020918 Battery Indicator (2.0.3)
+appstore 1206020918 Battery Indicator (2.1.0)
+appstore 1470584107 Dato (1.6.2)
 appstore 935235287 Encrypto (1.3.4)
 appstore 1082624744 Gifox (1.6.1)
-appstore 408981434 iMovie (10.1.12)
+appstore 408981434 iMovie (10.1.13)
+appstore 1039633667 Irvue (2.7.5)
+appstore 1263070803 Lungo (1.6.0)
 appstore 425955336 Skitch (2.8.4)
-appstore 1176895641 Spark (2.3.12)
+appstore 1176895641 Spark (2.3.14)
+appstore 1278508951 Trello (2.11.2)
