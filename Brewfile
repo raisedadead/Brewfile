@@ -97,14 +97,15 @@ tap homebrew/services
 tap homebrew/cask
 cask 1password
 cask bartender
-cask flux
-cask iterm2
-cask karabiner-elements
-cask lastpass
-cask signal
-cask smcfancontrol
-cask spectacle
-cask visual-studio-code
+cask firefox
+cask google-chrome
+cask itsycal
+cask keybase
+cask scroll-reverser
+cask skype
+cask soundsource
+cask spotify
+cask whatsapp
 
 tap denisidoro/tools
 
@@ -118,15 +119,15 @@ brew brew-file
 
 # Other Cask applications
 cask alfred
-cask firefox
-cask google-chrome
-cask itsycal
-cask keybase
-cask scroll-reverser
-cask skype
-cask soundsource
-cask spotify
-cask whatsapp
+cask cleanmymac
+cask flux
+cask iterm2
+cask karabiner-elements
+cask lastpass
+cask signal
+cask smcfancontrol
+cask spectacle
+cask visual-studio-code
 
 # App Store applications
 appstore 1206020918 Battery Indicator (2.1.0)
