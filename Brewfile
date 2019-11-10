@@ -96,14 +96,15 @@ tap homebrew/services
 
 tap homebrew/cask
 cask 1password
-cask firefox
-cask google-chrome
-cask karabiner-elements
-cask lastpass
-cask signal
-cask smcfancontrol
-cask spectacle
-cask visual-studio-code
+cask bartender
+cask flux
+cask iterm2
+cask keybase
+cask scroll-reverser
+cask skype
+cask soundsource
+cask spotify
+cask whatsapp
 
 tap denisidoro/tools
 
@@ -116,12 +117,12 @@ tap rcmdnk/file
 brew brew-file
 
 # Other Cask applications
-cask bartender
-cask flux
-cask iterm2
-cask keybase
-cask scroll-reverser
-cask skype
-cask soundsource
-cask spotify
-cask whatsapp
+cask alfred
+cask firefox
+cask google-chrome
+cask karabiner-elements
+cask lastpass
+cask signal
+cask smcfancontrol
+cask spectacle
+cask visual-studio-code
