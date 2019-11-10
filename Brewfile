@@ -99,12 +99,12 @@ cask 1password
 cask bartender
 cask flux
 cask iterm2
-cask keybase
-cask scroll-reverser
-cask skype
-cask soundsource
-cask spotify
-cask whatsapp
+cask karabiner-elements
+cask lastpass
+cask signal
+cask smcfancontrol
+cask spectacle
+cask visual-studio-code
 
 tap denisidoro/tools
 
@@ -120,9 +120,21 @@ brew brew-file
 cask alfred
 cask firefox
 cask google-chrome
-cask karabiner-elements
-cask lastpass
-cask signal
-cask smcfancontrol
-cask spectacle
-cask visual-studio-code
+cask itsycal
+cask keybase
+cask scroll-reverser
+cask skype
+cask soundsource
+cask spotify
+cask whatsapp
+
+# App Store applications
+appstore 1206020918 Battery Indicator (2.1.0)
+appstore 1470584107 Dato (1.6.2)
+appstore 406056744 Evernote (7.13)
+appstore 1082624744 Gifox (1.6.1)
+appstore 1039633667 Irvue (2.7.5)
+appstore 1263070803 Lungo (1.6.0)
+appstore 425955336 Skitch (2.8.4)
+appstore 1176895641 Spark (2.3.14)
+appstore 1482454543 Twitter (8.1.5)
