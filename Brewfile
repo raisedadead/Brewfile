@@ -87,21 +87,30 @@ brew zsh
 brew zsh-completions
 
 tap homebrew/bundle
+
+tap homebrew/cask-fonts
+
+tap homebrew/cask-versions
+
 tap homebrew/services
 
 tap homebrew/cask
 cask 1password
 cask firefox
 cask google-chrome
-cask iterm2
 cask karabiner-elements
 cask lastpass
-cask scroll-reverser
 cask signal
+cask smcfancontrol
 cask spectacle
+cask visual-studio-code
+
+tap denisidoro/tools
 
 tap mongodb/brew
 brew mongodb-community@3.6
+
+tap neovim/neovim
 
 tap rcmdnk/file
 brew brew-file
@@ -109,20 +118,10 @@ brew brew-file
 # Other Cask applications
 cask bartender
 cask flux
+cask iterm2
 cask keybase
-cask now
-cask postman
+cask scroll-reverser
 cask skype
-cask smcfancontrol
+cask soundsource
 cask spotify
-cask visual-studio-code
 cask whatsapp
-
-# App Store applications
-appstore 1206020918 Battery Indicator (2.1.0)
-appstore 1470584107 Dato (1.6.2)
-appstore 1082624744 Gifox (1.6.1)
-appstore 1039633667 Irvue (2.7.5)
-appstore 1263070803 Lungo (1.6.0)
-appstore 425955336 Skitch (2.8.4)
-appstore 1176895641 Spark (2.3.14)
