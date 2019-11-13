@@ -101,8 +101,8 @@ cask firefox
 cask google-chrome
 cask itsycal
 cask keybase
-cask scroll-reverser
-cask skype
+cask macs-fan-control
+cask signal
 cask soundsource
 cask spotify
 cask whatsapp
@@ -124,8 +124,8 @@ cask flux
 cask iterm2
 cask karabiner-elements
 cask lastpass
-cask signal
-cask smcfancontrol
+cask scroll-reverser
+cask skype
 cask spectacle
 cask visual-studio-code
 
