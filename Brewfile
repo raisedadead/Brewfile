@@ -105,7 +105,7 @@ cask macs-fan-control
 cask signal
 cask soundsource
 cask spotify
-cask whatsapp
+cask visual-studio-code
 
 tap denisidoro/tools
 
@@ -127,7 +127,8 @@ cask lastpass
 cask scroll-reverser
 cask skype
 cask spectacle
-cask visual-studio-code
+cask tunnelbear
+cask whatsapp
 
 # App Store applications
 appstore 1206020918 Battery Indicator (2.1.0)
