@@ -131,7 +131,6 @@ cask tunnelbear
 cask whatsapp
 
 # App Store applications
-appstore 1206020918 Battery Indicator (2.1.0)
 appstore 1470584107 Dato (1.6.2)
 appstore 406056744 Evernote (7.13)
 appstore 1082624744 Gifox (1.6.1)
