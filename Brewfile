@@ -56,7 +56,6 @@ brew node
 brew openexr
 brew openjpeg
 brew openssh
-brew openssl
 brew openssl@1.1
 brew pcre
 brew pcre2
@@ -66,6 +65,7 @@ brew readline
 brew ruby
 brew shared-mime-info
 brew shfmt
+brew speedtest-cli
 brew sqlite
 brew starship
 brew telnet
@@ -106,8 +106,13 @@ cask signal
 cask soundsource
 cask spotify
 cask visual-studio-code
+cask whatsapp
 
 tap denisidoro/tools
+
+tap heroku/brew
+brew heroku
+brew heroku-node
 
 tap mongodb/brew
 brew mongodb-community@3.6
@@ -128,7 +133,7 @@ cask scroll-reverser
 cask skype
 cask spectacle
 cask tunnelbear
-cask whatsapp
+cask vlc
 
 # App Store applications
 appstore 1470584107 Dato (1.6.2)
