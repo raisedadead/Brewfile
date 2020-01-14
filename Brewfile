@@ -89,6 +89,7 @@ brew p11-kit
 brew pcre
 brew pcre2
 brew pixman
+brew pulumi
 brew python
 brew python@2
 brew python@3.8
@@ -131,6 +132,7 @@ brew zsh-completions
 tap homebrew/bundle
 
 tap homebrew/cask-fonts
+cask font-victor-mono
 
 tap homebrew/cask-versions
 
