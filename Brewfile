@@ -140,20 +140,35 @@ tap homebrew/services
 
 tap homebrew/cask
 cask 1password
+cask alfred
 cask android-platform-tools
+cask bartender
 cask cleanmymac
+cask firefox
 cask flux
+cask google-chrome
 cask iterm2
+cask itsycal
 cask karabiner-elements
+cask keybase
 cask lastpass
+cask macs-fan-control
 cask scroll-reverser
+cask signal
 cask skype
+cask soundsource
 cask spectacle
+cask spotify
 cask steam
+cask tunnelbear
 cask visual-studio-code
+cask vlc
 cask whatsapp
 
 tap denisidoro/tools
+
+tap github/gh
+brew gh
 
 tap heroku/brew
 brew heroku
@@ -166,20 +181,6 @@ tap neovim/neovim
 
 tap rcmdnk/file
 brew brew-file
-
-# Other Cask applications
-cask alfred
-cask bartender
-cask firefox
-cask google-chrome
-cask itsycal
-cask keybase
-cask macs-fan-control
-cask signal
-cask soundsource
-cask spotify
-cask tunnelbear
-cask vlc
 
 # App Store applications
 appstore 1470584107 Dato (1.6.2)
