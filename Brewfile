@@ -5,6 +5,7 @@ tap homebrew/core
 brew ack
 brew aom
 brew asciinema
+brew autoconf
 brew awscli
 brew azure-cli
 brew blueutil
@@ -22,6 +23,7 @@ brew fzf
 brew fzy
 brew gdbm
 brew gettext
+brew gh
 brew giflib
 brew git
 brew glib
@@ -89,7 +91,9 @@ brew p11-kit
 brew pcre
 brew pcre2
 brew pixman
+brew pkg-config
 brew pulumi
+brew pyenv
 brew python
 brew python@2
 brew python@3.8
@@ -168,7 +172,6 @@ cask whatsapp
 tap denisidoro/tools
 
 tap github/gh
-brew gh
 
 tap heroku/brew
 brew heroku
