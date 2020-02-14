@@ -95,7 +95,6 @@ brew pkg-config
 brew pulumi
 brew pyenv
 brew python
-brew python@2
 brew python@3.8
 brew readline
 brew rtmpdump
@@ -185,6 +184,9 @@ tap neovim/neovim
 tap rcmdnk/file
 brew brew-file
 
+# Other Homebrew packages
+brew python@2
+
 # App Store applications
 appstore 1470584107 Dato (1.6.2)
 appstore 406056744 Evernote (7.13)
@@ -193,4 +195,5 @@ appstore 1039633667 Irvue (2.7.5)
 appstore 1263070803 Lungo (1.6.0)
 appstore 425955336 Skitch (2.8.4)
 appstore 1176895641 Spark (2.3.14)
+appstore 1278508951 Trello (2.11.3)
 appstore 1482454543 Twitter (8.3.1)
