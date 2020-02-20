@@ -23,7 +23,6 @@ brew fzf
 brew fzy
 brew gdbm
 brew gettext
-brew gh
 brew giflib
 brew git
 brew glib
@@ -39,6 +38,7 @@ brew ilmbase
 brew imagemagick
 brew jemalloc
 brew jpeg
+brew krb5
 brew lame
 brew ldns
 brew leptonica
@@ -146,6 +146,7 @@ cask 1password
 cask alfred
 cask android-platform-tools
 cask bartender
+cask cakebrew
 cask cleanmymac
 cask firefox
 cask flux
@@ -163,6 +164,7 @@ cask soundsource
 cask spectacle
 cask spotify
 cask steam
+cask telegram
 cask tunnelbear
 cask visual-studio-code
 cask vlc
@@ -171,6 +173,7 @@ cask whatsapp
 tap denisidoro/tools
 
 tap github/gh
+brew gh
 
 tap heroku/brew
 brew heroku
@@ -194,6 +197,6 @@ appstore 1082624744 Gifox (1.6.1)
 appstore 1039633667 Irvue (2.7.5)
 appstore 1263070803 Lungo (1.6.0)
 appstore 425955336 Skitch (2.8.4)
-appstore 1176895641 Spark (2.3.14)
+appstore 1176895641 Spark (2.5.4)
 appstore 1278508951 Trello (2.11.3)
 appstore 1482454543 Twitter (8.3.1)
