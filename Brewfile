@@ -23,6 +23,7 @@ brew fzf
 brew fzy
 brew gdbm
 brew gettext
+brew gh
 brew giflib
 brew git
 brew glib
@@ -44,9 +45,11 @@ brew ldns
 brew leptonica
 brew libass
 brew libbluray
+brew libcbor
 brew libde265
 brew libevent
 brew libffi
+brew libfido2
 brew libheif
 brew libidn2
 brew libogg
@@ -173,7 +176,6 @@ cask whatsapp
 tap denisidoro/tools
 
 tap github/gh
-brew gh
 
 tap heroku/brew
 brew heroku
