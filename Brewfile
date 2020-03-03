@@ -124,6 +124,7 @@ brew travis
 brew tree
 brew unbound
 brew unibilium
+brew utf8proc
 brew watchman
 brew webp
 brew wget
