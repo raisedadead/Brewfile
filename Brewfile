@@ -195,6 +195,9 @@ tap neovim/neovim
 tap rcmdnk/file
 brew brew-file
 
+tap stripe/stripe-cli
+brew stripe
+
 # App Store applications
 appstore 1470584107 Dato (1.10.2)
 appstore 688211836 EasyRes (1.1.2)
