@@ -100,6 +100,7 @@ brew pcre2
 brew pinentry
 brew pixman
 brew pkg-config
+brew pssh
 brew pulumi
 brew python
 brew python@3.8
@@ -143,7 +144,6 @@ brew zsh-completions
 tap homebrew/bundle
 
 tap homebrew/cask-fonts
-cask font-victor-mono
 
 tap homebrew/cask-versions
 
@@ -152,15 +152,11 @@ tap homebrew/services
 tap homebrew/cask
 cask 1password
 cask alfred
-cask android-platform-tools
 cask bartender
-cask cakebrew
-cask cleanmymac
 cask firefox
 cask flux
 cask google-chrome
 cask iterm2
-cask itsycal
 cask karabiner-elements
 cask keybase
 cask lastpass
@@ -172,7 +168,6 @@ cask skype
 cask soundsource
 cask spectacle
 cask spotify
-cask steam
 cask telegram
 cask tunnelbear
 cask visual-studio-code
@@ -204,6 +199,7 @@ appstore 688211836 EasyRes (1.1.2)
 appstore 406056744 Evernote (7.14)
 appstore 1082624744 Gifox (1.6.1)
 appstore 1039633667 Irvue (2.7.5)
+appstore 1502527999 Jiffy (0.1.0)
 appstore 1263070803 Lungo (1.6.0)
 appstore 425955336 Skitch (2.8.4)
 appstore 1176895641 Spark (2.5.6)
