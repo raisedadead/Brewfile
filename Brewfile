@@ -85,6 +85,7 @@ brew mysql@5.7
 brew nano
 brew navi
 brew ncurses
+brew neovim
 brew nettle
 brew nginx
 brew node
