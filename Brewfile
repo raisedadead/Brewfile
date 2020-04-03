@@ -186,6 +186,9 @@ brew heroku-node
 tap mongodb/brew
 brew mongodb-community@3.6
 
+tap nektos/tap
+brew act
+
 tap neovim/neovim
 
 tap rcmdnk/file
