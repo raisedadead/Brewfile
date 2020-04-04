@@ -88,7 +88,6 @@ brew ncurses
 brew neovim
 brew nettle
 brew nginx
-brew node
 brew opencore-amr
 brew openexr
 brew openjpeg
@@ -138,7 +137,6 @@ brew x264
 brew x265
 brew xvid
 brew xz
-brew yarn
 brew zsh
 brew zsh-completions
 
@@ -187,7 +185,6 @@ tap mongodb/brew
 brew mongodb-community@3.6
 
 tap nektos/tap
-brew act
 
 tap neovim/neovim
 
