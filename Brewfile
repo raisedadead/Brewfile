@@ -152,6 +152,7 @@ tap homebrew/cask
 cask 1password
 cask alfred
 cask bartender
+cask discord
 cask firefox
 cask flux
 cask google-chrome
