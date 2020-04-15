@@ -25,6 +25,7 @@ brew fzy
 brew gdbm
 brew gettext
 brew gh
+brew ghostscript
 brew giflib
 brew git
 brew glib
@@ -78,6 +79,7 @@ brew libzip
 brew little-cms2
 brew luajit
 brew lzo
+brew m-cli
 brew mailhog
 brew mas
 brew msgpack
@@ -152,6 +154,7 @@ tap homebrew/cask
 cask 1password
 cask alfred
 cask bartender
+cask brave-browser
 cask discord
 cask firefox
 cask flux
@@ -169,6 +172,7 @@ cask soundsource
 cask spectacle
 cask spotify
 cask telegram
+cask terminus
 cask tunnelbear
 cask visual-studio-code
 cask vlc
@@ -204,3 +208,4 @@ appstore 425955336 Skitch (2.8.4)
 appstore 1176895641 Spark (2.5.6)
 appstore 1491071483 Tot (1.0.2)
 appstore 1278508951 Trello (2.11.4)
+appstore 485812721 TweetDeck (3.16.1)
