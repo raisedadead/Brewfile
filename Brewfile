@@ -160,8 +160,10 @@ cask firefox
 cask flux
 cask google-chrome
 cask iterm2
+cask kap
 cask karabiner-elements
 cask keybase
+cask keycastr
 cask lastpass
 cask macs-fan-control
 cask mongodb-compass
