@@ -171,7 +171,6 @@ cask scroll-reverser
 cask signal
 cask skype
 cask soundsource
-cask spectacle
 cask spotify
 cask telegram
 cask terminus
@@ -202,10 +201,12 @@ tap stripe/stripe-cli
 brew stripe
 
 # App Store applications
+appstore 836505650 Battery Monitor (2.4.4)
 appstore 1470584107 Dato (1.10.2)
 appstore 1082624744 Gifox (1.6.1)
 appstore 1039633667 Irvue (2.7.5)
 appstore 1263070803 Lungo (1.6.0)
+appstore 748212890 Memory Diag (2.4.8)
 appstore 425955336 Skitch (2.8.4)
 appstore 1176895641 Spark (2.5.6)
 appstore 1491071483 Tot (1.0.2)
