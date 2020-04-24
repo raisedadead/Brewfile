@@ -167,6 +167,7 @@ cask keycastr
 cask lastpass
 cask macs-fan-control
 cask mongodb-compass
+cask rectangle
 cask scroll-reverser
 cask signal
 cask skype
