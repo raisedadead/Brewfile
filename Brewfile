@@ -174,7 +174,6 @@ cask skype
 cask soundsource
 cask spotify
 cask telegram
-cask terminus
 cask tunnelbear
 cask visual-studio-code
 cask vlc
