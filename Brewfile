@@ -118,6 +118,7 @@ brew snappy
 brew speedtest-cli
 brew speex
 brew sqlite
+brew srt
 brew starship
 brew telnet
 brew tesseract
@@ -145,6 +146,8 @@ brew zsh-completions
 tap homebrew/bundle
 
 tap homebrew/cask-fonts
+cask font-blexmono-nerd-font
+cask font-caskaydiacove-nerd-font
 
 tap homebrew/cask-versions
 
@@ -166,6 +169,8 @@ cask keybase
 cask keycastr
 cask lastpass
 cask macs-fan-control
+cask microsoft-edge
+cask microsoft-teams
 cask mongodb-compass
 cask pine
 cask scroll-reverser
