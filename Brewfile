@@ -16,6 +16,7 @@ brew curl
 brew diff-so-fancy
 brew doctl
 brew exa
+brew fd
 brew ffmpeg
 brew flac
 brew fontconfig
