@@ -8,12 +8,14 @@ brew asciinema
 brew autoconf
 brew awscli
 brew azure-cli
+brew bat
 brew blueutil
 brew cairo
 brew circleci
 brew curl
 brew diff-so-fancy
 brew doctl
+brew exa
 brew ffmpeg
 brew flac
 brew fontconfig
@@ -107,6 +109,7 @@ brew pulumi
 brew python
 brew python@3.8
 brew readline
+brew ripgrep
 brew rtmpdump
 brew rubberband
 brew ruby
@@ -178,6 +181,7 @@ cask signal
 cask skype
 cask soundsource
 cask spotify
+cask streamlabs-obs
 cask telegram
 cask tunnelbear
 cask visual-studio-code
