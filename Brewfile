@@ -114,7 +114,6 @@ brew ripgrep
 brew rtmpdump
 brew rubberband
 brew ruby
-brew scrcpy
 brew sdl2
 brew shared-mime-info
 brew shfmt
