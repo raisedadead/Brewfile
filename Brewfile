@@ -160,6 +160,7 @@ tap homebrew/cask
 cask 1password
 cask alfred
 cask bartender
+cask bluestacks
 cask brave-browser
 cask discord
 cask firefox
