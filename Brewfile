@@ -160,7 +160,6 @@ tap homebrew/cask
 cask 1password
 cask alfred
 cask bartender
-cask bluestacks
 cask brave-browser
 cask discord
 cask firefox
@@ -176,9 +175,9 @@ cask macs-fan-control
 cask microsoft-edge
 cask microsoft-teams
 cask mongodb-compass
-cask pine
 cask scroll-reverser
 cask signal
+cask simplenote
 cask skype
 cask soundsource
 cask spotify
