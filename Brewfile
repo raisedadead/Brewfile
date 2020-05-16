@@ -13,6 +13,7 @@ brew blueutil
 brew cairo
 brew circleci
 brew curl
+brew deno
 brew diff-so-fancy
 brew doctl
 brew exa
