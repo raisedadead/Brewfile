@@ -106,11 +106,13 @@ brew pcre2
 brew pinentry
 brew pixman
 brew pkg-config
+brew postgresql
 brew pssh
 brew pulumi
 brew python
 brew python@3.8
 brew readline
+brew redis
 brew ripgrep
 brew rtmpdump
 brew rubberband
