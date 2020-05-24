@@ -93,7 +93,6 @@ brew navi
 brew ncurses
 brew neovim
 brew nettle
-brew nginx
 brew opencore-amr
 brew openexr
 brew openjpeg
@@ -106,7 +105,6 @@ brew pcre2
 brew pinentry
 brew pixman
 brew pkg-config
-brew postgresql
 brew pssh
 brew pulumi
 brew python
@@ -164,6 +162,7 @@ cask 1password
 cask alfred
 cask bartender
 cask brave-browser
+cask datagrip
 cask discord
 cask firefox
 cask flux
@@ -211,6 +210,9 @@ brew brew-file
 
 tap stripe/stripe-cli
 brew stripe
+
+# Other Homebrew packages
+brew postgres
 
 # App Store applications
 appstore 836505650 Battery Monitor (2.4.4)
