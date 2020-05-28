@@ -13,8 +13,11 @@ brew blueutil
 brew cairo
 brew circleci
 brew curl
+brew dav1d
 brew deno
 brew diff-so-fancy
+brew docbook
+brew docbook-xsl
 brew doctl
 brew exa
 brew fd
@@ -34,6 +37,7 @@ brew giflib
 brew git
 brew glib
 brew gmp
+brew gnu-getopt
 brew gnutls
 brew go
 brew graphite2
@@ -105,6 +109,7 @@ brew pcre2
 brew pinentry
 brew pixman
 brew pkg-config
+brew postgresql
 brew pssh
 brew pulumi
 brew python
@@ -142,6 +147,7 @@ brew webp
 brew wget
 brew x264
 brew x265
+brew xmlto
 brew xvid
 brew xz
 brew zsh
@@ -162,13 +168,13 @@ cask 1password
 cask alfred
 cask bartender
 cask brave-browser
+cask ccleaner
 cask datagrip
 cask discord
 cask firefox
 cask flux
 cask google-chrome
 cask iterm2
-cask kap
 cask karabiner-elements
 cask keybase
 cask keycastr
@@ -179,7 +185,6 @@ cask microsoft-teams
 cask mongodb-compass
 cask scroll-reverser
 cask signal
-cask simplenote
 cask skype
 cask soundsource
 cask spotify
@@ -212,19 +217,15 @@ brew brew-file
 tap stripe/stripe-cli
 brew stripe
 
-# Other Homebrew packages
-brew postgres
-
 # App Store applications
 appstore 836505650 Battery Monitor (2.4.4)
 appstore 1470584107 Dato (1.10.2)
 appstore 1082624744 Gifox (1.6.1)
 appstore 1039633667 Irvue (2.7.5)
 appstore 1263070803 Lungo (1.6.0)
-appstore 748212890 Memory Diag (2.4.8)
 appstore 425955336 Skitch (2.8.4)
 appstore 1176895641 Spark (2.5.6)
 appstore 1153157709 Speedtest (1.10)
-appstore 1491071483 Tot (1.0.2)
+appstore 1491071483 Tot (1.0.6)
 appstore 1278508951 Trello (2.11.4)
 appstore 485812721 TweetDeck (3.16.1)
