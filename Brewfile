@@ -184,6 +184,7 @@ cask microsoft-edge
 cask microsoft-teams
 cask mongodb-compass
 cask scroll-reverser
+cask sharemouse
 cask signal
 cask skype
 cask soundsource
