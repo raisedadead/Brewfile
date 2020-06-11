@@ -35,6 +35,7 @@ brew gh
 brew ghostscript
 brew giflib
 brew git
+brew glances
 brew glib
 brew gmp
 brew gnu-getopt
@@ -94,6 +95,7 @@ brew msgpack
 brew mysql@5.7
 brew nano
 brew navi
+brew ncdu
 brew ncurses
 brew neovim
 brew nettle
