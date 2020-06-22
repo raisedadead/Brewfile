@@ -99,6 +99,7 @@ brew ncdu
 brew ncurses
 brew neovim
 brew nettle
+brew nmap
 brew opencore-amr
 brew openexr
 brew openjpeg
@@ -186,6 +187,7 @@ cask microsoft-edge
 cask microsoft-teams
 cask mongodb-compass
 cask scroll-reverser
+cask sequel-pro
 cask sharemouse
 cask signal
 cask skype
