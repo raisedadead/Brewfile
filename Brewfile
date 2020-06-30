@@ -55,6 +55,7 @@ brew lame
 brew lastpass-cli
 brew ldns
 brew leptonica
+brew lftp
 brew libass
 brew libassuan
 brew libbluray
@@ -65,6 +66,7 @@ brew libffi
 brew libfido2
 brew libgpg-error
 brew libheif
+brew libidn
 brew libidn2
 brew libogg
 brew libomp
@@ -218,6 +220,8 @@ brew brew-file
 
 tap stripe/stripe-cli
 brew stripe
+
+tap teamookla/speedtest
 
 # App Store applications
 appstore 836505650 Battery Monitor (2.4.4)
