@@ -129,7 +129,6 @@ brew sdl2
 brew shared-mime-info
 brew shfmt
 brew snappy
-brew speedtest-cli
 brew speex
 brew sqlite
 brew srt
