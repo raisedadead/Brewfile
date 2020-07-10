@@ -117,7 +117,6 @@ brew pkg-config
 brew postgresql
 brew pssh
 brew pulumi
-brew python
 brew python@3.8
 brew readline
 brew redis
@@ -192,6 +191,7 @@ cask sequel-pro
 cask sharemouse
 cask signal
 cask skype
+cask slack
 cask soundsource
 cask spotify
 cask streamlabs-obs
@@ -221,6 +221,9 @@ tap stripe/stripe-cli
 brew stripe
 
 tap teamookla/speedtest
+
+# Other Homebrew packages
+brew python
 
 # App Store applications
 appstore 836505650 Battery Monitor (2.4.4)
