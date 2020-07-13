@@ -133,6 +133,7 @@ brew sqlite
 brew srt
 brew starship
 brew telnet
+brew terraform
 brew tesseract
 brew thefuck
 brew theora
@@ -178,6 +179,7 @@ cask firefox
 cask flux
 cask google-chrome
 cask iterm2
+cask joshjon-nocturnal
 cask karabiner-elements
 cask keybase
 cask keycastr
