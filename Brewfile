@@ -102,6 +102,7 @@ brew ncurses
 brew neovim
 brew nettle
 brew nmap
+brew nomad
 brew opencore-amr
 brew openexr
 brew openjpeg
@@ -134,7 +135,6 @@ brew srt
 brew starship
 brew telnet
 brew terraform
-brew terraformer
 brew tesseract
 brew tflint
 brew thefuck
