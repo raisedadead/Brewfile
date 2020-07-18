@@ -12,6 +12,7 @@ brew bat
 brew blueutil
 brew cairo
 brew circleci
+brew consul
 brew curl
 brew dav1d
 brew deno
@@ -129,6 +130,7 @@ brew sdl2
 brew shared-mime-info
 brew shfmt
 brew snappy
+brew socat
 brew speex
 brew sqlite
 brew srt
