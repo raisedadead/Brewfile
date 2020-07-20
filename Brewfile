@@ -137,6 +137,7 @@ brew srt
 brew starship
 brew telnet
 brew terraform
+brew terragrunt
 brew tesseract
 brew tflint
 brew thefuck
