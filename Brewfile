@@ -168,6 +168,8 @@ tap homebrew/cask-fonts
 cask font-blexmono-nerd-font
 cask font-caskaydiacove-nerd-font
 
+tap homebrew/cask-fonts
+
 tap homebrew/cask-versions
 
 tap homebrew/services
@@ -181,6 +183,7 @@ cask ccleaner
 cask discord
 cask firefox
 cask flux
+cask google-backup-and-sync
 cask google-chrome
 cask hookshot
 cask iterm2
