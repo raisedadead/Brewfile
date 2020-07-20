@@ -178,11 +178,11 @@ cask alfred
 cask bartender
 cask brave-browser
 cask ccleaner
-cask datagrip
 cask discord
 cask firefox
 cask flux
 cask google-chrome
+cask hookshot
 cask iterm2
 cask joshjon-nocturnal
 cask karabiner-elements
@@ -191,7 +191,6 @@ cask keycastr
 cask lastpass
 cask macs-fan-control
 cask microsoft-edge
-cask microsoft-teams
 cask mongodb-compass
 cask scroll-reverser
 cask sequel-pro
@@ -202,7 +201,6 @@ cask slack
 cask soundsource
 cask spotify
 cask streamlabs-obs
-cask telegram
 cask tunnelbear
 cask visual-studio-code
 cask vlc
