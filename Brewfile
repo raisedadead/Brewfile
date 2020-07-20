@@ -183,6 +183,7 @@ cask ccleaner
 cask discord
 cask firefox
 cask flux
+cask gitter
 cask google-backup-and-sync
 cask google-chrome
 cask hookshot
