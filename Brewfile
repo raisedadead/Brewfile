@@ -69,6 +69,7 @@ brew libgpg-error
 brew libheif
 brew libidn
 brew libidn2
+brew liblqr
 brew libogg
 brew libomp
 brew libpng
@@ -120,6 +121,7 @@ brew postgresql
 brew pssh
 brew pulumi
 brew python@3.8
+brew rav1e
 brew readline
 brew redis
 brew ripgrep
@@ -167,8 +169,6 @@ tap homebrew/bundle
 tap homebrew/cask-fonts
 cask font-blexmono-nerd-font
 cask font-caskaydiacove-nerd-font
-
-tap homebrew/cask-fonts
 
 tap homebrew/cask-versions
 
@@ -230,18 +230,16 @@ brew stripe
 
 tap teamookla/speedtest
 
-# Other Homebrew packages
-brew python
-
 # App Store applications
+appstore 490461369 Bandwidth+ (1.18)
 appstore 836505650 Battery Monitor (2.4.4)
-appstore 1470584107 Dato (1.10.2)
+appstore 1470584107 Dato (1.14.2)
 appstore 1082624744 Gifox (1.6.1)
-appstore 1039633667 Irvue (2.7.5)
-appstore 1263070803 Lungo (1.6.0)
-appstore 425955336 Skitch (2.8.4)
-appstore 1176895641 Spark (2.5.6)
-appstore 1153157709 Speedtest (1.10)
-appstore 1491071483 Tot (1.0.6)
-appstore 1278508951 Trello (2.11.4)
+appstore 1039633667 Irvue (2.7.6)
+appstore 1263070803 Lungo (1.7.0)
+appstore 1464122853 NextDNS (1.4.3)
+appstore 425955336 Skitch (2.9)
+appstore 1176895641 Spark (2.8.1)
+appstore 1491071483 Tot (1.1)
+appstore 1278508951 Trello (2.11.7)
 appstore 485812721 TweetDeck (3.16.1)
