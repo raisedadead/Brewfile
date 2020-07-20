@@ -205,6 +205,7 @@ cask slack
 cask soundsource
 cask spotify
 cask streamlabs-obs
+cask teamviewer
 cask tunnelbear
 cask visual-studio-code
 cask vlc
