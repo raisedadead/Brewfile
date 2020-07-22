@@ -156,6 +156,7 @@ brew utf8proc
 brew watchman
 brew webp
 brew wget
+brew wimlib
 brew x264
 brew x265
 brew xmlto
@@ -177,6 +178,7 @@ tap homebrew/services
 tap homebrew/cask
 cask 1password
 cask alfred
+cask balenaetcher
 cask bartender
 cask brave-browser
 cask ccleaner
@@ -193,6 +195,7 @@ cask karabiner-elements
 cask keybase
 cask keycastr
 cask lastpass
+cask liteicon
 cask macs-fan-control
 cask microsoft-edge
 cask mongodb-compass
