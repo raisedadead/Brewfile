@@ -170,6 +170,7 @@ tap homebrew/bundle
 tap homebrew/cask-fonts
 cask font-blexmono-nerd-font
 cask font-caskaydiacove-nerd-font
+cask font-jetbrainsmono-nerd-font
 
 tap homebrew/cask-versions
 
@@ -234,6 +235,9 @@ tap stripe/stripe-cli
 brew stripe
 
 tap teamookla/speedtest
+
+# Other Homebrew packages
+brew python
 
 # App Store applications
 appstore 490461369 Bandwidth+ (1.18)
