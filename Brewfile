@@ -200,6 +200,7 @@ cask liteicon
 cask macs-fan-control
 cask microsoft-edge
 cask mongodb-compass
+cask notion
 cask scroll-reverser
 cask sequel-pro
 cask sharemouse
