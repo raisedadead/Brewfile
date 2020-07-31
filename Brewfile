@@ -201,6 +201,8 @@ cask macs-fan-control
 cask microsoft-edge
 cask mongodb-compass
 cask notion
+cask responsively
+cask robo-3t
 cask scroll-reverser
 cask sequel-pro
 cask sharemouse
