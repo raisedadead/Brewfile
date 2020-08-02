@@ -168,9 +168,6 @@ brew zsh-completions
 tap homebrew/bundle
 
 tap homebrew/cask-fonts
-cask font-blexmono-nerd-font
-cask font-caskaydiacove-nerd-font
-cask font-jetbrainsmono-nerd-font
 
 tap homebrew/cask-versions
 
@@ -231,6 +228,9 @@ brew mongodb-community@3.6
 
 tap neovim/neovim
 
+tap nextdns/tap
+brew nextdns
+
 tap rcmdnk/file
 brew brew-file
 
@@ -239,17 +239,16 @@ brew stripe
 
 tap teamookla/speedtest
 
-# Other Homebrew packages
-brew python
+# Other Cask applications
+cask font-blexmono-nerd-font
+cask font-caskaydiacove-nerd-font
+cask font-jetbrainsmono-nerd-font
 
 # App Store applications
 appstore 490461369 Bandwidth+ (1.18)
-appstore 836505650 Battery Monitor (2.4.4)
-appstore 1470584107 Dato (1.14.2)
-appstore 1082624744 Gifox (1.6.1)
-appstore 1039633667 Irvue (2.7.6)
+appstore 1470584107 Dato (1.14.3)
+appstore 1039633667 Irvue (2.7.7)
 appstore 1263070803 Lungo (1.7.0)
-appstore 1464122853 NextDNS (1.4.3)
 appstore 425955336 Skitch (2.9)
 appstore 1176895641 Spark (2.8.1)
 appstore 1491071483 Tot (1.1)
