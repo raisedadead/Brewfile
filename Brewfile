@@ -120,6 +120,7 @@ brew pkg-config
 brew postgresql
 brew pssh
 brew pulumi
+brew pyenv
 brew python@3.8
 brew rav1e
 brew readline
