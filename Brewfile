@@ -198,6 +198,7 @@ cask liteicon
 cask macs-fan-control
 cask microsoft-edge
 cask mongodb-compass
+cask mysqlworkbench
 cask notion
 cask responsively
 cask robo-3t
