@@ -182,6 +182,7 @@ cask bartender
 cask brave-browser
 cask ccleaner
 cask discord
+cask drawio
 cask firefox
 cask flux
 cask gitter
@@ -198,7 +199,6 @@ cask liteicon
 cask macs-fan-control
 cask microsoft-edge
 cask mongodb-compass
-cask mysqlworkbench
 cask notion
 cask responsively
 cask robo-3t
