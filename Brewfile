@@ -191,6 +191,7 @@ cask google-chrome
 cask hookshot
 cask iterm2
 cask joshjon-nocturnal
+cask kap
 cask karabiner-elements
 cask keybase
 cask keycastr
