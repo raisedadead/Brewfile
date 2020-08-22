@@ -167,7 +167,13 @@ brew zsh-completions
 
 tap homebrew/bundle
 
+tap homebrew/cask-drivers
+cask logitech-options
+
 tap homebrew/cask-fonts
+cask font-blex-mono-nerd-font
+cask font-caskaydia-cove-nerd-font
+cask font-jetbrains-mono-nerd-font
 
 tap homebrew/cask-versions
 
@@ -179,11 +185,9 @@ cask alfred
 cask balenaetcher
 cask bartender
 cask brave-browser
-cask ccleaner
 cask discord
 cask drawio
 cask firefox
-cask flux
 cask gitter
 cask google-backup-and-sync
 cask google-chrome
@@ -231,7 +235,6 @@ brew mongodb-community@3.6
 tap neovim/neovim
 
 tap nextdns/tap
-brew nextdns
 
 tap rcmdnk/file
 brew brew-file
@@ -240,11 +243,6 @@ tap stripe/stripe-cli
 brew stripe
 
 tap teamookla/speedtest
-
-# Other Cask applications
-cask font-blex-mono-nerd-font
-cask font-caskaydia-cove-nerd-font
-cask font-jetbrains-mono-nerd-font
 
 # App Store applications
 appstore 490461369 Bandwidth+ (1.18)
