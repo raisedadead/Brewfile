@@ -15,7 +15,6 @@ brew circleci
 brew consul
 brew curl
 brew dav1d
-brew deno
 brew diff-so-fancy
 brew docbook
 brew docbook-xsl
@@ -243,9 +242,9 @@ brew stripe
 tap teamookla/speedtest
 
 # Other Cask applications
-cask font-blexmono-nerd-font
-cask font-caskaydiacove-nerd-font
-cask font-jetbrainsmono-nerd-font
+cask font-blex-mono-nerd-font
+cask font-caskaydia-cove-nerd-font
+cask font-jetbrains-mono-nerd-font
 
 # App Store applications
 appstore 490461369 Bandwidth+ (1.18)
