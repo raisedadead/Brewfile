@@ -208,7 +208,6 @@ cask responsively
 cask robo-3t
 cask scroll-reverser
 cask sequel-pro
-cask sharemouse
 cask signal
 cask skype
 cask slack
