@@ -2,9 +2,15 @@
 
 > apps, tools and utilities that I use on my macOS machines
 
+## Prerequisite
+
+If you are the same person as I am, make sure that the initial system setup checklist has been completed and the dotfiles have been installed.
+
+> System setup checklist: <https://get.ms/setup> and dotfiles: <https://get.ms/dotfiles>
+
 ## Installation
 
-> **Note:** Tools and utlites in the Brewfile work for my config. You should fork, and customize if you would not want your workstation to behave like mine. 
+> **Warning:** Tools and utlites in the Brewfile work for my config. You should fork, and customize if you would not want your workstation to behave like mine. 
 
 1. Install [Homebrew-file](https://github.com/rcmdnk/homebrew-file) (which will also install Homebrew if not installed already)
 
@@ -52,10 +58,6 @@
   ```
   brew file edit
   ```
-
-## Related
-
-[my dotfiles](https://github.com/raisedadead/dotfiles)
 
 ## License
 
