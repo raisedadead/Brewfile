@@ -4,9 +4,9 @@
 
 ## Prerequisite
 
-If you are the same person as I am, make sure that the initial system setup checklist has been completed and the dotfiles have been installed.
+If you are the same person as I am, make sure that the initial system setup checklist has been completed.
 
-> System setup checklist: <https://get.ms/setup> and dotfiles: <https://get.ms/dotfiles>
+> System setup checklist: <https://get.ms/setup>
 
 ## Installation
 
