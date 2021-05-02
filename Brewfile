@@ -55,6 +55,7 @@ cask balenaetcher
 cask bartender
 cask brave-browser
 cask discord
+cask docker
 cask google-backup-and-sync
 cask google-chrome
 cask hookshot
@@ -78,3 +79,12 @@ cask whatsapp
 
 tap rcmdnk/file
 brew brew-file
+
+# App Store applications
+appstore 490461369 Bandwidth+ (1.18)
+appstore 1470584107 Dato (2.6.1)
+appstore 1039633667 Irvue (2.7.12)
+appstore 1263070803 Lungo (1.9.0)
+appstore 425955336 Skitch (2.9)
+appstore 1176895641 Spark (2.9.22)
+appstore 1491071483 Tot (1.2.1)
