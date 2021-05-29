@@ -48,6 +48,10 @@ brew xz
 brew zsh
 brew zsh-completions
 
+tap homebrew/cask-fonts
+cask font-blex-mono-nerd-font
+cask font-jetbrains-mono-nerd-font
+
 tap homebrew/cask
 cask 1password
 cask alfred
