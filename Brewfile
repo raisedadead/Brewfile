@@ -21,8 +21,8 @@ brew diff-so-fancy
 brew doctl
 brew exa
 brew expat
-brew fasd
 brew fd
+brew flyctl
 brew fzf
 brew gcc
 brew gdbm
@@ -129,6 +129,7 @@ tap homebrew/cask-drivers
 cask elgato-camera-hub
 cask elgato-control-center
 cask elgato-stream-deck
+cask logitech-options
 
 tap homebrew/cask-fonts
 cask font-blex-mono-nerd-font
@@ -140,12 +141,15 @@ cask alfred
 cask balenaetcher
 cask bartender
 cask brave-browser
+cask cloudflare-warp
+cask cron
 cask discord
 cask docker
 cask google-chrome
 cask google-drive
 cask hookshot
 cask iterm2
+cask karabiner-elements
 cask lastpass
 cask notion
 cask robo-3t
@@ -169,7 +173,7 @@ tap rcmdnk/file
 brew brew-file
 
 # App Store applications
-appstore 1470584107  Dato        (4.0.3)
+appstore 1470584107  Dato        (4.0.4)
 appstore 682658836   GarageBand  (10.4.5)
 appstore 408981434   iMovie      (10.3.1)
 appstore 409183694   Keynote     (11.2)
