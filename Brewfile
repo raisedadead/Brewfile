@@ -134,6 +134,7 @@ cask logitech-options
 tap homebrew/cask-fonts
 cask font-blex-mono-nerd-font
 cask font-jetbrains-mono-nerd-font
+cask font-space-mono-nerd-font
 
 tap homebrew/cask
 cask 1password
@@ -145,6 +146,7 @@ cask cloudflare-warp
 cask cron
 cask discord
 cask docker
+cask fig
 cask google-chrome
 cask google-drive
 cask hookshot
