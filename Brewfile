@@ -19,6 +19,7 @@ brew consul
 brew curl
 brew diff-so-fancy
 brew doctl
+brew envoy
 brew exa
 brew expat
 brew fd
@@ -29,6 +30,7 @@ brew gdbm
 brew gettext
 brew gh
 brew git
+brew git-delta
 brew glances
 brew gmp
 brew gnupg
@@ -154,6 +156,7 @@ cask iterm2
 cask karabiner-elements
 cask lastpass
 cask notion
+cask raycast
 cask robo-3t
 cask rocket-chat
 cask signal
@@ -162,6 +165,7 @@ cask slack
 cask soundsource
 cask spotify
 cask tunnelbear
+cask vagrant
 cask visual-studio-code
 cask whatsapp
 
@@ -180,6 +184,7 @@ appstore 682658836   GarageBand  (10.4.5)
 appstore 408981434   iMovie      (10.3.1)
 appstore 409183694   Keynote     (11.2)
 appstore 1263070803  Lungo       (2.1.0)
+appstore 1464122853  NextDNS     (1.5.1)
 appstore 409203825   Numbers     (11.2)
 appstore 409201541   Pages       (11.2)
 appstore 425955336   Skitch      (2.9)
