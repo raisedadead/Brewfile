@@ -167,6 +167,7 @@ cask spotify
 cask tunnelbear
 cask vagrant
 cask visual-studio-code
+cask warp
 cask whatsapp
 
 tap dopplerhq/cli
