@@ -140,7 +140,6 @@ cask font-space-mono-nerd-font
 
 tap homebrew/cask
 cask 1password
-cask alfred
 cask balenaetcher
 cask bartender
 cask brave-browser
