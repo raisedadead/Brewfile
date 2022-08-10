@@ -146,6 +146,7 @@ cask bartender
 cask brave-browser
 cask cloudflare-warp
 cask cron
+cask dbeaver-community
 cask discord
 cask docker
 cask fig
@@ -180,14 +181,8 @@ tap rcmdnk/file
 brew brew-file
 
 # App Store applications
-appstore 1470584107  Dato        (4.0.4)
-appstore 682658836   GarageBand  (10.4.5)
-appstore 408981434   iMovie      (10.3.1)
-appstore 409183694   Keynote     (11.2)
-appstore 1263070803  Lungo       (2.1.0)
-appstore 1464122853  NextDNS     (1.5.1)
-appstore 409203825   Numbers     (11.2)
-appstore 409201541   Pages       (11.2)
-appstore 425955336   Skitch      (2.9)
-appstore 1176895641  Spark       (2.11.22)
-appstore 1491071483  Tot         (1.4)
+appstore 1470584107  Dato     (4.0.4)
+appstore 1263070803  Lungo    (2.1.0)
+appstore 1464122853  NextDNS  (1.5.1)
+appstore 1176895641  Spark    (2.11.22)
+appstore 1491071483  Tot      (1.4)
