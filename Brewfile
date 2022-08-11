@@ -5,6 +5,7 @@ tap homebrew/core
 brew act
 brew atlantis
 brew autoconf
+brew aws-nuke
 brew awscli
 brew azcopy
 brew azure-cli
