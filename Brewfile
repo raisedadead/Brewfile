@@ -3,6 +3,7 @@
 
 tap homebrew/core
 brew act
+brew ansible
 brew atlantis
 brew autoconf
 brew aws-nuke
@@ -42,6 +43,7 @@ brew guile
 brew hub
 brew icu4c
 brew isl
+brew jq
 brew lesspipe
 brew libassuan
 brew libcbor
@@ -71,6 +73,7 @@ brew libxdmcp
 brew libxext
 brew libxfixes
 brew libxml2
+brew libyaml
 brew libzip
 brew luajit
 brew luajit-openresty
@@ -79,6 +82,7 @@ brew lz4
 brew m4
 brew mas
 brew mesa
+brew mkcert
 brew mpdecimal
 brew mpfr
 brew msgpack
@@ -90,6 +94,7 @@ brew nettle
 brew node
 brew nomad
 brew npth
+brew oniguruma
 brew openldap
 brew openssl@1.1
 brew openssl@3
