@@ -21,6 +21,7 @@ brew cloud-nuke
 brew consul
 brew curl
 brew diff-so-fancy
+brew docker
 brew doctl
 brew envoy
 brew exa
@@ -160,8 +161,11 @@ cask google-chrome
 cask google-drive
 cask hookshot
 cask iterm2
+cask kap
 cask karabiner-elements
+cask krisp
 cask lastpass
+cask loom
 cask notion
 cask raycast
 cask robo-3t
@@ -176,6 +180,7 @@ cask vagrant
 cask visual-studio-code
 cask warp
 cask whatsapp
+cask zoom
 
 tap dopplerhq/cli
 brew doppler
@@ -187,8 +192,10 @@ tap rcmdnk/file
 brew brew-file
 
 # App Store applications
-appstore 1470584107  Dato     (4.0.4)
-appstore 1263070803  Lungo    (2.1.0)
-appstore 1464122853  NextDNS  (1.5.1)
-appstore 1176895641  Spark    (2.11.22)
-appstore 1491071483  Tot      (1.4)
+appstore 1470584107  Dato         (4.0.5)
+appstore 1263070803  Lungo        (2.1.0)
+appstore 1464122853  NextDNS      (1.5.1)
+appstore 360593530   Notability   (11.5.1)
+appstore 1233965871  ScreenBrush  (1.7.8)
+appstore 1176895641  Spark        (2.11.22)
+appstore 1491071483  Tot          (1.4)
