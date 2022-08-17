@@ -21,7 +21,6 @@ brew cloud-nuke
 brew consul
 brew curl
 brew diff-so-fancy
-brew docker
 brew doctl
 brew envoy
 brew exa
