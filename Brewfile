@@ -21,6 +21,7 @@ brew cloud-nuke
 brew consul
 brew curl
 brew diff-so-fancy
+brew docker
 brew doctl
 brew envoy
 brew exa
@@ -44,6 +45,7 @@ brew hub
 brew icu4c
 brew isl
 brew jq
+brew krb5
 brew lesspipe
 brew libassuan
 brew libcbor
@@ -104,7 +106,6 @@ brew pcre
 brew pcre2
 brew pinentry
 brew pkg-config
-brew pyenv
 brew python@3.10
 brew python@3.8
 brew python@3.9
@@ -147,6 +148,7 @@ cask font-space-mono-nerd-font
 
 tap homebrew/cask
 cask 1password
+cask 1password-cli
 cask balenaetcher
 cask bartender
 cask brave-browser
@@ -180,6 +182,8 @@ cask visual-studio-code
 cask warp
 cask whatsapp
 cask zoom
+
+tap 1password/tap
 
 tap dopplerhq/cli
 brew doppler
