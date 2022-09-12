@@ -198,11 +198,12 @@ tap rcmdnk/file
 brew brew-file
 
 # App Store applications
-appstore 1470584107  Dato                      (4.0.5)
+appstore 1470584107  Dato                      (4.1.0)
 appstore 1263070803  Lungo                     (2.1.0)
 appstore 1295203466  Microsoft Remote Desktop  (10.7.9)
 appstore 1464122853  NextDNS                   (1.5.1)
+appstore 360593530   Notability                (11.6.2)
 appstore 1233965871  ScreenBrush               (1.7.8)
 appstore 1176895641  Spark                     (2.11.22)
-appstore 1499198946  Structured                (2.3.1)
+appstore 1499198946  Structured                (2.3.2)
 appstore 1491071483  Tot                       (1.4)
