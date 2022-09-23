@@ -123,6 +123,7 @@ brew terracognita
 brew terraform
 brew thefuck
 brew tldr
+brew tree
 brew tree-sitter
 brew unbound
 brew unibilium
