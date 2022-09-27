@@ -36,6 +36,7 @@ brew gettext
 brew gh
 brew git
 brew git-delta
+brew git-filter-repo
 brew glances
 brew gmp
 brew gnupg
