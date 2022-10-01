@@ -42,6 +42,7 @@ brew gmp
 brew gnupg
 brew gnutls
 brew go
+brew grep
 brew guile
 brew hub
 brew icu4c
@@ -121,7 +122,7 @@ brew sqlite
 brew starship
 brew tcl-tk
 brew terracognita
-brew terraform
+brew tfenv
 brew thefuck
 brew tldr
 brew tree
@@ -169,6 +170,7 @@ cask hookshot
 cask iterm2
 cask kap
 cask karabiner-elements
+cask keybase
 cask krisp
 cask lastpass
 cask loom
