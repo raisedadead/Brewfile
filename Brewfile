@@ -16,7 +16,6 @@ brew brotli
 brew bzip2
 brew c-ares
 brew ca-certificates
-brew cdktf
 brew cloud-nuke
 brew cloudflared
 brew consul
