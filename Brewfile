@@ -150,7 +150,6 @@ cask font-jetbrains-mono-nerd-font
 cask font-space-mono-nerd-font
 
 tap homebrew/cask
-cask 1password
 cask 1password-cli
 cask balenaetcher
 cask bartender
@@ -173,6 +172,7 @@ cask krisp
 cask lastpass
 cask loom
 cask notion
+cask postman
 cask raycast
 cask robo-3t
 cask rocket-chat
