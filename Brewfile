@@ -4,6 +4,7 @@
 tap homebrew/core
 brew act
 brew ansible
+brew ansible-lint
 brew autoconf
 brew aws-nuke
 brew awscli
@@ -53,6 +54,7 @@ brew jasper
 brew jbig2dec
 brew jpeg-turbo
 brew jq
+brew jsonschema
 brew krb5
 brew lesspipe
 brew libassuan
@@ -121,6 +123,7 @@ brew pcre2
 brew pinentry
 brew pkg-config
 brew psutils
+brew pygments
 brew python@3.10
 brew python@3.8
 brew python@3.9
@@ -146,6 +149,7 @@ brew waypoint
 brew whois
 brew xorgproto
 brew xz
+brew yamllint
 brew zlib
 brew zsh
 brew zsh-completions
