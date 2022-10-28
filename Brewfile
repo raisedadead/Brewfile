@@ -27,11 +27,14 @@ brew exa
 brew expat
 brew fd
 brew flyctl
+brew fontconfig
+brew freetype
 brew fzf
 brew gcc
 brew gdbm
 brew gettext
 brew gh
+brew ghostscript
 brew git
 brew git-delta
 brew git-filter-repo
@@ -41,10 +44,14 @@ brew gnupg
 brew gnutls
 brew go
 brew grep
+brew groff
 brew guile
 brew hub
 brew icu4c
 brew isl
+brew jasper
+brew jbig2dec
+brew jpeg-turbo
 brew jq
 brew krb5
 brew lesspipe
@@ -55,14 +62,17 @@ brew libffi
 brew libfido2
 brew libgcrypt
 brew libgpg-error
+brew libidn
 brew libidn2
 brew libksba
 brew libmpc
 brew libnghttp2
+brew libpng
 brew libpthread-stubs
 brew libssh2
 brew libtasn1
 brew libtermkey
+brew libtiff
 brew libtool
 brew libunistring
 brew libusb
@@ -78,6 +88,7 @@ brew libxfixes
 brew libxml2
 brew libyaml
 brew libzip
+brew little-cms2
 brew luajit
 brew luajit-openresty
 brew luv
@@ -93,11 +104,13 @@ brew mysql-client
 brew nano
 brew ncurses
 brew neovim
+brew netpbm
 brew nettle
 brew node
 brew nomad
 brew npth
 brew oniguruma
+brew openjpeg
 brew openldap
 brew openssl@1.1
 brew openssl@3
@@ -107,6 +120,7 @@ brew pcre
 brew pcre2
 brew pinentry
 brew pkg-config
+brew psutils
 brew python@3.10
 brew python@3.8
 brew python@3.9
@@ -125,6 +139,7 @@ brew thefuck
 brew tldr
 brew tree
 brew tree-sitter
+brew uchardet
 brew unbound
 brew unibilium
 brew waypoint
@@ -202,13 +217,13 @@ brew brew-file
 
 # App Store applications
 appstore 1319884285  Black Out                 (2.1.0)
-appstore 1470584107  Dato                      (4.1.0)
+appstore 1470584107  Dato                      (4.2.1)
 appstore 1529666842  HighTop                   (1.3.4)
 appstore 1263070803  Lungo                     (2.1.0)
-appstore 1295203466  Microsoft Remote Desktop  (10.7.9)
+appstore 1295203466  Microsoft Remote Desktop  (10.7.10)
 appstore 1464122853  NextDNS                   (1.5.1)
-appstore 360593530   Notability                (11.7.3)
+appstore 360593530   Notability                (11.7.5)
 appstore 1233965871  ScreenBrush               (1.7.8)
 appstore 1176895641  Spark                     (2.11.23)
-appstore 1499198946  Structured                (2.4.3)
-appstore 1491071483  Tot                       (1.5)
+appstore 1499198946  Structured                (2.5.1)
+appstore 1491071483  Tot                       (1.5.1)
