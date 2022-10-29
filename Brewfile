@@ -25,6 +25,7 @@ brew docker
 brew doctl
 brew envoy
 brew exa
+brew exercism
 brew expat
 brew fd
 brew flyctl
@@ -176,6 +177,7 @@ cask brave-browser
 cask cloudflare-warp
 cask cron
 cask dbeaver-community
+cask devutils
 cask discord
 cask docker
 cask fig
@@ -223,11 +225,12 @@ brew brew-file
 appstore 1319884285  Black Out                 (2.1.0)
 appstore 1470584107  Dato                      (4.2.1)
 appstore 1529666842  HighTop                   (1.3.4)
+appstore 1552633430  Instatus Out              (1.0.9)
 appstore 1263070803  Lungo                     (2.1.0)
 appstore 1295203466  Microsoft Remote Desktop  (10.7.10)
 appstore 1464122853  NextDNS                   (1.5.1)
 appstore 360593530   Notability                (11.7.5)
 appstore 1233965871  ScreenBrush               (1.7.8)
-appstore 1176895641  Spark                     (2.11.23)
+appstore 1176895641  Spark                     (2.11.24)
 appstore 1499198946  Structured                (2.5.1)
 appstore 1491071483  Tot                       (1.5.1)
