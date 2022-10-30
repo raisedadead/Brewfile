@@ -21,7 +21,6 @@ brew cloudflared
 brew consul
 brew curl
 brew diff-so-fancy
-brew docker
 brew doctl
 brew envoy
 brew exa
@@ -159,7 +158,6 @@ brew zstd
 tap homebrew/bundle
 
 tap homebrew/cask-drivers
-cask elgato-camera-hub
 cask elgato-control-center
 cask elgato-stream-deck
 cask logitech-options
@@ -179,7 +177,6 @@ cask cron
 cask dbeaver-community
 cask devutils
 cask discord
-cask docker
 cask fig
 cask github
 cask google-chrome
@@ -222,7 +219,7 @@ tap rcmdnk/file
 brew brew-file
 
 # App Store applications
-appstore 1319884285  Black Out                 (2.1.0)
+appstore 1319884285  Black Out                 (2.2.1)
 appstore 1470584107  Dato                      (4.2.1)
 appstore 1529666842  HighTop                   (1.3.4)
 appstore 1552633430  Instatus Out              (1.0.9)
