@@ -16,11 +16,14 @@ brew brotli
 brew bzip2
 brew c-ares
 brew ca-certificates
+brew capstone
 brew cloud-nuke
 brew cloudflared
+brew colima
 brew consul
 brew curl
 brew diff-so-fancy
+brew docker
 brew doctl
 brew envoy
 brew exa
@@ -40,6 +43,7 @@ brew git
 brew git-delta
 brew git-filter-repo
 brew glances
+brew glib
 brew gmp
 brew gnupg
 brew gnutls
@@ -71,6 +75,8 @@ brew libmpc
 brew libnghttp2
 brew libpng
 brew libpthread-stubs
+brew libslirp
+brew libssh
 brew libssh2
 brew libtasn1
 brew libtermkey
@@ -90,11 +96,13 @@ brew libxfixes
 brew libxml2
 brew libyaml
 brew libzip
+brew lima
 brew little-cms2
 brew luajit
 brew luajit-openresty
 brew luv
 brew lz4
+brew lzo
 brew m4
 brew mas
 brew mesa
@@ -121,6 +129,7 @@ brew packer
 brew pcre
 brew pcre2
 brew pinentry
+brew pixman
 brew pkg-config
 brew psutils
 brew pygments
@@ -128,11 +137,13 @@ brew python@3.10
 brew python@3.8
 brew python@3.9
 brew pyyaml
+brew qemu
 brew readline
 brew ripgrep
 brew rtmpdump
 brew rust
 brew six
+brew snappy
 brew sqlite
 brew starship
 brew tcl-tk
@@ -145,6 +156,7 @@ brew tree-sitter
 brew uchardet
 brew unbound
 brew unibilium
+brew vde
 brew waypoint
 brew whois
 brew xorgproto
@@ -222,12 +234,11 @@ brew brew-file
 appstore 1319884285  Black Out                 (2.2.1)
 appstore 1470584107  Dato                      (4.2.1)
 appstore 1529666842  HighTop                   (1.3.4)
-appstore 1552633430  Instatus Out              (1.0.9)
 appstore 1263070803  Lungo                     (2.1.0)
 appstore 1295203466  Microsoft Remote Desktop  (10.7.10)
 appstore 1464122853  NextDNS                   (1.5.1)
 appstore 360593530   Notability                (11.7.5)
 appstore 1233965871  ScreenBrush               (1.7.8)
-appstore 1176895641  Spark                     (2.11.24)
+appstore 425955336   Skitch                    (2.9)
 appstore 1499198946  Structured                (2.5.1)
 appstore 1491071483  Tot                       (1.5.1)
