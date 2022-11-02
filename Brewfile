@@ -22,7 +22,6 @@ brew cloudflared
 brew consul
 brew curl
 brew diff-so-fancy
-brew docker
 brew doctl
 brew envoy
 brew exa
@@ -106,6 +105,7 @@ brew m4
 brew mas
 brew mesa
 brew mkcert
+brew mongosh
 brew mpdecimal
 brew mpfr
 brew msgpack
@@ -116,6 +116,7 @@ brew neovim
 brew netpbm
 brew nettle
 brew node
+brew node@16
 brew nomad
 brew npth
 brew oniguruma
@@ -178,6 +179,8 @@ cask font-blex-mono-nerd-font
 cask font-jetbrains-mono-nerd-font
 cask font-space-mono-nerd-font
 
+tap homebrew/services
+
 tap homebrew/cask
 cask 1password-cli
 cask balenaetcher
@@ -221,9 +224,6 @@ cask whatsapp
 cask zoom
 
 tap 1password/tap
-
-tap caffix/amass
-brew amass
 
 tap dopplerhq/cli
 brew doppler
