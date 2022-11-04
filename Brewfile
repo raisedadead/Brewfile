@@ -191,7 +191,6 @@ cask cron
 cask dbeaver-community
 cask devutils
 cask discord
-cask docker
 cask fig
 cask github
 cask google-chrome
