@@ -134,6 +134,7 @@ brew pkg-config
 brew psutils
 brew pygments
 brew python@3.10
+brew python@3.11
 brew python@3.8
 brew python@3.9
 brew pyyaml
