@@ -172,7 +172,7 @@ tap homebrew/bundle
 tap homebrew/cask-drivers
 cask elgato-control-center
 cask elgato-stream-deck
-cask logitech-options
+cask logi-options-plus
 
 tap homebrew/cask-fonts
 cask font-blex-mono-nerd-font
@@ -186,7 +186,6 @@ cask 1password-cli
 cask balenaetcher
 cask bartender
 cask brave-browser
-cask cloudflare-warp
 cask cron
 cask dbeaver-community
 cask devutils
@@ -240,7 +239,7 @@ appstore 1529666842  HighTop                   (1.3.4)
 appstore 1263070803  Lungo                     (2.2.1)
 appstore 1295203466  Microsoft Remote Desktop  (10.7.10)
 appstore 1464122853  NextDNS                   (1.5.1)
-appstore 360593530   Notability                (11.7.6)
+appstore 360593530   Notability                (11.7.7)
 appstore 1233965871  ScreenBrush               (1.7.8)
 appstore 425955336   Skitch                    (2.9)
 appstore 1499198946  Structured                (2.5.1)
