@@ -187,6 +187,7 @@ cask 1password-cli
 cask balenaetcher
 cask bartender
 cask brave-browser
+cask cloudflare-warp
 cask cron
 cask dbeaver-community
 cask devutils
@@ -243,5 +244,4 @@ appstore 1464122853  NextDNS                   (1.5.1)
 appstore 360593530   Notability                (11.7.7)
 appstore 1233965871  ScreenBrush               (1.7.8)
 appstore 425955336   Skitch                    (2.9)
-appstore 1499198946  Structured                (2.5.1)
 appstore 1491071483  Tot                       (1.5.1)
