@@ -69,6 +69,7 @@ brew libgpg-error
 brew libidn
 brew libidn2
 brew libksba
+brew liblinear
 brew libmpc
 brew libnghttp2
 brew libpng
@@ -96,6 +97,7 @@ brew libyaml
 brew libzip
 brew lima
 brew little-cms2
+brew lua@5.3
 brew luajit
 brew luajit-openresty
 brew luv
@@ -112,9 +114,11 @@ brew msgpack
 brew mysql-client
 brew nano
 brew ncurses
+brew neofetch
 brew neovim
 brew netpbm
 brew nettle
+brew nmap
 brew node
 brew node@16
 brew nomad
@@ -143,6 +147,7 @@ brew readline
 brew ripgrep
 brew rtmpdump
 brew rust
+brew screenresolution
 brew six
 brew snappy
 brew sqlite
@@ -237,11 +242,11 @@ brew brew-file
 # App Store applications
 appstore 1319884285  Black Out                 (2.2.1)
 appstore 1470584107  Dato                      (4.2.1)
-appstore 1529666842  HighTop                   (1.3.4)
+appstore 1615988943  Folder Peek               (1.6.0)
 appstore 1263070803  Lungo                     (2.2.1)
 appstore 1295203466  Microsoft Remote Desktop  (10.7.10)
 appstore 1464122853  NextDNS                   (1.5.1)
-appstore 360593530   Notability                (11.7.7)
+appstore 360593530   Notability                (11.8.1)
 appstore 1233965871  ScreenBrush               (1.7.8)
 appstore 425955336   Skitch                    (2.9)
 appstore 1499198946  Structured                (2.5.4)
