@@ -195,6 +195,7 @@ cask brave-browser
 cask cloudflare-warp
 cask cron
 cask dbeaver-community
+cask devdocs
 cask devutils
 cask discord
 cask fig
