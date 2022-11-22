@@ -12,6 +12,7 @@ brew azcopy
 brew azure-cli
 brew bat
 brew bdw-gc
+brew black
 brew brotli
 brew bzip2
 brew c-ares
@@ -23,6 +24,7 @@ brew consul
 brew curl
 brew diff-so-fancy
 brew doctl
+brew docutils
 brew envoy
 brew exa
 brew exercism
@@ -242,13 +244,13 @@ brew brew-file
 
 # App Store applications
 appstore 1319884285  Black Out                 (2.2.1)
-appstore 1470584107  Dato                      (4.2.1)
+appstore 1470584107  Dato                      (4.3.0)
 appstore 1615988943  Folder Peek               (1.6.0)
 appstore 1263070803  Lungo                     (2.2.1)
 appstore 1295203466  Microsoft Remote Desktop  (10.7.10)
 appstore 1464122853  NextDNS                   (1.5.1)
-appstore 360593530   Notability                (11.8.2)
+appstore 360593530   Notability                (11.8.3)
 appstore 1233965871  ScreenBrush               (1.7.8)
 appstore 425955336   Skitch                    (2.9)
-appstore 1499198946  Structured                (2.5.4)
+appstore 1499198946  Structured                (2.5.5)
 appstore 1491071483  Tot                       (1.5.1)
