@@ -243,10 +243,9 @@ tap rcmdnk/file
 brew brew-file
 
 # App Store applications
-appstore 1319884285  Black Out                 (2.2.1)
-appstore 1470584107  Dato                      (4.3.0)
-appstore 1615988943  Folder Peek               (1.6.0)
-appstore 1263070803  Lungo                     (2.2.1)
+appstore 1470584107  Dato                      (4.3.2)
+appstore 1615988943  Folder Peek               (1.6.1)
+appstore 1263070803  Lungo                     (2.2.2)
 appstore 1295203466  Microsoft Remote Desktop  (10.7.10)
 appstore 1464122853  NextDNS                   (1.5.1)
 appstore 360593530   Notability                (11.8.5)
