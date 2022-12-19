@@ -212,6 +212,8 @@ cask keybase
 cask krisp
 cask lastpass
 cask loom
+cask microsoft-teams
+cask mongodb-compass
 cask notion
 cask postman
 cask raycast
