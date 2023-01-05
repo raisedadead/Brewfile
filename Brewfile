@@ -225,6 +225,7 @@ cask skype
 cask slack
 cask soundsource
 cask spotify
+cask studio-3t
 cask tailscale
 cask tunnelbear
 cask vagrant
