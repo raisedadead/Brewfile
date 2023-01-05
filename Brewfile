@@ -60,6 +60,7 @@ brew jpeg-turbo
 brew jq
 brew jsonschema
 brew krb5
+brew lazygit
 brew lesspipe
 brew libassuan
 brew libcbor
