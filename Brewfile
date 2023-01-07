@@ -51,6 +51,7 @@ brew go
 brew grep
 brew groff
 brew guile
+brew httpie
 brew hub
 brew icu4c
 brew isl
@@ -138,6 +139,8 @@ brew pcre2
 brew pinentry
 brew pixman
 brew pkg-config
+brew podman
+brew podman-compose
 brew psutils
 brew pygments
 brew python@3.10
@@ -206,6 +209,7 @@ cask github
 cask google-chrome
 cask google-drive
 cask hookshot
+cask httpie
 cask iterm2
 cask kap
 cask karabiner-elements
@@ -216,6 +220,7 @@ cask loom
 cask microsoft-teams
 cask mongodb-compass
 cask notion
+cask podman-desktop
 cask postman
 cask raycast
 cask readdle-spark
