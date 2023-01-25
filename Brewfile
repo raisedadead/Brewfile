@@ -253,11 +253,11 @@ brew brew-file
 # App Store applications
 appstore 1470584107  Dato                      (4.3.3)
 appstore 1615988943  Folder Peek               (1.6.1)
-appstore 1444383602  GoodNotes                 (5.9.74)
+appstore 1444383602  GoodNotes                 (5.9.77)
 appstore 1263070803  Lungo                     (2.2.2)
 appstore 1295203466  Microsoft Remote Desktop  (10.8.0)
 appstore 1464122853  NextDNS                   (1.5.1)
 appstore 360593530   Notability                (11.8.9)
 appstore 425955336   Skitch                    (2.9)
-appstore 1499198946  Structured                (3.0.2)
+appstore 1499198946  Structured                (3.0.3)
 appstore 1491071483  Tot                       (1.5.1)
