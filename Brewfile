@@ -125,6 +125,7 @@ brew nmap
 brew node@16
 brew nomad
 brew npth
+brew onefetch
 brew oniguruma
 brew openjpeg
 brew openldap
@@ -252,7 +253,7 @@ brew brew-file
 # App Store applications
 appstore 1470584107  Dato                      (4.3.3)
 appstore 1615988943  Folder Peek               (1.6.1)
-appstore 1444383602  GoodNotes                 (5.9.77)
+appstore 1444383602  GoodNotes                 (5.9.80)
 appstore 1263070803  Lungo                     (2.2.2)
 appstore 1295203466  Microsoft Remote Desktop  (10.8.1)
 appstore 1464122853  NextDNS                   (1.5.1)
