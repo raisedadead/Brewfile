@@ -196,7 +196,6 @@ tap homebrew/services
 
 tap homebrew/cask
 cask 1password-cli
-cask balenaetcher
 cask bartender
 cask brave-browser
 cask burp-suite
@@ -254,7 +253,7 @@ tap rcmdnk/file
 brew brew-file
 
 # App Store applications
-appstore 1470584107  Dato                      (4.4.0)
+appstore 1470584107  Dato                      (4.4.2)
 appstore 1615988943  Folder Peek               (1.6.1)
 appstore 1444383602  GoodNotes                 (5.9.83)
 appstore 1263070803  Lungo                     (2.2.2)
