@@ -124,6 +124,7 @@ brew neovim
 brew netpbm
 brew nettle
 brew nmap
+brew node
 brew node@16
 brew nomad
 brew npth
