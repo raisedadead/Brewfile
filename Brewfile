@@ -206,6 +206,7 @@ cask devdocs
 cask devutils
 cask discord
 cask fig
+cask flutter
 cask github
 cask google-chrome
 cask google-drive
