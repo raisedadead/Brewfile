@@ -216,7 +216,7 @@ cask httpie
 cask iterm2
 cask kap
 cask karabiner-elements
-cask keybase
+cask knockknock
 cask krisp
 cask lastpass
 cask loom
