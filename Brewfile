@@ -1,7 +1,37 @@
 
 # tap repositories and their packages
 
-tap homebrew/core
+tap homebrew/bundle
+
+tap homebrew/cask-drivers
+cask elgato-control-center
+cask elgato-stream-deck
+cask logi-options-plus
+
+tap homebrew/cask-fonts
+cask font-blex-mono-nerd-font
+cask font-jetbrains-mono-nerd-font
+cask font-space-mono-nerd-font
+
+tap homebrew/services
+
+tap 1password/tap
+cask 1password-cli
+
+tap dopplerhq/cli
+brew doppler
+
+tap hashicorp/tap
+brew boundary
+brew consul
+brew nomad
+brew packer
+brew waypoint
+
+tap rcmdnk/file
+brew brew-file
+
+# Other Homebrew packages
 brew act
 brew ansible
 brew ansible-lint
@@ -20,7 +50,7 @@ brew ca-certificates
 brew capstone
 brew cloud-nuke
 brew cloudflared
-brew consul
+brew coreutils
 brew curl
 brew diff-so-fancy
 brew doctl
@@ -126,7 +156,6 @@ brew nettle
 brew nmap
 brew node
 brew node@16
-brew nomad
 brew npth
 brew onefetch
 brew oniguruma
@@ -135,7 +164,6 @@ brew openldap
 brew openssl@1.1
 brew openssl@3
 brew p11-kit
-brew packer
 brew pcre
 brew pcre2
 brew pinentry
@@ -171,7 +199,6 @@ brew uchardet
 brew unbound
 brew unibilium
 brew vde
-brew waypoint
 brew whois
 brew xorgproto
 brew xz
@@ -181,22 +208,7 @@ brew zsh
 brew zsh-completions
 brew zstd
 
-tap homebrew/bundle
-
-tap homebrew/cask-drivers
-cask elgato-control-center
-cask elgato-stream-deck
-cask logi-options-plus
-
-tap homebrew/cask-fonts
-cask font-blex-mono-nerd-font
-cask font-jetbrains-mono-nerd-font
-cask font-space-mono-nerd-font
-
-tap homebrew/services
-
-tap homebrew/cask
-cask 1password-cli
+# Other Cask applications
 cask bartender
 cask brave-browser
 cask burp-suite
@@ -242,17 +254,6 @@ cask visual-studio-code
 cask warp
 cask whatsapp
 cask zoom
-
-tap 1password/tap
-
-tap dopplerhq/cli
-brew doppler
-
-tap hashicorp/tap
-brew boundary
-
-tap rcmdnk/file
-brew brew-file
 
 # App Store applications
 appstore 1444383602  GoodNotes                 (5.9.83)
