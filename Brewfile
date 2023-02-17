@@ -167,8 +167,6 @@ brew pcre2
 brew pinentry
 brew pixman
 brew pkg-config
-brew podman
-brew podman-compose
 brew psutils
 brew pygments
 brew python@3.10
