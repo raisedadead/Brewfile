@@ -142,7 +142,6 @@ brew mas
 brew mesa
 brew minikube
 brew mkcert
-brew mongosh
 brew mpdecimal
 brew mpfr
 brew msgpack
@@ -154,7 +153,6 @@ brew neovim
 brew netpbm
 brew nettle
 brew nmap
-brew node
 brew node@16
 brew npth
 brew onefetch
