@@ -240,6 +240,7 @@ cask shottr
 cask signal
 cask skype
 cask slack
+cask sloth
 cask soundsource
 cask spotify
 cask studio-3t
