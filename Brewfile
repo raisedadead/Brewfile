@@ -254,7 +254,7 @@ cask whatsapp
 cask zoom
 
 # App Store applications
-appstore 1444383602  GoodNotes                 (5.9.83)
+appstore 1444383602  GoodNotes                 (5.9.86)
 appstore 1460836908  GoPro Player              (2.1.6)
 appstore 1263070803  Lungo                     (2.2.2)
 appstore 1295203466  Microsoft Remote Desktop  (10.8.1)
