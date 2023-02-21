@@ -78,6 +78,7 @@ brew gmp
 brew gnupg
 brew gnutls
 brew go
+brew gping
 brew grep
 brew groff
 brew guile
