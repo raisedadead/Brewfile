@@ -215,6 +215,7 @@ cask dbeaver-community
 cask devdocs
 cask devutils
 cask discord
+cask drawio
 cask fig
 cask flutter
 cask github
