@@ -223,6 +223,7 @@ cask spotify
 cask studio-3t
 cask tailscale
 cask tunnelbear
+cask unnaturalscrollwheels
 cask vagrant
 cask visual-studio-code
 cask warp
