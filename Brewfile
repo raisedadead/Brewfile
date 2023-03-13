@@ -71,6 +71,8 @@ brew libevent
 brew libffi
 brew libfido2
 brew libgcrypt
+brew libgit2
+brew libgit2@1.5
 brew libgpg-error
 brew libidn
 brew libidn2
@@ -256,7 +258,7 @@ tap rcmdnk/file
 brew brew-file
 
 # App Store applications
-appstore 1444383602 GoodNotes (5.9.88)
+appstore 1444383602 GoodNotes (5.9.91)
 appstore 1460836908 GoPro Player (2.1.7)
 appstore 1263070803 Lungo (2.2.2)
 appstore 1295203466 Microsoft Remote Desktop (10.8.1)
