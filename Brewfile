@@ -144,6 +144,7 @@ brew pinentry
 brew pixman
 brew pkg-config
 brew psutils
+brew pycparser
 brew pygments
 brew python@3.10
 brew python@3.11
@@ -265,5 +266,5 @@ appstore 1295203466 Microsoft Remote Desktop (10.8.1)
 appstore 1464122853 NextDNS (1.5.1)
 appstore 409201541 Pages (12.2.1)
 appstore 425955336 Skitch (2.9)
-appstore 1499198946 Structured (3.0.3)
+appstore 1499198946 Structured (3.0.4)
 appstore 1491071483 Tot (1.5.1)
