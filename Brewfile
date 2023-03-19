@@ -127,6 +127,7 @@ brew neovim
 brew netpbm
 brew nettle
 brew nmap
+brew node-sass
 brew node@16
 brew nomad
 brew npth
@@ -152,6 +153,7 @@ brew python@3.8
 brew python@3.9
 brew pyyaml
 brew qemu
+brew rclone
 brew readline
 brew ripgrep
 brew rtmpdump
