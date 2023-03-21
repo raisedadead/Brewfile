@@ -127,7 +127,6 @@ brew neovim
 brew netpbm
 brew nettle
 brew nmap
-brew node-sass
 brew node@16
 brew nomad
 brew npth
@@ -261,7 +260,8 @@ tap rcmdnk/file
 brew brew-file
 
 # App Store applications
-appstore 1444383602 GoodNotes (5.9.91)
+appstore 1672085276 Aiko (1.0.3)
+appstore 1444383602 GoodNotes (5.9.94)
 appstore 1460836908 GoPro Player (2.1.7)
 appstore 1263070803 Lungo (2.2.2)
 appstore 1295203466 Microsoft Remote Desktop (10.8.1)
