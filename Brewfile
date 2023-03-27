@@ -185,6 +185,7 @@ brew zstd
 
 tap homebrew/cask
 cask 1password-cli
+cask angry-ip-scanner
 cask bartender
 cask brave-browser
 cask burp-suite
@@ -250,6 +251,9 @@ tap homebrew/services
 
 tap 1password/tap
 
+tap cloudflare/cloudflare
+cask cf-terraforming
+
 tap dopplerhq/cli
 brew doppler
 
@@ -263,6 +267,7 @@ brew brew-file
 appstore 1672085276 Aiko (1.0.3)
 appstore 1444383602 GoodNotes (5.9.94)
 appstore 1460836908 GoPro Player (2.1.7)
+appstore 472226235 LanScan (6.9.2)
 appstore 1263070803 Lungo (2.2.2)
 appstore 1295203466 Microsoft Remote Desktop (10.8.1)
 appstore 1464122853 NextDNS (1.5.1)
