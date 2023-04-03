@@ -26,6 +26,7 @@ brew curl
 brew diff-so-fancy
 brew doctl
 brew docutils
+brew dog
 brew envoy
 brew exa
 brew exercism
@@ -271,7 +272,7 @@ appstore 472226235 LanScan (6.9.2)
 appstore 1263070803 Lungo (2.2.2)
 appstore 1295203466 Microsoft Remote Desktop (10.8.1)
 appstore 1464122853 NextDNS (1.5.1)
-appstore 409201541 Pages (12.2.1)
+appstore 409201541 Pages (13.0)
 appstore 425955336 Skitch (2.9)
 appstore 1499198946 Structured (3.0.5)
 appstore 1491071483 Tot (1.5.1)
