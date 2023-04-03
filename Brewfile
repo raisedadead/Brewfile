@@ -24,6 +24,7 @@ brew cloudflared
 brew consul
 brew coreutils
 brew curl
+brew d2
 brew diff-so-fancy
 brew doctl
 brew docutils
