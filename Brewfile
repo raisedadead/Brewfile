@@ -18,6 +18,7 @@ brew bzip2
 brew c-ares
 brew ca-certificates
 brew capstone
+brew cffi
 brew cloud-nuke
 brew cloudflared
 brew consul
