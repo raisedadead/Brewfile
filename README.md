@@ -4,34 +4,22 @@
 
 ## Prerequisite
 
-If you are the same person as I am, make sure that the initial system setup checklist has been completed.
-
-> System setup checklist: <https://get.ms/setup>
+If you are the same person as I am, make sure that the initial system setup checklist has been completed and tools and packages have been installed.
 
 ## Installation
 
-> **Warning:** Tools and utlites in the Brewfile work for my config. You should fork, and customize if you would not want your workstation to behave like mine. 
-
-1. Install [Homebrew-file](https://github.com/rcmdnk/homebrew-file) (which will also install Homebrew if not installed already)
+1. Install Homebrew:
 
    ```bash
-   curl -fsSL https://raw.github.com/rcmdnk/homebrew-file/install/install.sh |sh
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
 
-2. Add following lines to `~/.zshrc`
+2. Install [Homebrew-file](https://github.com/rcmdnk/homebrew-file)
 
    ```bash
-   if [ -f $(brew --prefix)/etc/brew-wrap ];then
-     source $(brew --prefix)/etc/brew-wrap
-   fi
+   brew install rcmdnk/file/brew-file
    ```
 
-   or use one-off if you would use [my dotfiles](https://github.com/raisedadead/dotfiles) as well later.
- 
-   ```bash
-   source $(brew --prefix)/etc/brew-wrap
-   ```
- 
 3. Setup GitHub repo
 
    ```bash
