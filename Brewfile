@@ -200,6 +200,7 @@ cask devutils
 cask discord
 cask drawio
 cask fig
+cask firefox
 cask flutter
 cask github
 cask google-chrome
