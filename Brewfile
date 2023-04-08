@@ -64,6 +64,7 @@ brew jasper
 brew jbig2dec
 brew jpeg-turbo
 brew jq
+brew json-c
 brew krb5
 brew kubernetes-cli
 brew lazygit
@@ -96,6 +97,7 @@ brew libunistring
 brew libusb
 brew libuv
 brew libvterm
+brew libwebsockets
 brew libx11
 brew libxau
 brew libxcb
@@ -166,12 +168,14 @@ brew snappy
 brew sqlite
 brew starship
 brew tcl-tk
+brew telnet
 brew terracognita
 brew terraform
 brew thefuck
 brew tldr
 brew tree
 brew tree-sitter
+brew ttyd
 brew uchardet
 brew unbound
 brew unibilium
@@ -237,6 +241,7 @@ cask vagrant
 cask visual-studio-code
 cask warp
 cask whatsapp
+cask wireshark
 cask zoom
 
 tap homebrew/bundle
@@ -269,7 +274,7 @@ brew brew-file
 
 # App Store applications
 appstore 1672085276 Aiko (1.0.3)
-appstore 1444383602 GoodNotes (5.9.94)
+appstore 1444383602 GoodNotes (5.9.98)
 appstore 1460836908 GoPro Player (2.1.7)
 appstore 472226235 LanScan (6.9.2)
 appstore 1263070803 Lungo (2.2.2)
