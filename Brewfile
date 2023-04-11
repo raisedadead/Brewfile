@@ -224,6 +224,7 @@ cask notion
 cask postman
 cask raycast
 cask readdle-spark
+cask responsively
 cask robo-3t
 cask rocket-chat
 cask shottr
@@ -273,7 +274,7 @@ tap rcmdnk/file
 brew brew-file
 
 # App Store applications
-appstore 1672085276 Aiko (1.0.3)
+appstore 1672085276 Aiko (1.0.4)
 appstore 1444383602 GoodNotes (5.9.98)
 appstore 1460836908 GoPro Player (2.1.7)
 appstore 472226235 LanScan (6.9.2)
