@@ -203,6 +203,7 @@ cask devdocs
 cask devutils
 cask discord
 cask drawio
+cask elgato-stream-deck
 cask fig
 cask firefox
 cask flutter
@@ -249,7 +250,6 @@ tap homebrew/bundle
 
 tap homebrew/cask-drivers
 cask elgato-control-center
-cask elgato-stream-deck
 cask logi-options-plus
 
 tap homebrew/cask-fonts
