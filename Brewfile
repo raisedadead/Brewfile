@@ -84,6 +84,7 @@ brew libksba
 brew liblinear
 brew libmpc
 brew libnghttp2
+brew libpaper
 brew libpng
 brew libpthread-stubs
 brew libslirp
@@ -150,6 +151,7 @@ brew pixman
 brew pkg-config
 brew psutils
 brew pycparser
+brew pyenv
 brew pygments
 brew python@3.10
 brew python@3.11
@@ -207,6 +209,7 @@ cask elgato-stream-deck
 cask fig
 cask firefox
 cask flutter
+cask framer
 cask github
 cask google-chrome
 cask google-drive
@@ -249,8 +252,6 @@ cask zoom
 tap homebrew/bundle
 
 tap homebrew/cask-drivers
-cask elgato-control-center
-cask logi-options-plus
 
 tap homebrew/cask-fonts
 cask font-blex-mono-nerd-font
@@ -273,10 +274,15 @@ brew boundary
 tap rcmdnk/file
 brew brew-file
 
+# Other Cask applications
+cask elgato-control-center
+cask logi-options-plus
+
 # App Store applications
 appstore 1672085276 Aiko (1.0.4)
 appstore 1444383602 GoodNotes (5.9.98)
 appstore 1460836908 GoPro Player (2.1.7)
+appstore 6446206067 Klack (1.2.1)
 appstore 472226235 LanScan (6.9.2)
 appstore 1263070803 Lungo (2.2.2)
 appstore 1295203466 Microsoft Remote Desktop (10.8.1)
