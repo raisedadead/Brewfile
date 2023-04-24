@@ -280,10 +280,10 @@ cask logi-options-plus
 
 # App Store applications
 appstore 1672085276 Aiko (1.0.4)
-appstore 1444383602 GoodNotes (5.9.98)
+appstore 1444383602 GoodNotes (5.9.100)
 appstore 1460836908 GoPro Player (2.1.7)
 appstore 6446206067 Klack (1.2.1)
-appstore 472226235 LanScan (6.9.2)
+appstore 472226235 LanScan (7.0.0)
 appstore 1263070803 Lungo (2.2.2)
 appstore 1295203466 Microsoft Remote Desktop (10.8.1)
 appstore 1464122853 NextDNS (1.5.1)
