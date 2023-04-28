@@ -43,6 +43,7 @@ brew gdbm
 brew gettext
 brew gh
 brew ghostscript
+brew giflib
 brew git
 brew git-delta
 brew git-filter-repo
@@ -183,6 +184,7 @@ brew unbound
 brew unibilium
 brew vde
 brew waypoint
+brew webp
 brew whois
 brew xorgproto
 brew xz
@@ -284,10 +286,10 @@ appstore 1444383602 GoodNotes (5.9.100)
 appstore 1460836908 GoPro Player (2.1.7)
 appstore 6446206067 Klack (1.2.1)
 appstore 472226235 LanScan (7.0.0)
-appstore 1263070803 Lungo (2.2.2)
-appstore 1295203466 Microsoft Remote Desktop (10.8.1)
+appstore 1263070803 Lungo (2.3.0)
+appstore 1295203466 Microsoft Remote Desktop (10.8.2)
 appstore 1464122853 NextDNS (1.5.1)
 appstore 409201541 Pages (13.0)
 appstore 425955336 Skitch (2.9)
-appstore 1499198946 Structured (3.0.6)
+appstore 1499198946 Structured (3.0.7)
 appstore 1491071483 Tot (1.5.1)
