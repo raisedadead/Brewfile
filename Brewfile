@@ -122,7 +122,6 @@ brew luv
 brew lz4
 brew lzo
 brew m4
-brew mas
 brew mesa
 brew minikube
 brew mkcert
