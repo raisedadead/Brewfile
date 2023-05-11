@@ -290,7 +290,6 @@ cask logi-options-plus
 appstore 1444383602 GoodNotes (5.9.105)
 appstore 1460836908 GoPro Player (2.1.8)
 appstore 6446206067 Klack (1.2.1)
-appstore 472226235 LanScan (7.0.1)
 appstore 1263070803 Lungo (2.3.0)
 appstore 1295203466 Microsoft Remote Desktop (10.8.2)
 appstore 1464122853 NextDNS (1.5.1)
