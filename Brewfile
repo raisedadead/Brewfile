@@ -5,6 +5,7 @@ tap homebrew/core
 brew act
 brew ansible
 brew ansible-lint
+brew atuin
 brew autoconf
 brew aws-nuke
 brew awscli
@@ -57,6 +58,7 @@ brew gping
 brew grep
 brew groff
 brew guile
+brew helm
 brew httpie
 brew hub
 brew icu4c
@@ -68,6 +70,7 @@ brew jq
 brew json-c
 brew krb5
 brew kubernetes-cli
+brew kustomize
 brew lazygit
 brew lesspipe
 brew libassuan
@@ -226,6 +229,7 @@ cask lastpass
 cask loom
 cask microsoft-teams
 cask mongodb-compass
+cask multipass
 cask notion
 cask postman
 cask raycast
