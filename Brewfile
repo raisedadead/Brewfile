@@ -18,6 +18,7 @@ brew brotli
 brew bzip2
 brew c-ares
 brew ca-certificates
+brew cairo
 brew capstone
 brew cffi
 brew cloud-nuke
@@ -35,7 +36,6 @@ brew exa
 brew exercism
 brew expat
 brew fd
-brew flyctl
 brew fontconfig
 brew freetype
 brew fzf
@@ -55,9 +55,11 @@ brew gnupg
 brew gnutls
 brew go
 brew gping
+brew graphite2
 brew grep
 brew groff
 brew guile
+brew harfbuzz
 brew helm
 brew httpie
 brew hub
@@ -111,6 +113,7 @@ brew libxdmcp
 brew libxext
 brew libxfixes
 brew libxml2
+brew libxrender
 brew libyaml
 brew libzip
 brew lima
@@ -182,6 +185,7 @@ brew uchardet
 brew unbound
 brew unibilium
 brew vde
+brew watch
 brew waypoint
 brew webp
 brew whois
@@ -196,6 +200,7 @@ brew zstd
 tap homebrew/cask
 cask 1password-cli
 cask angry-ip-scanner
+cask arc
 cask bartender
 cask brave-browser
 cask cloudflare-warp
@@ -242,6 +247,7 @@ cask vagrant
 cask visual-studio-code
 cask warp
 cask whatsapp
+cask xquartz
 cask zoom
 
 tap homebrew/bundle
@@ -260,6 +266,9 @@ tap 1password/tap
 tap auth0/auth0-cli
 brew auth0
 
+tap beeftornado/rmtree
+brew brew-rmtree
+
 tap cloudflare/cloudflare
 cask cf-terraforming
 
@@ -277,7 +286,7 @@ cask elgato-control-center
 cask logi-options-plus
 
 # App Store applications
-appstore 1444383602 GoodNotes (5.9.105)
+appstore 1444383602 GoodNotes (5.9.106)
 appstore 1460836908 GoPro Player (2.1.8)
 appstore 6446206067 Klack (1.2.1)
 appstore 1263070803 Lungo (2.3.0)
