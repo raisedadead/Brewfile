@@ -286,8 +286,11 @@ cask elgato-control-center
 cask logi-options-plus
 
 # App Store applications
-appstore 1444383602 GoodNotes (5.9.106)
+appstore 6448461551 Command X (1.0.8)
+appstore 1351639930 Gifski (2.22.3)
+appstore 1444383602 GoodNotes (5.9.108)
 appstore 1460836908 GoPro Player (2.1.8)
+appstore 6444667067 Hyperduck (1.0.7)
 appstore 6446206067 Klack (1.2.1)
 appstore 1263070803 Lungo (2.3.0)
 appstore 1295203466 Microsoft Remote Desktop (10.8.2)
