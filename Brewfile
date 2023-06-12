@@ -3,8 +3,6 @@
 
 tap homebrew/core
 brew act
-brew ansible
-brew ansible-lint
 brew atuin
 brew autoconf
 brew aws-nuke
@@ -118,6 +116,7 @@ brew libyaml
 brew libzip
 brew lima
 brew little-cms2
+brew lua
 brew lua@5.3
 brew luajit
 brew luajit-openresty
@@ -209,6 +208,7 @@ cask dbeaver-community
 cask devdocs
 cask devutils
 cask discord
+cask elgato-control-center
 cask elgato-stream-deck
 cask fig
 cask firefox
@@ -224,9 +224,11 @@ cask karabiner-elements
 cask knockknock
 cask krisp
 cask lastpass
+cask logi-options-plus
 cask loom
 cask microsoft-teams
 cask mongodb-compass
+cask monitorcontrol
 cask multipass
 cask notion
 cask postman
@@ -242,11 +244,11 @@ cask soundsource
 cask spotify
 cask studio-3t
 cask tailscale
+cask telegram
 cask unnaturalscrollwheels
 cask vagrant
 cask visual-studio-code
 cask warp
-cask whatsapp
 cask xquartz
 cask zoom
 
@@ -281,21 +283,19 @@ brew boundary
 tap rcmdnk/file
 brew brew-file
 
-# Other Cask applications
-cask elgato-control-center
-cask logi-options-plus
-
 # App Store applications
-appstore 6448461551 Command X (1.0.8)
+appstore 1569813296 1Password for Safari (2.11.0)
+appstore 6448461551 Command X (1.0.9)
 appstore 1351639930 Gifski (2.22.3)
-appstore 1444383602 GoodNotes (5.9.108)
+appstore 1444383602 GoodNotes (5.9.112)
 appstore 1460836908 GoPro Player (2.1.8)
 appstore 6444667067 Hyperduck (1.0.7)
 appstore 6446206067 Klack (1.2.1)
 appstore 1263070803 Lungo (2.3.0)
-appstore 1295203466 Microsoft Remote Desktop (10.8.2)
+appstore 1295203466 Microsoft Remote Desktop (10.8.3)
 appstore 1464122853 NextDNS (1.5.1)
 appstore 409201541 Pages (13.0)
-appstore 425955336 Skitch (2.9)
-appstore 1499198946 Structured (3.0.7)
+appstore 1233965871 ScreenBrush (1.8.2)
+appstore 1499198946 Structured (3.1.0)
 appstore 1491071483 Tot (1.5.1)
+appstore 1538878817 UTM (4.2.5)
