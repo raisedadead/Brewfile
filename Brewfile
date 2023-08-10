@@ -9,7 +9,6 @@ tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/services"
-tap "rcmdnk/file"
 brew "act"
 brew "atuin"
 brew "m4"
@@ -221,12 +220,10 @@ cask "warp"
 cask "xquartz"
 cask "zoom"
 mas "Command X", id: 6448461551
+mas "CrystalFetch", id: 6454431289
 mas "Gifski", id: 1351639930
 mas "GoodNotes", id: 1444383602
-mas "GoPro Player", id: 1460836908
 mas "Hyperduck", id: 6444667067
-mas "Instatus Out", id: 1552633430
-mas "Klack", id: 6446206067
 mas "Lungo", id: 1263070803
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "NextDNS", id: 1464122853
@@ -234,7 +231,6 @@ mas "Pages", id: 409201541
 mas "ScreenBrush", id: 1233965871
 mas "Structured", id: 1499198946
 mas "Tot", id: 1491071483
-mas "Twitter", id: 1482454543
 mas "UTM", id: 1538878817
 vscode "alefragnani.project-manager"
 vscode "be5invis.toml"
