@@ -134,6 +134,7 @@ brew "nano"
 brew "neovim"
 brew "nmap"
 brew "nushell"
+brew "parallel"
 brew "pcre"
 brew "poppler"
 brew "portaudio"
@@ -210,6 +211,7 @@ cask "logi-options-plus"
 cask "monitorcontrol"
 cask "notion"
 cask "obs"
+cask "ollama"
 cask "orbstack"
 cask "protonvpn"
 cask "raycast"
@@ -230,6 +232,7 @@ cask "wezterm"
 cask "zed"
 cask "zoom"
 mas "1Password for Safari", id: 1569813296
+mas "Actions", id: 1586435171
 mas "Command X", id: 6448461551
 mas "CrystalFetch", id: 6454431289
 mas "Dato", id: 1470584107
@@ -241,7 +244,6 @@ mas "Hyperduck", id: 6444667067
 mas "Klack", id: 6446206067
 mas "Lungo", id: 1263070803
 mas "Microsoft Remote Desktop", id: 1295203466
-mas "NextDNS", id: 1464122853
 mas "Pages", id: 409201541
 mas "Portal", id: 1436994560
 mas "ScreenBrush", id: 1233965871
