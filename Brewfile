@@ -179,10 +179,12 @@ brew "localstack/tap/localstack-cli"
 brew "pkgxdev/made/pkgx"
 brew "turbot/tap/steampipe"
 brew "weaveworks/tap/eksctl"
+cask "1password"
 cask "1password-cli"
 cask "angry-ip-scanner"
 cask "arc"
 cask "balenaetcher"
+cask "bartender"
 cask "brave-browser"
 cask "cloudflare-warp"
 cask "dbeaver-community"
@@ -196,6 +198,7 @@ cask "font-maple"
 cask "font-symbols-only-nerd-font"
 cask "google-chrome"
 cask "google-drive"
+cask "hashicorp-vagrant"
 cask "httpie"
 cask "iterm2"
 cask "kap"
@@ -209,7 +212,6 @@ cask "notion"
 cask "obs"
 cask "orbstack"
 cask "protonvpn"
-cask "qmk-toolbox"
 cask "raycast"
 cask "rectangle-pro"
 cask "shottr"
@@ -223,11 +225,31 @@ cask "spotify"
 cask "switchresx"
 cask "tailscale"
 cask "telegram"
-cask "vanilla"
 cask "visual-studio-code"
 cask "wezterm"
 cask "zed"
 cask "zoom"
+mas "1Password for Safari", id: 1569813296
+mas "Command X", id: 6448461551
+mas "CrystalFetch", id: 6454431289
+mas "Dato", id: 1470584107
+mas "Day Progress", id: 6450280202
+mas "Gifski", id: 1351639930
+mas "Goodnotes", id: 1444383602
+mas "HEIC Converter", id: 1294126402
+mas "Hyperduck", id: 6444667067
+mas "Klack", id: 6446206067
+mas "Lungo", id: 1263070803
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "NextDNS", id: 1464122853
+mas "Pages", id: 409201541
+mas "Portal", id: 1436994560
+mas "ScreenBrush", id: 1233965871
+mas "Second Clock", id: 6450279539
+mas "Structured", id: 1499198946
+mas "Tot", id: 1491071483
+mas "UTM", id: 1538878817
+mas "Velja", id: 1607635845
 vscode "1password.op-vscode"
 vscode "ahmadalli.vscode-nginx-conf"
 vscode "alefragnani.project-manager"
@@ -272,6 +294,7 @@ vscode "mgmcdermott.vscode-language-babel"
 vscode "mikestead.dotenv"
 vscode "mindaro-dev.file-downloader"
 vscode "ms-azuretools.vscode-docker"
+vscode "ms-playwright.playwright"
 vscode "ms-python.python"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode-remote.remote-ssh"
@@ -284,6 +307,7 @@ vscode "ms-vscode.remote-server"
 vscode "ms-vsliveshare.vsliveshare"
 vscode "oderwat.indent-rainbow"
 vscode "okitavera.vscode-nunjucks-formatter"
+vscode "prisma.prisma"
 vscode "redhat.ansible"
 vscode "redhat.vscode-xml"
 vscode "redhat.vscode-yaml"
