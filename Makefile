@@ -1,8 +1,10 @@
-.PHONY: help deps install dump commit update clean check doctor uninstall
+.PHONY: help deps install install-no-mas install-no-vscode install-no-mas-vscode dump dump-no-mas dump-no-vscode dump-no-mas-vscode commit update clean check doctor uninstall list outdated
 .DEFAULT_GOAL := help
 
-# Export to suppress Homebrew hints
+# Configuration
 export HOMEBREW_NO_ENV_HINTS=1
+BREWFILE := Brewfile
+TYPE ?= all
 
 deps:
 	@command -v brew >/dev/null 2>&1 || { echo "Error: Homebrew is not installed"; exit 1; }
@@ -11,37 +13,55 @@ deps:
 	@echo "All dependencies are installed"
 
 help:
-	@echo "Available commands:"
-	@echo "  make deps              - Check if required dependencies are installed"
-	@echo "  make install [type=all|formulas|casks|vscode|mas] - Install from Brewfile"
-	@echo "  make dump              - Update Brewfile with current packages"
-	@echo "  make commit            - Commit Brewfile changes"
-	@echo "  make update            - Update all packages, cleanup, and doctor"
+	@echo "Brewfile Management:"
+	@echo "  make install           - Install everything"
+	@echo "  make install-no-mas    - Install everything except Mac App Store"
+	@echo "  make install-no-vscode - Install everything except VS Code extensions"
+	@echo "  make install-no-mas-vscode - Install everything except MAS & VS Code"
+	@echo "  make uninstall [TYPE=formulas|casks]"
+	@echo "  make update            - Update all packages, cleanup, doctor"
 	@echo "  make clean             - Remove unused dependencies"
-	@echo "  make check             - Check system for issues"
+	@echo ""
+	@echo "Status & Info:"
+	@echo "  make check             - Check if system matches Brewfile"
 	@echo "  make doctor            - Run brew doctor"
-	@echo "  make uninstall [type=formulas|casks] - Interactive uninstall"
+	@echo "  make list [TYPE=formulas|casks]"
+	@echo "  make outdated          - Show outdated packages"
+	@echo "  make deps              - Check required dependencies"
+	@echo ""
+	@echo "File Management:"
+	@echo "  make dump              - Dump everything to Brewfile"
+	@echo "  make dump-no-mas       - Dump everything except Mac App Store"
+	@echo "  make dump-no-vscode    - Dump everything except VS Code extensions"
+	@echo "  make dump-no-mas-vscode - Dump everything except MAS & VS Code"
+	@echo "  make commit            - Git commit Brewfile"
 
-# Install command with type parameter (default: all)
-type ?= all
 install:
-ifeq ($(type),formulas)
-	brew bundle install --no-cask --no-mas --no-vscode --file=Brewfile
-else ifeq ($(type),casks)
-	brew bundle install --cask --no-mas --no-vscode --file=Brewfile
-else ifeq ($(type),vscode)
-	brew bundle install --vscode --file=Brewfile
-else ifeq ($(type),mas)
-	brew bundle install --mas --file=Brewfile
-else
-	brew bundle install --all --file=Brewfile
-endif
+	brew bundle install --file=$(BREWFILE)
+
+install-no-mas:
+	HOMEBREW_BUNDLE_MAS_SKIP="*" brew bundle install --file=$(BREWFILE)
+
+install-no-vscode:
+	HOMEBREW_BUNDLE_VSCODE_SKIP="*" brew bundle install --file=$(BREWFILE)
+
+install-no-mas-vscode:
+	HOMEBREW_BUNDLE_MAS_SKIP="*" HOMEBREW_BUNDLE_VSCODE_SKIP="*" brew bundle install --file=$(BREWFILE)
 
 dump:
-	brew bundle dump --force --file=Brewfile
+	brew bundle dump --force --file=$(BREWFILE)
+
+dump-no-mas:
+	brew bundle dump --force --no-mas --file=$(BREWFILE)
+
+dump-no-vscode:
+	brew bundle dump --force --no-vscode --file=$(BREWFILE)
+
+dump-no-mas-vscode:
+	brew bundle dump --force --no-mas --no-vscode --file=$(BREWFILE)
 
 commit:
-	git add Brewfile
+	git add $(BREWFILE)
 	git commit -m "chore: update brewfile $$(date +%Y-%m-%d)"
 
 update:
@@ -49,23 +69,33 @@ update:
 	brew upgrade
 	brew upgrade --cask
 	brew cleanup
-	brew doctor
+	-brew doctor
 
 clean:
-	brew bundle cleanup --file=Brewfile
+	brew bundle cleanup --file=$(BREWFILE)
 	brew autoremove
 
 check:
-	brew bundle check --file=Brewfile
+	brew bundle check --file=$(BREWFILE)
 
 doctor:
-	brew doctor
+	-brew doctor
 
-# Uninstall command with type parameter (default: formulas)
-type ?= formulas
 uninstall: deps
-ifeq ($(type),casks)
+ifeq ($(TYPE),casks)
 	brew list --cask | gum choose --no-limit | xargs brew uninstall --cask --force
 else
 	brew list --formula | gum choose --no-limit | xargs brew uninstall --force
 endif
+
+list:
+ifeq ($(TYPE),casks)
+	brew list --cask
+else ifeq ($(TYPE),formulas)
+	brew list --formula
+else
+	brew list
+endif
+
+outdated:
+	brew outdated --greedy
