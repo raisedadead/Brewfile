@@ -169,6 +169,7 @@ cask "steam"
 cask "tailscale-app"
 cask "virtualbox"
 cask "visual-studio-code"
+cask "warp"
 cask "wezterm"
 cask "zed"
 mas "1Password for Safari", id: 1569813296
