@@ -1,6 +1,6 @@
 # Brewfile
 
-> tools, apps, and utilities that I use on my macOS machines
+> apps, tools and utilities that I use on my macOS machines
 
 ## License
 
