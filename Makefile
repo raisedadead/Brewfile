@@ -1,4 +1,4 @@
-.PHONY: help deps install install-no-mas install-no-vscode install-no-mas-vscode dump dump-no-mas dump-no-vscode dump-no-mas-vscode commit push update clean check doctor uninstall list outdated
+.PHONY: help deps install install-no-mas install-no-vscode install-no-mas-vscode dump dump-no-mas dump-no-vscode dump-no-mas-vscode commit push sync update clean check doctor uninstall list outdated
 .DEFAULT_GOAL := help
 
 # Configuration
@@ -36,6 +36,7 @@ help:
 	@echo "  make dump-no-mas-vscode - Dump everything except MAS & VS Code"
 	@echo "  make commit            - Git commit Brewfile"
 	@echo "  make push              - Push changes (with remote update check)"
+	@echo "  make sync              - Alias for push"
 
 install:
 	brew bundle install --file=$(BREWFILE)
@@ -85,6 +86,8 @@ push:
 		echo "Pushing changes..."; \
 		git push origin $$(git branch --show-current); \
 	fi
+
+sync: push
 
 update:
 	brew update
