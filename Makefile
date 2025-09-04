@@ -1,4 +1,4 @@
-.PHONY: help deps install install-no-mas install-no-vscode install-no-mas-vscode dump dump-no-mas dump-no-vscode dump-no-mas-vscode commit update clean check doctor uninstall list outdated
+.PHONY: help deps install install-no-mas install-no-vscode install-no-mas-vscode dump dump-no-mas dump-no-vscode dump-no-mas-vscode commit push update clean check doctor uninstall list outdated
 .DEFAULT_GOAL := help
 
 # Configuration
@@ -35,6 +35,7 @@ help:
 	@echo "  make dump-no-vscode    - Dump everything except VS Code extensions"
 	@echo "  make dump-no-mas-vscode - Dump everything except MAS & VS Code"
 	@echo "  make commit            - Git commit Brewfile"
+	@echo "  make push              - Push changes (with remote update check)"
 
 install:
 	brew bundle install --file=$(BREWFILE)
@@ -63,6 +64,27 @@ dump-no-mas-vscode:
 commit:
 	git add $(BREWFILE)
 	git commit -m "chore: update brewfile $$(date +%Y-%m-%d)"
+
+push:
+	@echo "Fetching remote changes..."
+	@git fetch origin
+	@REMOTE_AHEAD=$$(git rev-list --count HEAD..origin/$$(git branch --show-current)); \
+	LOCAL_AHEAD=$$(git rev-list --count origin/$$(git branch --show-current)..HEAD); \
+	if [ $$REMOTE_AHEAD -gt 0 ]; then \
+		echo "Remote has changes, fetching and rebasing..."; \
+		git rebase origin/$$(git branch --show-current) || { \
+			echo "Rebase failed. Please resolve conflicts manually and run 'git rebase --continue'"; \
+			exit 1; \
+		}; \
+	elif [ $$LOCAL_AHEAD -gt 0 ]; then \
+		echo "Local has all changes from remote, pushing new changes..."; \
+	else \
+		echo "No changes on remote or local, already in sync."; \
+	fi; \
+	if [ $$LOCAL_AHEAD -gt 0 ] || [ $$REMOTE_AHEAD -gt 0 ]; then \
+		echo "Pushing changes..."; \
+		git push origin $$(git branch --show-current); \
+	fi
 
 update:
 	brew update
