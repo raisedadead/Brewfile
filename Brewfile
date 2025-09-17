@@ -158,8 +158,6 @@ cask "krisp"
 cask "ledger-live"
 cask "mongodb-compass"
 cask "mullvad-vpn"
-cask "notion"
-cask "notion-calendar"
 cask "orbstack"
 cask "raycast"
 cask "rectangle-pro"
@@ -172,20 +170,17 @@ cask "visual-studio-code"
 cask "wezterm"
 cask "zed"
 mas "1Password for Safari", id: 1569813296
-mas "Actions", id: 1586435171
 mas "Command X", id: 6448461551
 mas "Cursor Pro", id: 1447043133
 mas "Dato", id: 1470584107
 mas "Day Progress", id: 6450280202
-mas "HEIC Converter", id: 1294126402
 mas "Hyperduck", id: 6444667067
 mas "Keystroke Pro", id: 1572206224
 mas "Klack", id: 6446206067
 mas "Lungo", id: 1263070803
-mas "Parcel", id: 639968404
+mas "Parcel", id: 375589283
 mas "Structured", id: 1499198946
 mas "Tot", id: 1491071483
-mas "UTM", id: 1538878817
 mas "Velja", id: 1607635845
 mas "Xcode", id: 497799835
 vscode "1password.op-vscode"
