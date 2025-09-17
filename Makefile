@@ -64,7 +64,11 @@ dump-no-mas-vscode:
 
 commit:
 	git add $(BREWFILE)
-	git commit -m "chore: update brewfile $$(date +%Y-%m-%d)"
+	@if git diff --cached --quiet; then \
+		echo "No changes to commit"; \
+	else \
+		git commit -m "chore: update brewfile $$(date +%Y-%m-%d)"; \
+	fi
 
 push:
 	@echo "Fetching remote changes..."
