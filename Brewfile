@@ -187,7 +187,6 @@ mas "Dato", id: 1470584107
 mas "Day Progress", id: 6450280202
 mas "Hyperduck", id: 6444667067
 mas "Keystroke Pro", id: 1572206224
-mas "Klack", id: 6446206067
 mas "Lungo", id: 1263070803
 mas "Parcel", id: 375589283
 mas "Structured", id: 1499198946
@@ -233,7 +232,6 @@ vscode "unifiedjs.vscode-mdx"
 vscode "unifiedjs.vscode-remark"
 vscode "usernamehw.errorlens"
 vscode "vitest.explorer"
-vscode "wakatime.vscode-wakatime"
 vscode "william-voyek.vscode-nginx"
 vscode "wix.vscode-import-cost"
 vscode "yatki.vscode-surround"
