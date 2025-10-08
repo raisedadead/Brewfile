@@ -2,7 +2,6 @@ tap "beeftornado/rmtree"
 tap "dotenvx/brew"
 tap "hashicorp/tap"
 tap "oven-sh/bun"
-brew "act"
 brew "age"
 brew "ast-grep"
 brew "atuin", restart_service: :changed
@@ -113,8 +112,6 @@ brew "nmap"
 brew "pcre"
 brew "pkgconf"
 brew "qemu"
-brew "webp"
-brew "qt"
 brew "rbenv"
 brew "rclone"
 brew "ripgrep"
@@ -130,6 +127,7 @@ brew "typtea"
 brew "uv"
 brew "vcpkg"
 brew "watch"
+brew "webp"
 brew "wget"
 brew "whois"
 brew "wimlib"
@@ -146,13 +144,10 @@ brew "oven-sh/bun/bun"
 cask "1password"
 cask "1password-cli"
 cask "android-studio"
-cask "arc"
 cask "balenaetcher"
-cask "bartender"
 cask "betterdisplay"
 cask "brave-browser"
 cask "burp-suite"
-cask "chatgpt"
 cask "claude"
 cask "elgato-control-center"
 cask "elgato-stream-deck"
@@ -188,11 +183,13 @@ mas "Hyperduck", id: 6444667067
 mas "Keystroke Pro", id: 1572206224
 mas "Lungo", id: 1263070803
 mas "Parcel", id: 375589283
+mas "Refined GitHub", id: 1519867270
 mas "Structured", id: 1499198946
 mas "Tot", id: 1491071483
 mas "Velja", id: 1607635845
 mas "Xcode", id: 497799835
 vscode "1password.op-vscode"
+vscode "anthropic.claude-code"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"
