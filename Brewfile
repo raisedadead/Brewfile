@@ -180,6 +180,7 @@ mas "Command X", id: 6448461551
 mas "Cursor Pro", id: 1447043133
 mas "Dato", id: 1470584107
 mas "Day Progress", id: 6450280202
+mas "Hidden Bar", id: 1452453066
 mas "Hyperduck", id: 6444667067
 mas "Keystroke Pro", id: 1572206224
 mas "Lungo", id: 1263070803
@@ -189,9 +190,5 @@ mas "Structured", id: 1499198946
 mas "Tot", id: 1491071483
 mas "Velja", id: 1607635845
 mas "Xcode", id: 497799835
-vscode "1password.op-vscode"
-vscode "anthropic.claude-code"
-vscode "ms-vscode-remote.remote-containers"
-vscode "ms-vscode-remote.remote-ssh"
-vscode "ms-vscode-remote.remote-ssh-edit"
-vscode "ms-vscode.remote-explorer"
+go "golang.org/x/tools/gopls"
+go "honnef.co/go/tools/cmd/staticcheck"
