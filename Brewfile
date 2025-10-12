@@ -83,6 +83,7 @@ brew "goreleaser"
 brew "gum"
 brew "helm"
 brew "homeshick"
+brew "httpie", link: false
 brew "jnv"
 brew "jq"
 brew "k6"
@@ -192,3 +193,4 @@ mas "Velja", id: 1607635845
 mas "Xcode", id: 497799835
 go "golang.org/x/tools/gopls"
 go "honnef.co/go/tools/cmd/staticcheck"
+go "github.com/raisedadead/worktree-tool/cmd/worktree-tool"
