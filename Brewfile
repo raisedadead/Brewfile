@@ -1,3 +1,4 @@
+tap "auth0/auth0-cli"
 tap "beeftornado/rmtree"
 tap "dotenvx/brew"
 tap "hashicorp/tap"
@@ -83,7 +84,7 @@ brew "goreleaser"
 brew "gum"
 brew "helm"
 brew "homeshick"
-brew "httpie", link: false
+brew "httpie"
 brew "jnv"
 brew "jq"
 brew "k6"
@@ -135,9 +136,11 @@ brew "wimlib"
 brew "wishlist"
 brew "yazi"
 brew "yq"
+brew "zig"
 brew "zoxide"
 brew "zsh"
 brew "zsh-completions"
+brew "auth0/auth0-cli/auth0"
 brew "beeftornado/rmtree/brew-rmtree"
 brew "dotenvx/brew/dotenvx"
 brew "hashicorp/tap/terraform"
@@ -190,7 +193,9 @@ mas "Refined GitHub", id: 1519867270
 mas "Structured", id: 1499198946
 mas "Tot", id: 1491071483
 mas "Velja", id: 1607635845
+mas "Windows App", id: 1295203466
 mas "Xcode", id: 497799835
+vscode "anthropic.claude-code"
 go "golang.org/x/tools/gopls"
 go "honnef.co/go/tools/cmd/staticcheck"
 go "github.com/raisedadead/worktree-tool/cmd/worktree-tool"
