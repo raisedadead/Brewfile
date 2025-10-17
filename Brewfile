@@ -192,6 +192,7 @@ mas "Parcel", id: 375589283
 mas "Refined GitHub", id: 1519867270
 mas "Structured", id: 1499198946
 mas "Tot", id: 1491071483
+mas "Unsplash Wallpapers", id: 1284863847
 mas "Velja", id: 1607635845
 mas "Windows App", id: 1295203466
 mas "Xcode", id: 497799835
