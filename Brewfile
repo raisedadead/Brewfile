@@ -187,6 +187,7 @@ mas "Dato", id: 1470584107
 mas "Day Progress", id: 6450280202
 mas "Hidden Bar", id: 1452453066
 mas "Hyperduck", id: 6444667067
+mas "Kagi for Safari", id: 1622835804
 mas "Keystroke Pro", id: 1572206224
 mas "Lungo", id: 1263070803
 mas "Parcel", id: 375589283
