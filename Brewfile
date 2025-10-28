@@ -2,6 +2,7 @@ tap "auth0/auth0-cli"
 tap "beeftornado/rmtree"
 tap "dotenvx/brew"
 tap "hashicorp/tap"
+tap "meltylabs/tap"
 tap "oven-sh/bun"
 brew "age"
 brew "ast-grep"
@@ -154,6 +155,7 @@ cask "brave-browser"
 cask "burp-suite"
 cask "cap"
 cask "claude"
+cask "conductor"
 cask "elgato-control-center"
 cask "elgato-stream-deck"
 cask "flutter"
@@ -168,6 +170,7 @@ cask "krisp"
 cask "ledger-live"
 cask "mongodb-compass"
 cask "mullvad-vpn"
+cask "neovide-app"
 cask "orbstack"
 cask "orion"
 cask "raycast"
@@ -187,7 +190,6 @@ mas "Dato", id: 1470584107
 mas "Day Progress", id: 6450280202
 mas "Hidden Bar", id: 1452453066
 mas "Hyperduck", id: 6444667067
-mas "Kagi for Safari", id: 1622835804
 mas "Keystroke Pro", id: 1572206224
 mas "Lungo", id: 1263070803
 mas "Parcel", id: 375589283
@@ -198,7 +200,8 @@ mas "Unsplash Wallpapers", id: 1284863847
 mas "Velja", id: 1607635845
 mas "Windows App", id: 1295203466
 mas "Xcode", id: 497799835
-vscode "anthropic.claude-code"
+vscode "github.copilot"
+vscode "github.copilot-chat"
 go "golang.org/x/tools/gopls"
 go "honnef.co/go/tools/cmd/staticcheck"
 go "github.com/raisedadead/worktree-tool/cmd/worktree-tool"
