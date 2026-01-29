@@ -1,4 +1,4 @@
-.PHONY: help deps install install-no-mas install-no-vscode install-no-mas-vscode dump dump-no-mas dump-no-vscode dump-no-mas-vscode commit push sync update clean check doctor uninstall list outdated diff _check-brew
+.PHONY: help deps install install-no-mas install-no-vscode install-no-mas-vscode dump dump-no-mas dump-no-vscode dump-no-mas-vscode commit push sync update clean clean-backup check doctor uninstall list outdated diff _check-brew
 .DEFAULT_GOAL := help
 
 # Configuration
@@ -21,7 +21,7 @@ help:
 	@echo "  make install-no-mas    - Install everything except Mac App Store"
 	@echo "  make install-no-vscode - Install everything except VS Code extensions"
 	@echo "  make install-no-mas-vscode - Install everything except MAS & VS Code"
-	@echo "  make uninstall TYPE=formulas|casks"
+	@echo "  make uninstall         - Interactive package removal"
 	@echo "  make update            - Update all packages, cleanup, doctor"
 	@echo "  make clean             - Remove unused dependencies (with confirmation)"
 	@echo ""
@@ -38,6 +38,7 @@ help:
 	@echo "  make dump-no-mas       - Dump everything except Mac App Store"
 	@echo "  make dump-no-vscode    - Dump everything except VS Code extensions"
 	@echo "  make dump-no-mas-vscode - Dump everything except MAS & VS Code"
+	@echo "  make clean-backup      - Remove Brewfile.bak"
 	@echo "  make commit            - Git commit Brewfile"
 	@echo "  make push              - Push changes (with remote update check)"
 	@echo "  make sync              - Alias for push"
@@ -73,6 +74,9 @@ dump-no-mas-vscode: _check-brew
 diff:
 	@git diff $(BREWFILE) 2>/dev/null || echo "No git repository or Brewfile not tracked"
 
+clean-backup:
+	@rm -f $(BREWFILE).bak && echo "Removed $(BREWFILE).bak" || echo "No backup file found"
+
 commit:
 	git add $(BREWFILE)
 	@if git diff --cached --quiet; then \
@@ -106,7 +110,7 @@ sync: push
 update: _check-brew
 	brew update
 	brew upgrade
-	brew upgrade --cask --greedy
+	brew upgrade --cask
 	brew cleanup
 	-brew doctor
 
@@ -125,24 +129,7 @@ doctor: _check-brew
 	-brew doctor
 
 uninstall: deps
-ifeq ($(TYPE),casks)
-	@selected=$$(brew list --cask | gum choose --no-limit); \
-	if [ -n "$$selected" ]; then \
-		echo "$$selected" | xargs brew uninstall --cask --force; \
-	else \
-		echo "Nothing selected"; \
-	fi
-else ifeq ($(TYPE),formulas)
-	@selected=$$(brew list --formula | gum choose --no-limit); \
-	if [ -n "$$selected" ]; then \
-		echo "$$selected" | xargs brew uninstall --force; \
-	else \
-		echo "Nothing selected"; \
-	fi
-else
-	@echo "Error: Specify TYPE=formulas or TYPE=casks"
-	@exit 1
-endif
+	@brew list | gum filter --no-limit | xargs -n 1 brew uninstall
 
 list: _check-brew
 ifeq ($(TYPE),casks)
