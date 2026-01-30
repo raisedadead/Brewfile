@@ -129,7 +129,21 @@ doctor: _check-brew
 	-brew doctor
 
 uninstall: deps
-	@brew list | gum filter --no-limit | xargs -n 1 brew uninstall
+	@TYPE=$$(gum choose "brew formulas" "brew casks" "mas apps"); \
+	case "$$TYPE" in \
+		"brew formulas") \
+			SELECTED=$$(brew list --formula | gum filter --no-limit); \
+			[ -n "$$SELECTED" ] && echo "$$SELECTED" | xargs -n 1 brew uninstall || echo "No formulas selected" \
+			;; \
+		"brew casks") \
+			SELECTED=$$(brew list --cask | gum filter --no-limit); \
+			[ -n "$$SELECTED" ] && echo "$$SELECTED" | xargs -n 1 brew uninstall --cask || echo "No casks selected" \
+			;; \
+		"mas apps") \
+			SELECTED=$$(mas list | gum filter --no-limit | awk '{print $$1}'); \
+			[ -n "$$SELECTED" ] && echo "$$SELECTED" | sudo xargs -n 1 mas uninstall || echo "No apps selected" \
+			;; \
+	esac
 
 list: _check-brew
 ifeq ($(TYPE),casks)
