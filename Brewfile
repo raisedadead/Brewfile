@@ -106,6 +106,8 @@ brew "dry"
 brew "exercism"
 # Modern, maintained replacement for ls
 brew "eza"
+# Like neofetch, but much faster because written mostly in C
+brew "fastfetch"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # Play, record, convert, and stream select audio and video codecs
@@ -128,6 +130,10 @@ brew "libmpc"
 brew "gcc"
 # GNU database manager
 brew "gdbm"
+# Command-line interface for SQLite
+brew "sqlite"
+# Interact with Google Gemini AI models from the command-line
+brew "gemini-cli"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -136,8 +142,6 @@ brew "git"
 brew "git-delta"
 # Library for decimal floating point arithmetic
 brew "mpdecimal"
-# Command-line interface for SQLite
-brew "sqlite"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.13"
 # Quickly rewrite git repository history
@@ -342,6 +346,8 @@ cask "burp-suite"
 cask "cap"
 # Anthropic's official Claude AI desktop app
 cask "claude"
+# Brings the power of Copilot coding agent directly to your terminal
+cask "copilot-cli"
 # Control your Elgato key lights
 cask "elgato-control-center"
 # Assign keys, and then decorate and label them
@@ -349,6 +355,8 @@ cask "elgato-stream-deck"
 cask "font-symbols-only-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Web browser
+cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Development environment
@@ -405,19 +413,15 @@ mas "Day Progress", id: 6450280202
 mas "Hyperduck", id: 6444667067
 mas "Keystroke Pro", id: 1572206224
 mas "Lungo", id: 1263070803
-mas "Microsoft Excel", id: 462058435
 mas "Parcel", id: 375589283
-mas "Pure Paste", id: 1611378436
-mas "ScreenBrush", id: 1233965871
 mas "Structured", id: 1499198946
 mas "Tot", id: 1491071483
 mas "Unsplash Wallpapers", id: 1284863847
-mas "Userscripts", id: 1463298887
 mas "Velja", id: 1607635845
-mas "Windows App", id: 1295203466
 vscode "anthropic.claude-code"
 vscode "github.copilot"
 vscode "github.copilot-chat"
+go "github.com/raisedadead/git-wt/cmd/git-wt"
 go "golang.org/x/tools/gopls"
 go "github.com/grafana/grafanactl/cmd/grafanactl"
 go "honnef.co/go/tools/cmd/staticcheck"
