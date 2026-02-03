@@ -17,7 +17,7 @@ brew "age"
 # Code searching, linting, rewriting
 brew "ast-grep"
 # Improved shell history for zsh, bash, fish and nushell
-brew "atuin", restart_service: :changed
+brew "atuin"
 # Macro processing language
 brew "m4"
 # Automatic configure script builder
@@ -180,6 +180,8 @@ brew "pinentry"
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Fast linters runner for Go
+brew "golangci-lint"
 # Deliver Go binaries as fast and easily as possible
 brew "goreleaser"
 # Make JSON greppable
@@ -198,6 +200,8 @@ brew "httpie"
 brew "jnv"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Handy way to save and run project-specific commands
+brew "just"
 # Modern load testing tool, using Go and JavaScript
 brew "k6"
 # Kubernetes CLI To Manage Your Clusters In Style!
@@ -346,6 +350,8 @@ cask "burp-suite"
 cask "cap"
 # Anthropic's official Claude AI desktop app
 cask "claude"
+# Terminal-based AI coding assistant
+cask "claude-code"
 # Brings the power of Copilot coding agent directly to your terminal
 cask "copilot-cli"
 # Control your Elgato key lights
@@ -423,5 +429,7 @@ vscode "github.copilot"
 vscode "github.copilot-chat"
 go "github.com/raisedadead/git-wt/cmd/git-wt"
 go "golang.org/x/tools/gopls"
+go "gotest.tools/gotestsum"
 go "github.com/grafana/grafanactl/cmd/grafanactl"
+go "github.com/evilmartians/lefthook"
 go "honnef.co/go/tools/cmd/staticcheck"
