@@ -90,8 +90,6 @@ brew "coreutils"
 brew "cryptography"
 # HTTP/2 C Library
 brew "libnghttp2"
-# Tool for downloading RTMP streaming media
-brew "rtmpdump"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Load/unload environment variables based on $PWD
@@ -206,12 +204,8 @@ brew "just"
 brew "k6"
 # Kubernetes CLI To Manage Your Clusters In Style!
 brew "k9s"
-# Package manager for kubectl plugins
-brew "krew"
 # Template-free customization of Kubernetes YAML manifests
 brew "kustomize"
-# Lazier way to manage everything docker
-brew "lazydocker"
 # Simple terminal UI for git commands
 brew "lazygit"
 # CBOR protocol implementation for C and others
@@ -266,6 +260,8 @@ brew "rclone"
 brew "resvg"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Tool for downloading RTMP streaming media
+brew "rtmpdump"
 # Safe, concurrent, practical language
 brew "rust"
 # Command-line tool for the Amazon S3 service
@@ -334,10 +330,6 @@ cask "1password"
 cask "1password-cli"
 # Image editing and design software
 cask "affinity"
-# Runbook editor for terminal workflows
-cask "atuin-desktop"
-# Tool to flash OS images to SD cards & USB drives
-cask "balenaetcher"
 # Cross platform SQL editor and database management app
 cask "beekeeper-studio"
 # Display management tool
@@ -361,20 +353,16 @@ cask "elgato-stream-deck"
 cask "font-symbols-only-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Git client for simultaneous branches on top of your existing workflow
+cask "gitbutler"
 # Web browser
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
-# Development environment
-cask "hashicorp/tap/hashicorp-vagrant"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Menu bar manager
 cask "jordanbaird-ice"
-# lazyworktree - A TUI tool to manage git worktrees
-cask "chmouel/lazyworktree/lazyworktree"
-# Wallet desktop application to maintain multiple cryptocurrencies
-cask "ledger-wallet"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
 # Interactive tool for analyzing MongoDB data
@@ -389,8 +377,6 @@ cask "raspberry-pi-imager"
 cask "raycast"
 # Window snapping tool
 cask "rectangle-pro"
-# Real-time Noise Suppression Plugin
-cask "rnnoise"
 # Screenshot measurement and annotation tool
 cask "shottr"
 # Sound and audio controller
@@ -399,16 +385,12 @@ cask "soundsource"
 cask "spacelauncher"
 # Music streaming service
 cask "spotify"
-# Video game digital distribution service
-cask "steam"
 # Mesh VPN based on WireGuard
 cask "tailscale-app"
 # Virtualiser for arm64 hardware
 cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
-# GPU-accelerated cross-platform terminal emulator and multiplexer
-cask "wezterm"
 # Native desktop client for WhatsApp
 cask "whatsapp"
 mas "1Password for Safari", id: 1569813296
@@ -425,11 +407,10 @@ mas "Tot", id: 1491071483
 mas "Unsplash Wallpapers", id: 1284863847
 mas "Velja", id: 1607635845
 vscode "anthropic.claude-code"
-vscode "github.copilot"
 vscode "github.copilot-chat"
-go "github.com/raisedadead/git-wt/cmd/git-wt"
 go "golang.org/x/tools/gopls"
 go "gotest.tools/gotestsum"
 go "github.com/grafana/grafanactl/cmd/grafanactl"
 go "github.com/evilmartians/lefthook"
 go "honnef.co/go/tools/cmd/staticcheck"
+go "github.com/raisedadead/wt/cmd/wt"
