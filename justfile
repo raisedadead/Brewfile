@@ -102,7 +102,9 @@ dump-no-mas-vscode: check-brew backup-brewfile
 
 # Show uncommitted Brewfile changes
 diff:
-    @git diff {{ brewfile }} 2>/dev/null || echo "No git repository or Brewfile not tracked"
+    #!/usr/bin/env bash
+    output=$(git diff {{ brewfile }} 2>/dev/null) || { echo "No git repository or Brewfile not tracked"; exit 0; }
+    [ -z "$output" ] && echo "No uncommitted changes." || echo "$output"
 
 # Git commit Brewfile with date
 commit:
@@ -114,24 +116,27 @@ commit:
     fi
 
 # Push changes (with remote update check)
+[no-exit-message]
 push:
     #!/usr/bin/env bash
     set -euo pipefail
+    git remote get-url origin >/dev/null 2>&1 || { echo "Error: no 'origin' remote configured"; exit 1; }
+    BRANCH=$(git branch --show-current)
+    [ -z "$BRANCH" ] && { echo "Error: not on a branch (detached HEAD)"; exit 1; }
     echo "Fetching remote changes..."
     git fetch origin
-    BRANCH=$(git branch --show-current)
-    REMOTE_AHEAD=$(git rev-list --count HEAD..origin/$BRANCH 2>/dev/null || echo 0)
-    if [ $REMOTE_AHEAD -gt 0 ]; then
+    REMOTE_AHEAD=$(git rev-list --count "HEAD..origin/$BRANCH" 2>/dev/null || echo 0)
+    if [ "$REMOTE_AHEAD" -gt 0 ]; then
         echo "Remote has $REMOTE_AHEAD new commit(s), rebasing..."
-        git rebase origin/$BRANCH || {
+        git rebase "origin/$BRANCH" || {
             echo "Rebase failed. Resolve conflicts and run 'git rebase --continue'"
             exit 1
         }
     fi
-    LOCAL_AHEAD=$(git rev-list --count origin/$BRANCH..HEAD 2>/dev/null || echo 0)
-    if [ $LOCAL_AHEAD -gt 0 ]; then
+    LOCAL_AHEAD=$(git rev-list --count "origin/$BRANCH..HEAD" 2>/dev/null || echo 0)
+    if [ "$LOCAL_AHEAD" -gt 0 ]; then
         echo "Pushing $LOCAL_AHEAD commit(s)..."
-        git push origin $BRANCH
+        git push origin "$BRANCH"
     else
         echo "Already in sync."
     fi
@@ -148,11 +153,11 @@ sync: push
 update: check-brew
     brew update
     brew upgrade
-    brew upgrade --cask
     brew cleanup
     @-brew doctor
 
 # Remove unused dependencies (with confirmation)
+[no-exit-message]
 clean: check-brew
     #!/usr/bin/env bash
     set -euo pipefail
@@ -160,7 +165,7 @@ clean: check-brew
     brew bundle cleanup --file={{ brewfile }} || true
     echo ""
     printf "Remove these packages? [y/N] "
-    read -r confirm
+    read -r confirm || confirm=""
     if [ "$confirm" = "y" ]; then
         brew bundle cleanup --force --file={{ brewfile }}
         brew autoremove
@@ -194,15 +199,19 @@ doctor: check-brew
     @-brew doctor
 
 # Interactive package removal
+[no-exit-message]
 uninstall: deps
     #!/usr/bin/env bash
     set -euo pipefail
-    TYPE=$(gum choose "brew formulas" "brew casks" "mas apps")
+    TYPE=$(gum choose "brew formulas" "brew casks" "mas apps") || { echo "Cancelled."; exit 0; }
+    declare -a FAILED=()
     case "$TYPE" in
         "brew formulas")
             SELECTED=$(brew list --formula | gum filter --no-limit) || true
             if [ -n "$SELECTED" ]; then
-                echo "$SELECTED" | xargs -n 1 brew uninstall
+                while IFS= read -r pkg; do
+                    brew uninstall "$pkg" || FAILED+=("$pkg")
+                done <<< "$SELECTED"
             else
                 echo "No formulas selected"
             fi
@@ -210,20 +219,30 @@ uninstall: deps
         "brew casks")
             SELECTED=$(brew list --cask | gum filter --no-limit) || true
             if [ -n "$SELECTED" ]; then
-                echo "$SELECTED" | xargs -n 1 brew uninstall --cask
+                while IFS= read -r pkg; do
+                    brew uninstall --cask "$pkg" || FAILED+=("$pkg")
+                done <<< "$SELECTED"
             else
                 echo "No casks selected"
             fi
             ;;
         "mas apps")
+            command -v mas >/dev/null 2>&1 || { echo "Error: mas is not installed. Run 'brew install mas'"; exit 1; }
             SELECTED=$(mas list | gum filter --no-limit | awk '{print $1}') || true
             if [ -n "$SELECTED" ]; then
-                echo "$SELECTED" | sudo xargs -n 1 mas uninstall
+                while IFS= read -r pkg; do
+                    sudo mas uninstall "$pkg" || FAILED+=("$pkg")
+                done <<< "$SELECTED"
             else
                 echo "No apps selected"
             fi
             ;;
     esac
+    if [ "${#FAILED[@]}" -gt 0 ]; then
+        echo ""
+        echo "Failed to uninstall: ${FAILED[*]}"
+        exit 1
+    fi
 
 # List installed packages (formulas, casks, or all)
 list type="all": check-brew
@@ -235,8 +254,12 @@ list type="all": check-brew
         formulas)
             brew list --formula
             ;;
-        *)
+        all)
             brew list
+            ;;
+        *)
+            echo "Unknown type '{{ type }}'. Use: formulas, casks, or all"
+            exit 1
             ;;
     esac
 
