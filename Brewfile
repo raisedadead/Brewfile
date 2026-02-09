@@ -325,6 +325,8 @@ brew "hashicorp/tap/terraform"
 brew "hudochenkov/sshpass/sshpass"
 # A TUI dashboard for AI coding agents
 brew "marcus/tap/sidecar"
+# Task management CLI for AI-assisted development
+brew "marcus/tap/td"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
 # Supabase CLI
