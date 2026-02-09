@@ -8,6 +8,7 @@ tap "garrettkrohn/treekanga"
 tap "getsentry/tools"
 tap "hashicorp/tap"
 tap "hudochenkov/sshpass"
+tap "marcus/tap"
 tap "meltylabs/tap"
 tap "oven-sh/bun"
 tap "supabase/tap"
@@ -80,6 +81,12 @@ brew "certifi"
 brew "cf-terraforming"
 # Cut, copy, and paste anything, anywhere, all from the terminal
 brew "clipboard"
+# HTTP/2 C Library
+brew "libnghttp2"
+# Command-line interface for SQLite
+brew "sqlite"
+# CLI tool for Cloudflare Workers
+brew "cloudflare-wrangler"
 # Cross-platform make
 brew "cmake"
 # GNU multiple precision arithmetic library
@@ -88,8 +95,6 @@ brew "gmp"
 brew "coreutils"
 # Cryptographic recipes and primitives for Python
 brew "cryptography"
-# HTTP/2 C Library
-brew "libnghttp2"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Load/unload environment variables based on $PWD
@@ -128,8 +133,6 @@ brew "libmpc"
 brew "gcc"
 # GNU database manager
 brew "gdbm"
-# Command-line interface for SQLite
-brew "sqlite"
 # Interact with Google Gemini AI models from the command-line
 brew "gemini-cli"
 # GitHub command-line tool
@@ -320,6 +323,8 @@ brew "getsentry/tools/sentry-cli"
 # Terraform
 brew "hashicorp/tap/terraform"
 brew "hudochenkov/sshpass/sshpass"
+# A TUI dashboard for AI coding agents
+brew "marcus/tap/sidecar"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
 # Supabase CLI
@@ -330,6 +335,8 @@ cask "1password"
 cask "1password-cli"
 # Image editing and design software
 cask "affinity"
+# AI Coding Agent IDE
+cask "antigravity"
 # Cross platform SQL editor and database management app
 cask "beekeeper-studio"
 # Display management tool
@@ -406,8 +413,6 @@ mas "Structured", id: 1499198946
 mas "Tot", id: 1491071483
 mas "Unsplash Wallpapers", id: 1284863847
 mas "Velja", id: 1607635845
-vscode "anthropic.claude-code"
-vscode "github.copilot-chat"
 go "golang.org/x/tools/gopls"
 go "gotest.tools/gotestsum"
 go "github.com/grafana/grafanactl/cmd/grafanactl"
