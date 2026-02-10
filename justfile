@@ -35,6 +35,7 @@ help:
     @echo ""
     @echo "Status & Info:"
     @echo "  just check                - Check if system matches Brewfile"
+    @echo "  just drift                - Show packages not yet in Brewfile"
     @echo "  just doctor               - Run brew doctor"
     @echo "  just list [TYPE]          - List packages (formulas|casks|all)"
     @echo "  just outdated             - Show outdated packages"
@@ -42,10 +43,8 @@ help:
     @echo "  just diff                 - Show uncommitted Brewfile changes"
     @echo ""
     @echo "File Management:"
-    @echo "  just dump                 - Dump everything to Brewfile"
-    @echo "  just dump-no-mas          - Dump everything except Mac App Store"
-    @echo "  just dump-no-vscode       - Dump everything except VS Code extensions"
-    @echo "  just dump-no-mas-vscode   - Dump everything except MAS & VS Code"
+    @echo "  just save                 - Dump + commit + push (one-shot sync)"
+    @echo "  just dump                 - Dump to Brewfile (interactive picker)"
     @echo "  just clean-backup         - Remove Brewfile.bak"
     @echo "  just commit               - Git commit Brewfile"
     @echo "  just push                 - Push changes (with remote update check)"
@@ -80,21 +79,20 @@ install-no-mas-vscode: check-brew
 backup-brewfile:
     @[ -f {{ brewfile }} ] && cp {{ brewfile }} {{ brewfile }}.bak || true
 
-# Dump everything to Brewfile
+# Dump installed packages to Brewfile (interactive)
+[no-exit-message]
 dump: check-brew backup-brewfile
-    brew bundle dump --force --describe --file={{ brewfile }}
-
-# Dump everything except Mac App Store apps
-dump-no-mas: check-brew backup-brewfile
-    brew bundle dump --force --describe --no-mas --file={{ brewfile }}
-
-# Dump everything except VS Code extensions
-dump-no-vscode: check-brew backup-brewfile
-    brew bundle dump --force --describe --no-vscode --file={{ brewfile }}
-
-# Dump everything except MAS & VS Code
-dump-no-mas-vscode: check-brew backup-brewfile
-    brew bundle dump --force --describe --no-mas --no-vscode --file={{ brewfile }}
+    #!/usr/bin/env bash
+    set -euo pipefail
+    command -v gum >/dev/null 2>&1 || { echo "Error: gum is not installed. Run 'brew install gum'"; exit 1; }
+    MODE=$(gum choose "Everything" "Skip Mac App Store" "Skip VS Code extensions" "Skip MAS & VS Code") || { echo "Cancelled."; exit 0; }
+    FLAGS=(--force --describe --file={{ brewfile }})
+    case "$MODE" in
+        "Skip Mac App Store")       FLAGS+=(--no-mas) ;;
+        "Skip VS Code extensions")  FLAGS+=(--no-vscode) ;;
+        "Skip MAS & VS Code")       FLAGS+=(--no-mas --no-vscode) ;;
+    esac
+    brew bundle dump "${FLAGS[@]}"
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Git Recipes
@@ -140,6 +138,9 @@ push:
     else
         echo "Already in sync."
     fi
+
+# Dump, commit, and push Brewfile in one shot
+save: dump commit push
 
 # Alias for push
 sync: push
@@ -192,6 +193,31 @@ check: check-brew
         echo ""
         echo "→ Run 'just install' to satisfy missing dependencies."
     fi
+
+# Show packages installed but not in Brewfile (and vice versa)
+drift: check-brew
+    #!/usr/bin/env bash
+    TMPFILE=$(mktemp)
+    trap "rm -f $TMPFILE" EXIT
+    brew bundle dump --force --describe --file="$TMPFILE"
+    DRIFT=$(diff <(grep -v '^#\|^$' {{ brewfile }} | sort) <(grep -v '^#\|^$' "$TMPFILE" | sort) || true)
+    if [ -z "$DRIFT" ]; then
+        echo "Brewfile is in sync with installed packages."
+        exit 0
+    fi
+    ADDED=$(echo "$DRIFT" | grep '^> ' | sed 's/^> /  /' || true)
+    REMOVED=$(echo "$DRIFT" | grep '^< ' | sed 's/^< /  /' || true)
+    if [ -n "$ADDED" ]; then
+        echo "Installed but not in Brewfile:"
+        echo "$ADDED"
+    fi
+    if [ -n "$REMOVED" ]; then
+        [ -n "$ADDED" ] && echo ""
+        echo "In Brewfile but not installed:"
+        echo "$REMOVED"
+    fi
+    echo ""
+    echo "→ Run 'just save' to reconcile."
 
 # Run brew doctor
 [no-exit-message]
