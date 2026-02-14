@@ -152,26 +152,62 @@ sync: push
 # Update all packages, cleanup, and run doctor
 [no-exit-message]
 update: check-brew
+    #!/usr/bin/env bash
+    set -uo pipefail
     brew update
-    brew upgrade
+    brew upgrade || echo "Some packages failed to upgrade (see above)."
     brew cleanup
-    @-brew doctor
+    brew doctor || true
 
 # Remove unused dependencies (with confirmation)
 [no-exit-message]
 clean: check-brew
     #!/usr/bin/env bash
     set -euo pipefail
-    echo "Packages not in Brewfile:"
-    brew bundle cleanup --file={{ brewfile }} || true
-    echo ""
-    printf "Remove these packages? [y/N] "
-    read -r confirm || confirm=""
-    if [ "$confirm" = "y" ]; then
-        brew bundle cleanup --force --file={{ brewfile }}
-        brew autoremove
-    else
-        echo "Aborted."
+    EXTRA=$(brew bundle cleanup --file={{ brewfile }} 2>/dev/null || true)
+    MISSING=$(brew bundle check --file={{ brewfile }} 2>&1 | grep "needs to be installed" || true)
+    if [ -z "$EXTRA" ] && [ -z "$MISSING" ]; then
+        echo "Everything is in sync."
+        exit 0
+    fi
+    if [ -n "$EXTRA" ]; then
+        echo "Installed but not in Brewfile:"
+        echo "$EXTRA"
+        echo ""
+    fi
+    if [ -n "$MISSING" ]; then
+        echo "In Brewfile but not installed:"
+        echo "$MISSING"
+        echo ""
+    fi
+    ACTIONS=()
+    if [ -n "$EXTRA" ]; then
+        printf "Remove extra packages? [y/N] "
+        read -r confirm || confirm=""
+        if [ "$confirm" = "y" ]; then
+            ACTIONS+=("remove")
+        fi
+    fi
+    if [ -n "$MISSING" ]; then
+        printf "Install missing packages? [y/N] "
+        read -r confirm || confirm=""
+        if [ "$confirm" = "y" ]; then
+            ACTIONS+=("install")
+        fi
+    fi
+    for action in "${ACTIONS[@]}"; do
+        case "$action" in
+            remove)
+                brew bundle cleanup --force --file={{ brewfile }}
+                brew autoremove
+                ;;
+            install)
+                brew bundle install --file={{ brewfile }}
+                ;;
+        esac
+    done
+    if [ "${#ACTIONS[@]}" -eq 0 ]; then
+        echo "No changes made."
     fi
 
 # Remove Brewfile.bak
