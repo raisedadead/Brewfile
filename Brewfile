@@ -374,8 +374,6 @@ cask "soundsource"
 cask "spacelauncher"
 # Music streaming service
 cask "spotify"
-# Dictation tool including LLM reformatting
-cask "superwhisper"
 # Mesh VPN based on WireGuard
 cask "tailscale-app"
 # Virtualiser for arm64 hardware
