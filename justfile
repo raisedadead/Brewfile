@@ -20,7 +20,7 @@ check-brew:
 deps: check-brew
     @command -v gum >/dev/null 2>&1 || { echo "Error: gum is not installed. Run 'brew install gum'"; exit 1; }
     @command -v xargs >/dev/null 2>&1 || { echo "Error: xargs is not installed"; exit 1; }
-    @echo "All dependencies are installed"
+    @true
 
 # Show available recipes
 help:
@@ -265,7 +265,7 @@ doctor: check-brew
 uninstall: deps
     #!/usr/bin/env bash
     set -euo pipefail
-    TYPE=$(gum choose "brew formulas" "brew casks" "mas apps") || { echo "Cancelled."; exit 0; }
+    TYPE=$(gum choose "brew formulas" "brew casks" "brew taps" "mas apps") || { echo "Cancelled."; exit 0; }
     declare -a FAILED=()
     case "$TYPE" in
         "brew formulas")
@@ -286,6 +286,25 @@ uninstall: deps
                 done <<< "$SELECTED"
             else
                 echo "No casks selected"
+            fi
+            ;;
+        "brew taps")
+            SELECTED=$(brew tap | gum filter --no-limit) || true
+            if [ -n "$SELECTED" ]; then
+                while IFS= read -r pkg; do
+                    DEPS=$(brew list --full-name | grep "^${pkg}/" || true)
+                    if [ -n "$DEPS" ]; then
+                        echo "Tap $pkg has installed packages:"
+                        echo "$DEPS" | sed 's/^/  /'
+                        echo "Uninstalling them first..."
+                        while IFS= read -r dep; do
+                            brew uninstall "$dep" || FAILED+=("$dep")
+                        done <<< "$DEPS"
+                    fi
+                    brew untap "$pkg" || FAILED+=("$pkg")
+                done <<< "$SELECTED"
+            else
+                echo "No taps selected"
             fi
             ;;
         "mas apps")
