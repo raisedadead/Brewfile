@@ -1,18 +1,8 @@
 tap "auth0/auth0-cli"
-tap "beeftornado/rmtree"
-tap "chmouel/lazyworktree", "https://github.com/chmouel/lazyworktree"
 tap "cloudflare/cloudflare"
-tap "dotenvx/brew"
-tap "electrikmilk/cherri"
-tap "garrettkrohn/treekanga"
-tap "getsentry/tools"
 tap "hashicorp/tap"
-tap "hudochenkov/sshpass"
-tap "marcus/tap"
-tap "meltylabs/tap"
 tap "oven-sh/bun"
 tap "supabase/tap"
-tap "tw93/tap"
 # Simple, modern, secure file encryption
 brew "age"
 # Code searching, linting, rewriting
@@ -315,18 +305,8 @@ brew "zsh"
 brew "zsh-completions"
 # Build, manage and test your Auth0 integrations from the command line
 brew "auth0/auth0-cli/auth0"
-brew "beeftornado/rmtree/brew-rmtree"
-# Siri Shortcuts programming language
-brew "electrikmilk/cherri/cherri"
-# Sentry command-line client for some generic tasks
-brew "getsentry/tools/sentry-cli"
 # Terraform
 brew "hashicorp/tap/terraform"
-brew "hudochenkov/sshpass/sshpass"
-# A TUI dashboard for AI coding agents
-brew "marcus/tap/sidecar"
-# Task management CLI for AI-assisted development
-brew "marcus/tap/td"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
 # Supabase CLI
@@ -337,8 +317,6 @@ cask "1password"
 cask "1password-cli"
 # Image editing and design software
 cask "affinity"
-# AI Coding Agent IDE
-cask "antigravity"
 # Cross platform SQL editor and database management app
 cask "beekeeper-studio"
 # Display management tool
@@ -361,8 +339,6 @@ cask "copilot-cli"
 cask "elgato-control-center"
 # Assign keys, and then decorate and label them
 cask "elgato-stream-deck"
-# Collaborative team software
-cask "figma"
 cask "font-symbols-only-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
