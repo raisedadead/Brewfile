@@ -2,6 +2,7 @@ tap "auth0/auth0-cli"
 tap "cloudflare/cloudflare"
 tap "hashicorp/tap"
 tap "oven-sh/bun"
+tap "raisedadead/tap"
 tap "supabase/tap"
 # Simple, modern, secure file encryption
 brew "age"
@@ -329,8 +330,6 @@ cask "cap"
 cask "claude"
 # Terminal-based AI coding assistant
 cask "claude-code"
-# Dynamic Island-style notifications for Claude Code CLI sessions
-cask "claude-island"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
 # Brings the power of Copilot coding agent directly to your terminal
@@ -382,6 +381,8 @@ cask "virtualbox"
 cask "visual-studio-code"
 # Native desktop client for WhatsApp
 cask "whatsapp"
+# Git worktree manager with bare repo support
+cask "raisedadead/tap/wt"
 mas "1Password for Safari", id: 1569813296
 mas "Command X", id: 6448461551
 mas "Cursor Pro", id: 1447043133
@@ -442,4 +443,3 @@ go "gotest.tools/gotestsum"
 go "github.com/grafana/grafanactl/cmd/grafanactl"
 go "github.com/evilmartians/lefthook"
 go "honnef.co/go/tools/cmd/staticcheck"
-go "github.com/raisedadead/wt/cmd/wt"
