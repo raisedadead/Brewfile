@@ -1,6 +1,7 @@
 tap "auth0/auth0-cli"
 tap "cloudflare/cloudflare"
 tap "hashicorp/tap"
+tap "nikitabobko/tap"
 tap "oven-sh/bun"
 tap "raisedadead/tap"
 tap "supabase/tap"
@@ -238,6 +239,8 @@ brew "neovim"
 brew "ninja"
 # Port scanning utility for large networks
 brew "nmap"
+# Prompt theme engine for any shell
+brew "oh-my-posh"
 # Perl compatible regular expressions library
 brew "pcre"
 # Package compiler and linker metadata toolkit
@@ -383,6 +386,8 @@ cask "visual-studio-code"
 cask "whatsapp"
 # Git worktree manager with bare repo support
 cask "raisedadead/tap/wt"
+# Multiplayer code editor
+cask "zed"
 mas "1Password for Safari", id: 1569813296
 mas "Command X", id: 6448461551
 mas "Cursor Pro", id: 1447043133
