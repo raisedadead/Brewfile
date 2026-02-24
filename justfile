@@ -45,6 +45,7 @@ help:
     @echo "File Management:"
     @echo "  just save                 - Dump + commit + push (one-shot sync)"
     @echo "  just dump                 - Dump to Brewfile (interactive picker)"
+    @echo "  just dump --all           - Dump everything (skip prompt)"
     @echo "  just clean-backup         - Remove Brewfile.bak"
     @echo "  just commit               - Git commit Brewfile"
     @echo "  just push                 - Push changes (with remote update check)"
@@ -79,14 +80,18 @@ install-no-mas-vscode: check-brew
 backup-brewfile:
     @[ -f {{ brewfile }} ] && cp {{ brewfile }} {{ brewfile }}.bak || true
 
-# Dump installed packages to Brewfile (interactive)
+# Dump installed packages to Brewfile (interactive, or --all to skip prompt)
 [no-exit-message]
-dump: check-brew backup-brewfile
+dump *args="": check-brew backup-brewfile
     #!/usr/bin/env bash
     set -euo pipefail
-    command -v gum >/dev/null 2>&1 || { echo "Error: gum is not installed. Run 'brew install gum'"; exit 1; }
-    MODE=$(gum choose "Everything" "Skip Mac App Store" "Skip VS Code extensions" "Skip MAS & VS Code") || { echo "Cancelled."; exit 0; }
     FLAGS=(--force --describe --file={{ brewfile }})
+    if [[ "{{ args }}" == *"--all"* ]]; then
+        MODE="Everything"
+    else
+        command -v gum >/dev/null 2>&1 || { echo "Error: gum is not installed. Run 'brew install gum'"; exit 1; }
+        MODE=$(gum choose "Everything" "Skip Mac App Store" "Skip VS Code extensions" "Skip MAS & VS Code") || { echo "Cancelled."; exit 0; }
+    fi
     case "$MODE" in
         "Skip Mac App Store")       FLAGS+=(--no-mas) ;;
         "Skip VS Code extensions")  FLAGS+=(--no-vscode) ;;
@@ -140,7 +145,7 @@ push:
     fi
 
 # Dump, commit, and push Brewfile in one shot
-save: dump commit push
+save: (dump "--all") commit push
 
 # Alias for push
 sync: push
