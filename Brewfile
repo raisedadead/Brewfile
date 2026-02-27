@@ -1,4 +1,5 @@
 tap "auth0/auth0-cli"
+tap "charmbracelet/tap"
 tap "cloudflare/cloudflare"
 tap "hashicorp/tap"
 tap "nikitabobko/tap"
@@ -309,6 +310,8 @@ brew "zsh"
 brew "zsh-completions"
 # Build, manage and test your Auth0 integrations from the command line
 brew "auth0/auth0-cli/auth0"
+# A powerful terminal-based AI assistant for developers, providing intelligent coding assistance directly in your terminal.
+brew "charmbracelet/tap/crush"
 # Terraform
 brew "hashicorp/tap/terraform"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
@@ -446,6 +449,7 @@ vscode "ziglang.vscode-zig"
 go "golang.org/x/tools/gopls"
 go "gotest.tools/gotestsum"
 go "github.com/grafana/grafanactl/cmd/grafanactl"
+go "github.com/kencx/keyb"
 go "github.com/evilmartians/lefthook"
 go "honnef.co/go/tools/cmd/staticcheck"
 uv "specify-cli"
