@@ -6,6 +6,12 @@ tap "nikitabobko/tap"
 tap "oven-sh/bun"
 tap "raisedadead/tap"
 tap "supabase/tap"
+# GNU multiple precision arithmetic library
+brew "gmp"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
+# Static checker for GitHub Actions workflow files
+brew "actionlint"
 # Simple, modern, secure file encryption
 brew "age"
 # Code searching, linting, rewriting
@@ -82,8 +88,6 @@ brew "sqlite"
 brew "cloudflare-wrangler"
 # Cross-platform make
 brew "cmake"
-# GNU multiple precision arithmetic library
-brew "gmp"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Cryptographic recipes and primitives for Python
@@ -266,8 +270,6 @@ brew "rust"
 brew "s3cmd"
 # 7-Zip is a file archiver with a high compression ratio
 brew "sevenzip"
-# Static analysis and lint tool, for (ba)sh scripts
-brew "shellcheck"
 # Cross-shell prompt for astronauts
 brew "starship"
 # User interface to the TELNET protocol
@@ -324,6 +326,8 @@ cask "1password"
 cask "1password-cli"
 # Image editing and design software
 cask "affinity"
+# Runbook editor for terminal workflows
+cask "atuin-desktop"
 # Cross platform SQL editor and database management app
 cask "beekeeper-studio"
 # Display management tool
