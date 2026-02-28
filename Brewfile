@@ -76,8 +76,6 @@ brew "zstd"
 brew "ccache"
 # Mozilla CA bundle for Python
 brew "certifi"
-# CLI to facilitate terraforming your existing Cloudflare resources
-brew "cf-terraforming"
 # Cut, copy, and paste anything, anywhere, all from the terminal
 brew "clipboard"
 # HTTP/2 C Library
@@ -276,8 +274,6 @@ brew "telnet"
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
-# Network diagnostic tool, inspired by mtr
-brew "trippy"
 # Minimal terminal-based typing speed tester
 brew "typtea"
 # Extremely fast Python package installer and resolver, written in Rust
@@ -294,8 +290,6 @@ brew "wget"
 brew "whois"
 # Library to create, extract, and modify Windows Imaging files
 brew "wimlib"
-# Single entrypoint for multiple SSH endpoints
-brew "wishlist"
 # Blazing fast terminal file manager written in Rust, based on async I/O
 brew "yazi"
 # Process YAML, JSON, XML, CSV and properties documents from the CLI
@@ -308,8 +302,6 @@ brew "zoxide"
 brew "zsh"
 # Additional completion definitions for zsh
 brew "zsh-completions"
-# Build, manage and test your Auth0 integrations from the command line
-brew "auth0/auth0-cli/auth0"
 # Terraform
 brew "hashicorp/tap/terraform"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
@@ -322,8 +314,6 @@ cask "1password"
 cask "1password-cli"
 # Image editing and design software
 cask "affinity"
-# Runbook editor for terminal workflows
-cask "atuin-desktop"
 # Cross platform SQL editor and database management app
 cask "beekeeper-studio"
 # Display management tool
@@ -336,8 +326,6 @@ cask "cap"
 cask "claude"
 # Terminal-based AI coding assistant
 cask "claude-code"
-# Brings the power of Copilot coding agent directly to your terminal
-cask "copilot-cli"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # Control your Elgato key lights
