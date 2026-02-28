@@ -296,6 +296,8 @@ brew "yazi"
 brew "yq"
 # Programming language designed for robustness, optimality, and clarity
 brew "zig"
+# Find security issues in GitHub Actions setups
+brew "zizmor"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # UNIX shell (command interpreter)
