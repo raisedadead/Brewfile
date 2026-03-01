@@ -98,8 +98,6 @@ brew "direnv"
 brew "doctl"
 # Command-line DNS Client for Humans
 brew "doggo"
-# Terminal application to manage Docker and Docker Swarm
-brew "dry"
 # Command-line tool to interact with exercism.io
 brew "exercism"
 # Modern, maintained replacement for ls
