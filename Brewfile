@@ -14,6 +14,14 @@ brew "shellcheck"
 brew "actionlint"
 # Simple, modern, secure file encryption
 brew "age"
+# Generic-purpose lossless compression algorithm by Google
+brew "brotli"
+# Extremely Fast Compression algorithm
+brew "lz4"
+# General-purpose data compression with high compression ratio
+brew "xz"
+# Zstandard is a real-time compression algorithm
+brew "zstd"
 # Code searching, linting, rewriting
 brew "ast-grep"
 # Improved shell history for zsh, bash, fish and nushell
@@ -46,8 +54,6 @@ brew "libgit2"
 brew "oniguruma"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Generic-purpose lossless compression algorithm by Google
-brew "brotli"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
 # Asynchronous DNS library
@@ -66,12 +72,6 @@ brew "libxcb"
 brew "libx11"
 # X.Org: Library for common extensions to the X11 protocol
 brew "libxext"
-# Extremely Fast Compression algorithm
-brew "lz4"
-# General-purpose data compression with high compression ratio
-brew "xz"
-# Zstandard is a real-time compression algorithm
-brew "zstd"
 # Object-file caching compiler wrapper
 brew "ccache"
 # Mozilla CA bundle for Python
@@ -100,6 +100,8 @@ brew "doctl"
 brew "doggo"
 # Command-line tool to interact with exercism.io
 brew "exercism"
+# Perl lib for reading and writing EXIF metadata
+brew "exiftool"
 # Modern, maintained replacement for ls
 brew "eza"
 # Like neofetch, but much faster because written mostly in C
@@ -188,6 +190,10 @@ brew "homeshick"
 brew "python@3.14"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
+# Tools and libraries to manipulate images in select formats
+brew "imagemagick"
 # Interactive JSON filter using jq
 brew "jnv"
 # Lightweight and flexible command-line JSON processor
@@ -280,8 +286,6 @@ brew "uv"
 brew "vcpkg"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
-# Image format providing lossless and lossy compression for web images
-brew "webp"
 # Internet file retriever
 brew "wget"
 # Lookup tool for domain names and other internet resources
@@ -326,6 +330,8 @@ cask "cap"
 cask "claude"
 # Terminal-based AI coding assistant
 cask "claude-code"
+# Ghostty-based terminal with vertical tabs and notifications for AI coding agents
+cask "cmux"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # Control your Elgato key lights
