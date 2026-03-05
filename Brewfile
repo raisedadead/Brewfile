@@ -341,8 +341,6 @@ cask "elgato-stream-deck"
 cask "font-symbols-only-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
-# Git client for simultaneous branches on top of your existing workflow
-cask "gitbutler"
 # Web browser
 cask "google-chrome"
 # Client for the Google Drive storage service
