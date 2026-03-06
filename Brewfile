@@ -184,12 +184,12 @@ brew "gron"
 brew "gum"
 # Kubernetes package manager
 brew "helm"
+# HTTP load generator, ApacheBench (ab) replacement
+brew "hey"
 # Git dotfiles synchronizer written in bash
 brew "homeshick"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.14"
-# User-friendly cURL replacement (command-line HTTP client)
-brew "httpie"
+# Curl statistics made simple
+brew "httpstat"
 # Image format providing lossless and lossy compression for web images
 brew "webp"
 # Tools and libraries to manipulate images in select formats
@@ -218,6 +218,8 @@ brew "libxfixes"
 brew "libyaml"
 # C library for reading, creating, and modifying zip archives
 brew "libzip"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
 # CLI for the Linode API
 brew "linode-cli"
 # Access large language models from the command-line
@@ -292,6 +294,8 @@ brew "wget"
 brew "whois"
 # Library to create, extract, and modify Windows Imaging files
 brew "wimlib"
+# Friendly and fast tool for sending HTTP requests
+brew "xh"
 # Blazing fast terminal file manager written in Rust, based on async I/O
 brew "yazi"
 # Process YAML, JSON, XML, CSV and properties documents from the CLI
