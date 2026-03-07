@@ -375,6 +375,8 @@ cask "soundsource"
 cask "spacelauncher"
 # Music streaming service
 cask "spotify"
+# Native database client for MySQL, PostgreSQL, SQLite, and MongoDB
+cask "tablepro"
 # Mesh VPN based on WireGuard
 cask "tailscale-app"
 # Virtualiser for arm64 hardware
