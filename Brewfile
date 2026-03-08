@@ -296,6 +296,8 @@ brew "whois"
 brew "wimlib"
 # Friendly and fast tool for sending HTTP requests
 brew "xh"
+# Linter for YAML files
+brew "yamllint"
 # Blazing fast terminal file manager written in Rust, based on async I/O
 brew "yazi"
 # Process YAML, JSON, XML, CSV and properties documents from the CLI
@@ -373,6 +375,8 @@ cask "soundsource"
 cask "spacelauncher"
 # Music streaming service
 cask "spotify"
+# Video game digital distribution service
+cask "steam"
 # Mesh VPN based on WireGuard
 cask "tailscale-app"
 # Virtualiser for arm64 hardware
