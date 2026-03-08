@@ -334,8 +334,6 @@ cask "cap"
 cask "claude"
 # Terminal-based AI coding assistant
 cask "claude-code"
-# Ghostty-based terminal with vertical tabs and notifications for AI coding agents
-cask "cmux"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # Control your Elgato key lights
