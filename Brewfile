@@ -1,6 +1,7 @@
 tap "auth0/auth0-cli"
 tap "charmbracelet/tap"
 tap "cloudflare/cloudflare"
+tap "electrikmilk/cherri"
 tap "hashicorp/tap"
 tap "nikitabobko/tap"
 tap "oven-sh/bun"
@@ -54,6 +55,8 @@ brew "libgit2"
 brew "oniguruma"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Memory upgrade for your coding agent
+brew "beads"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
 # Asynchronous DNS library
@@ -270,6 +273,8 @@ brew "rtmpdump"
 brew "rust"
 # Command-line tool for the Amazon S3 service
 brew "s3cmd"
+# Smart session manager for the terminal
+brew "sesh"
 # 7-Zip is a file archiver with a high compression ratio
 brew "sevenzip"
 # Cross-shell prompt for astronauts
@@ -312,6 +317,8 @@ brew "zoxide"
 brew "zsh"
 # Additional completion definitions for zsh
 brew "zsh-completions"
+# Siri Shortcuts programming language
+brew "electrikmilk/cherri/cherri"
 # Terraform
 brew "hashicorp/tap/terraform"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
