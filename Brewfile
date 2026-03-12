@@ -287,6 +287,10 @@ brew "telnet"
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Incremental parsing library
+brew "tree-sitter"
+# Parser generator tool
+brew "tree-sitter-cli"
 # Minimal terminal-based typing speed tester
 brew "typtea"
 # Extremely fast Python package installer and resolver, written in Rust
