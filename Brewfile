@@ -101,6 +101,8 @@ brew "direnv"
 brew "doctl"
 # Command-line DNS Client for Humans
 brew "doggo"
+# Select default apps for documents and URL schemes on macOS
+brew "duti"
 # Command-line tool to interact with exercism.io
 brew "exercism"
 # Perl lib for reading and writing EXIF metadata
