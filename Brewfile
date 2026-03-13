@@ -297,6 +297,8 @@ brew "typtea"
 brew "uv"
 # C++ Library Manager
 brew "vcpkg"
+# Pager/text based browser
+brew "w3m"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # Internet file retriever
