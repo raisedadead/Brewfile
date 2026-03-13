@@ -25,7 +25,8 @@ deps: check-brew
 # Show available recipes
 help:
     @echo "Brewfile Management:"
-    @echo "  just install              - Install everything"
+    @echo "  just install PACKAGES      - Install packages via brew"
+    @echo "  just install-brewfile      - Install everything from Brewfile"
     @echo "  just install-no-mas       - Install everything except Mac App Store"
     @echo "  just install-no-vscode    - Install everything except VS Code extensions"
     @echo "  just install-no-mas-vscode - Install everything except MAS & VS Code"
@@ -55,8 +56,12 @@ help:
 # Installation Recipes
 # ─────────────────────────────────────────────────────────────────────────────
 
+# Install a package via brew
+install +packages: check-brew
+    brew install {{ packages }}
+
 # Install everything from Brewfile
-install: check-brew
+install-brewfile: check-brew
     brew bundle install --file={{ brewfile }}
 
 # Install everything except Mac App Store apps
@@ -232,7 +237,7 @@ check: check-brew
     echo "$output"
     if [ $status -ne 0 ]; then
         echo ""
-        echo "→ Run 'just install' to satisfy missing dependencies."
+        echo "→ Run 'just install-brewfile' to satisfy missing dependencies."
     fi
 
 # Show packages installed but not in Brewfile (and vice versa)
