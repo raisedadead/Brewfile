@@ -349,8 +349,6 @@ cask "brave-browser"
 cask "cap"
 # Anthropic's official Claude AI desktop app
 cask "claude"
-# Terminal-based AI coding assistant
-cask "claude-code"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # Control your Elgato key lights
