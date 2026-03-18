@@ -1,6 +1,7 @@
 tap "auth0/auth0-cli"
 tap "charmbracelet/tap"
 tap "cloudflare/cloudflare"
+tap "dicklesworthstone/tap"
 tap "electrikmilk/cherri"
 tap "hashicorp/tap"
 tap "nikitabobko/tap"
