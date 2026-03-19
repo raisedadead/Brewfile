@@ -100,6 +100,8 @@ brew "cryptography"
 brew "curl"
 # Load/unload environment variables based on $PWD
 brew "direnv"
+# Platform keystore credential helper for Docker
+brew "docker-credential-helper"
 # Command-line tool for DigitalOcean
 brew "doctl"
 # Command-line DNS Client for Humans
