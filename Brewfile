@@ -332,6 +332,8 @@ brew "zoxide"
 brew "zsh"
 # Additional completion definitions for zsh
 brew "zsh-completions"
+# Generate images of code and terminal output.
+brew "charmbracelet/tap/freeze"
 # Siri Shortcuts programming language
 brew "electrikmilk/cherri/cherri"
 # Terraform
