@@ -284,6 +284,8 @@ brew "s3cmd"
 brew "sesh"
 # 7-Zip is a file archiver with a high compression ratio
 brew "sevenzip"
+# BDD unit testing framework for dash, bash, ksh, zsh and all POSIX shells
+brew "shellspec"
 # Cross-shell prompt for astronauts
 brew "starship"
 # General purpose fuzzy finder TUI
