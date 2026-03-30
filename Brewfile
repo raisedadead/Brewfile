@@ -1,3 +1,4 @@
+tap "anomalyco/tap"
 tap "auth0/auth0-cli"
 tap "charmbracelet/tap"
 tap "cloudflare/cloudflare"
@@ -248,6 +249,8 @@ brew "mysql-client@8.0"
 brew "nano"
 # Netwide Assembler (NASM) is an 80x86 assembler
 brew "nasm"
+# Incremental parsing library
+brew "tree-sitter"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Small build system for use with gyp or CMake
@@ -288,16 +291,12 @@ brew "sevenzip"
 brew "shellspec"
 # Cross-shell prompt for astronauts
 brew "starship"
-# General purpose fuzzy finder TUI
-brew "television"
 # User interface to the TELNET protocol
 brew "telnet"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
-# Incremental parsing library
-brew "tree-sitter"
 # Parser generator tool
 brew "tree-sitter-cli"
 # Minimal terminal-based typing speed tester
@@ -334,6 +333,8 @@ brew "zoxide"
 brew "zsh"
 # Additional completion definitions for zsh
 brew "zsh-completions"
+# The AI coding agent built for the terminal.
+brew "anomalyco/tap/opencode"
 # Generate images of code and terminal output.
 brew "charmbracelet/tap/freeze"
 # Siri Shortcuts programming language
@@ -473,4 +474,5 @@ go "github.com/grafana/grafanactl/cmd/grafanactl"
 go "github.com/kencx/keyb"
 go "github.com/evilmartians/lefthook"
 go "honnef.co/go/tools/cmd/staticcheck"
+go "github.com/wailsapp/wails/v2/cmd/wails"
 uv "specify-cli"
