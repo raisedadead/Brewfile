@@ -5,6 +5,7 @@ tap "cloudflare/cloudflare"
 tap "dicklesworthstone/tap"
 tap "electrikmilk/cherri"
 tap "hashicorp/tap"
+tap "neurosnap/tap"
 tap "nikitabobko/tap"
 tap "oven-sh/bun"
 tap "raisedadead/tap"
@@ -291,6 +292,8 @@ brew "sevenzip"
 brew "shellspec"
 # Cross-shell prompt for astronauts
 brew "starship"
+# General purpose fuzzy finder TUI
+brew "television"
 # User interface to the TELNET protocol
 brew "telnet"
 # Terminal multiplexer
@@ -341,6 +344,8 @@ brew "charmbracelet/tap/freeze"
 brew "electrikmilk/cherri/cherri"
 # Terraform
 brew "hashicorp/tap/terraform"
+# Session persistence for terminal processes
+brew "neurosnap/tap/zmx"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
 # Supabase CLI
