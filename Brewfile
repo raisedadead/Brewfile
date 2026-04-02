@@ -212,6 +212,8 @@ brew "just"
 brew "k6"
 # Kubernetes CLI To Manage Your Clusters In Style!
 brew "k9s"
+# FAST Kubernetes manifests validator, with support for Custom Resources!
+brew "kubeconform"
 # Template-free customization of Kubernetes YAML manifests
 brew "kustomize"
 # Simple terminal UI for git commands
