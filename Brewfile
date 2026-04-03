@@ -108,6 +108,8 @@ brew "doctl"
 brew "doggo"
 # Select default apps for documents and URL schemes on macOS
 brew "duti"
+# Run arbitrary commands when files change
+brew "entr"
 # Command-line tool to interact with exercism.io
 brew "exercism"
 # Perl lib for reading and writing EXIF metadata
@@ -284,16 +286,14 @@ brew "rtmpdump"
 brew "rust"
 # Command-line tool for the Amazon S3 service
 brew "s3cmd"
-# Smart session manager for the terminal
-brew "sesh"
 # 7-Zip is a file archiver with a high compression ratio
 brew "sevenzip"
 # BDD unit testing framework for dash, bash, ksh, zsh and all POSIX shells
 brew "shellspec"
+# Editor of encrypted files
+brew "sops"
 # Cross-shell prompt for astronauts
 brew "starship"
-# General purpose fuzzy finder TUI
-brew "television"
 # User interface to the TELNET protocol
 brew "telnet"
 # Terminal multiplexer
@@ -366,6 +366,8 @@ cask "brave-browser"
 cask "cap"
 # Anthropic's official Claude AI desktop app
 cask "claude"
+# AI code review CLI
+cask "coderabbit"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # Control your Elgato key lights
