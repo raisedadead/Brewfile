@@ -1,5 +1,6 @@
 tap "anomalyco/tap"
 tap "auth0/auth0-cli"
+tap "beadbox/cask"
 tap "charmbracelet/tap"
 tap "cloudflare/cloudflare"
 tap "dicklesworthstone/tap"
@@ -353,6 +354,8 @@ cask "1password"
 cask "1password-cli"
 # Image editing and design software
 cask "affinity"
+# Desktop app for the beads issue tracker
+cask "beadbox/cask/beadbox"
 # Cross platform SQL editor and database management app
 cask "beekeeper-studio"
 # Display management tool
