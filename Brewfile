@@ -4,6 +4,7 @@ tap "beadbox/cask"
 tap "charmbracelet/tap"
 tap "cloudflare/cloudflare"
 tap "dicklesworthstone/tap"
+tap "eldara-tech/tap"
 tap "electrikmilk/cherri"
 tap "hashicorp/tap"
 tap "nikitabobko/tap"
@@ -100,6 +101,8 @@ brew "coreutils"
 brew "cryptography"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Secure runtime for JavaScript and TypeScript
+brew "deno"
 # Load/unload environment variables based on $PWD
 brew "direnv"
 # Command-line tool for DigitalOcean
@@ -340,6 +343,8 @@ brew "zsh-completions"
 brew "anomalyco/tap/opencode"
 # Generate images of code and terminal output.
 brew "charmbracelet/tap/freeze"
+# Docker Swarm TUI management tool
+brew "eldara-tech/tap/swarmcli"
 # Siri Shortcuts programming language
 brew "electrikmilk/cherri/cherri"
 # Terraform
