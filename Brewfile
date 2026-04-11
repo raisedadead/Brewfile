@@ -424,20 +424,6 @@ cask "visual-studio-code"
 cask "whatsapp"
 # Git worktree manager with bare repo support
 cask "raisedadead/tap/wt"
-mas "1Password for Safari", id: 1569813296
-mas "Command X", id: 6448461551
-mas "Cursor Pro", id: 1447043133
-mas "Dato", id: 1470584107
-mas "Day Progress", id: 6450280202
-mas "Hyperduck", id: 6444667067
-mas "Keystroke Pro", id: 1572206224
-mas "Lungo", id: 1263070803
-mas "Parcel", id: 375589283
-mas "Structured", id: 1499198946
-mas "Tot", id: 1491071483
-mas "Unsplash Wallpapers", id: 1284863847
-mas "Velja", id: 1607635845
-mas "VN", id: 1494451650
 vscode "1password.op-vscode"
 vscode "ahmadalli.vscode-nginx-conf"
 vscode "alefragnani.project-manager"
