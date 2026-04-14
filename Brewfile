@@ -373,6 +373,8 @@ cask "cap"
 cask "claude"
 # AI code review CLI
 cask "coderabbit"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # Control your Elgato key lights
