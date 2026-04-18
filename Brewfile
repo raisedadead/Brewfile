@@ -375,6 +375,8 @@ cask "claude"
 cask "coderabbit"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
+# OpenAI's Codex desktop app for managing coding agents
+cask "codex-app"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # Control your Elgato key lights
