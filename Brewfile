@@ -10,7 +10,10 @@ tap "hashicorp/tap"
 tap "nikitabobko/tap"
 tap "oven-sh/bun"
 tap "raisedadead/tap"
+tap "steipete/tap"
 tap "supabase/tap"
+tap "xdevplatform/tap"
+tap "yakitrak/yakitrak"
 # GNU multiple precision arithmetic library
 brew "gmp"
 # Static analysis and lint tool, for (ba)sh scripts
@@ -21,12 +24,26 @@ brew "actionlint"
 brew "age"
 # Generic-purpose lossless compression algorithm by Google
 brew "brotli"
+# Asynchronous DNS library
+brew "c-ares"
+# Mozilla CA certificate store
+brew "ca-certificates"
+# HTTP/2 C Library
+brew "libnghttp2"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
 # Extremely Fast Compression algorithm
 brew "lz4"
+# Library for command-line editing
+brew "readline"
+# Command-line interface for SQLite
+brew "sqlite"
 # General-purpose data compression with high compression ratio
 brew "xz"
 # Zstandard is a real-time compression algorithm
 brew "zstd"
+# Browser automation CLI for AI agents
+brew "agent-browser"
 # Code searching, linting, rewriting
 brew "ast-grep"
 # Improved shell history for zsh, bash, fish and nushell
@@ -45,12 +62,6 @@ brew "aws-nuke"
 brew "libunistring"
 # Text-based UI library
 brew "ncurses"
-# Library for command-line editing
-brew "readline"
-# Mozilla CA certificate store
-brew "ca-certificates"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@3"
 # C library implementing the SSH2 protocol
 brew "libssh2"
 # C library of Git core methods that is re-entrant and linkable
@@ -63,8 +74,6 @@ brew "bat"
 brew "beads"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
-# Asynchronous DNS library
-brew "c-ares"
 # Perl compatible regular expressions library with a new API
 brew "pcre2"
 # X.Org: Protocol Headers
@@ -87,10 +96,6 @@ brew "certifi"
 brew "chezmoi"
 # Cut, copy, and paste anything, anywhere, all from the terminal
 brew "clipboard"
-# HTTP/2 C Library
-brew "libnghttp2"
-# Command-line interface for SQLite
-brew "sqlite"
 # CLI tool for Cloudflare Workers
 brew "cloudflare-wrangler"
 # Cross-platform make
@@ -283,6 +288,8 @@ brew "rclone"
 brew "resvg"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# CLI proxy to minimize LLM token consumption
+brew "rtk"
 # Tool for downloading RTMP streaming media
 brew "rtmpdump"
 # Safe, concurrent, practical language
@@ -351,8 +358,11 @@ brew "electrikmilk/cherri/cherri"
 brew "hashicorp/tap/terraform"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
+# Link → clean text → summary
+brew "steipete/tap/summarize"
 # Supabase CLI
 brew "supabase/tap/supabase"
+brew "yakitrak/yakitrak/obsidian-cli"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line interface for 1Password
@@ -428,6 +438,8 @@ cask "visual-studio-code"
 cask "whatsapp"
 # Git worktree manager with bare repo support
 cask "raisedadead/tap/wt"
+# Auth-enabled curl-like CLI for the X API
+cask "xdevplatform/tap/xurl"
 mas "1Password for Safari", id: 1569813296
 mas "Command X", id: 6448461551
 mas "Cursor Pro", id: 1447043133
@@ -491,4 +503,6 @@ go "github.com/kencx/keyb"
 go "github.com/evilmartians/lefthook"
 go "honnef.co/go/tools/cmd/staticcheck"
 go "github.com/wailsapp/wails/v2/cmd/wails"
+go "github.com/caddyserver/xcaddy/cmd/xcaddy"
+uv "skills-ref"
 uv "specify-cli"
