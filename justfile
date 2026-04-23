@@ -40,6 +40,7 @@ help:
     @echo "  just doctor               - Run brew doctor"
     @echo "  just list [TYPE]          - List packages (formulas|casks|all)"
     @echo "  just outdated             - Show outdated packages"
+    @echo "  just audit [ARGS]         - Audit inventory/usage/risk with charts"
     @echo "  just deps                 - Check required dependencies"
     @echo "  just diff                 - Show uncommitted Brewfile changes"
     @echo ""
@@ -357,3 +358,7 @@ list type="all": check-brew
 # Show outdated packages
 outdated: check-brew
     brew outdated --greedy
+
+# Audit formulas, casks, and taps with terminal charts
+audit *args="": check-brew
+    ./scripts/brew-audit.sh {{ args }}
