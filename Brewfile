@@ -1,6 +1,5 @@
 tap "anomalyco/tap"
 tap "auth0/auth0-cli"
-tap "beadbox/cask"
 tap "charmbracelet/tap"
 tap "cloudflare/cloudflare"
 tap "dicklesworthstone/tap"
@@ -10,7 +9,6 @@ tap "hashicorp/tap"
 tap "nikitabobko/tap"
 tap "oven-sh/bun"
 tap "raisedadead/tap"
-tap "steipete/tap"
 tap "supabase/tap"
 tap "xdevplatform/tap"
 tap "yakitrak/yakitrak"
@@ -252,8 +250,6 @@ brew "mas"
 brew "minikube"
 # 'traceroute' and 'ping' in a single tool
 brew "mtr"
-# General-purpose lossless data-compression library
-brew "zlib"
 # Open source relational database management system
 brew "mysql-client@8.0"
 # Free (GNU) replacement for the Pico text editor
@@ -340,6 +336,8 @@ brew "yq"
 brew "zig"
 # Find security issues in GitHub Actions setups
 brew "zizmor"
+# General-purpose lossless data-compression library
+brew "zlib"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # UNIX shell (command interpreter)
@@ -358,8 +356,6 @@ brew "electrikmilk/cherri/cherri"
 brew "hashicorp/tap/terraform"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
-# Link → clean text → summary
-brew "steipete/tap/summarize"
 # Supabase CLI
 brew "supabase/tap/supabase"
 brew "yakitrak/yakitrak/obsidian-cli"
@@ -369,8 +365,6 @@ cask "1password"
 cask "1password-cli"
 # Image editing and design software
 cask "affinity"
-# Desktop app for the beads issue tracker
-cask "beadbox/cask/beadbox"
 # Cross platform SQL editor and database management app
 cask "beekeeper-studio"
 # Display management tool
@@ -455,7 +449,6 @@ mas "Structured", id: 1499198946
 mas "Tot", id: 1491071483
 mas "Unsplash Wallpapers", id: 1284863847
 mas "Velja", id: 1607635845
-mas "VN", id: 1494451650
 vscode "1password.op-vscode"
 vscode "ahmadalli.vscode-nginx-conf"
 vscode "alefragnani.project-manager"
@@ -506,6 +499,9 @@ go "github.com/evilmartians/lefthook"
 go "honnef.co/go/tools/cmd/staticcheck"
 go "github.com/wailsapp/wails/v2/cmd/wails"
 go "github.com/caddyserver/xcaddy/cmd/xcaddy"
+cargo "tldr-cli"
+uv "cocoindex-code[full]"
+uv "fastedits[mlx]"
 uv "kimi-cli"
 uv "skills-ref"
 uv "specify-cli"
