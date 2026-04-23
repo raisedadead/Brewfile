@@ -2,16 +2,12 @@ tap "anomalyco/tap"
 tap "auth0/auth0-cli"
 tap "charmbracelet/tap"
 tap "cloudflare/cloudflare"
-tap "dicklesworthstone/tap"
-tap "eldara-tech/tap"
 tap "electrikmilk/cherri"
 tap "hashicorp/tap"
-tap "nikitabobko/tap"
 tap "oven-sh/bun"
 tap "raisedadead/tap"
 tap "supabase/tap"
 tap "xdevplatform/tap"
-tap "yakitrak/yakitrak"
 # GNU multiple precision arithmetic library
 brew "gmp"
 # Static analysis and lint tool, for (ba)sh scripts
@@ -348,8 +344,6 @@ brew "zsh-completions"
 brew "anomalyco/tap/opencode"
 # Generate images of code and terminal output.
 brew "charmbracelet/tap/freeze"
-# Docker Swarm TUI management tool
-brew "eldara-tech/tap/swarmcli"
 # Siri Shortcuts programming language
 brew "electrikmilk/cherri/cherri"
 # Terraform
@@ -358,7 +352,6 @@ brew "hashicorp/tap/terraform"
 brew "oven-sh/bun/bun"
 # Supabase CLI
 brew "supabase/tap/supabase"
-brew "yakitrak/yakitrak/obsidian-cli"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line interface for 1Password
