@@ -4,6 +4,7 @@ tap "charmbracelet/tap"
 tap "cloudflare/cloudflare"
 tap "electrikmilk/cherri"
 tap "hashicorp/tap"
+tap "jundot/omlx", "https://github.com/jundot/omlx"
 tap "oven-sh/bun"
 tap "raisedadead/tap"
 tap "supabase/tap"
@@ -348,6 +349,8 @@ brew "charmbracelet/tap/freeze"
 brew "electrikmilk/cherri/cherri"
 # Terraform
 brew "hashicorp/tap/terraform"
+# LLM inference server optimized for Apple Silicon
+brew "jundot/omlx/omlx"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
 # Supabase CLI
@@ -362,8 +365,6 @@ cask "affinity"
 cask "beekeeper-studio"
 # Display management tool
 cask "betterdisplay"
-# Web browser focusing on privacy
-cask "brave-browser"
 # Screen recording software
 cask "cap"
 # Anthropic's official Claude AI desktop app
@@ -372,10 +373,6 @@ cask "claude"
 cask "coderabbit"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
-# OpenAI's Codex desktop app for managing coding agents
-cask "codex-app"
-# Write, edit, and chat about your code with AI
-cask "cursor"
 # Control your Elgato key lights
 cask "elgato-control-center"
 # Assign keys, and then decorate and label them
@@ -399,8 +396,6 @@ cask "mongodb-compass"
 cask "mullvad-vpn"
 # Replacement for Docker Desktop
 cask "orbstack"
-# Imaging utility to install operating systems to a microSD card
-cask "raspberry-pi-imager"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Window snapping tool
@@ -495,6 +490,6 @@ go "github.com/caddyserver/xcaddy/cmd/xcaddy"
 cargo "tldr-cli"
 uv "cocoindex-code[full]"
 uv "fastedits[mlx]"
-uv "kimi-cli"
+uv "mlx-lm"
 uv "skills-ref"
 uv "specify-cli"
