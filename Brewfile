@@ -92,7 +92,7 @@ brew "chezmoi"
 # Cut, copy, and paste anything, anywhere, all from the terminal
 brew "clipboard"
 # CLI tool for Cloudflare Workers
-brew "cloudflare-wrangler"
+brew "cloudflare-wrangler", link: false
 # Cross-platform make
 brew "cmake"
 # GNU File, Shell, and Text utilities
@@ -350,9 +350,11 @@ brew "electrikmilk/cherri/cherri"
 # Terraform
 brew "hashicorp/tap/terraform"
 # LLM inference server optimized for Apple Silicon
-brew "jundot/omlx/omlx"
+brew "jundot/omlx/omlx", args: ["with-grammar"]
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
+# Beads-native engine for dp-cto orchestration
+brew "raisedadead/tap/dp-engine"
 # Supabase CLI
 brew "supabase/tap/supabase"
 # Password manager that keeps all passwords secure behind one password
@@ -488,6 +490,7 @@ go "honnef.co/go/tools/cmd/staticcheck"
 go "github.com/wailsapp/wails/v2/cmd/wails"
 go "github.com/caddyserver/xcaddy/cmd/xcaddy"
 cargo "tldr-cli"
+uv "claude-swap"
 uv "cocoindex-code[full]"
 uv "fastedits[mlx]"
 uv "mlx-lm"
