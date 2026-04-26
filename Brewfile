@@ -241,6 +241,8 @@ brew "linode-cli"
 brew "llm"
 # Curses-based tool for viewing and analyzing log files
 brew "lnav"
+# CLI for Node.js style checker and lint tool for Markdown files
+brew "markdownlint-cli"
 # Mac App Store command-line interface
 brew "mas"
 # Run a Kubernetes cluster locally
@@ -293,6 +295,8 @@ brew "s3cmd"
 brew "sevenzip"
 # BDD unit testing framework for dash, bash, ksh, zsh and all POSIX shells
 brew "shellspec"
+# Autoformat shell script source code
+brew "shfmt"
 # Editor of encrypted files
 brew "sops"
 # Cross-shell prompt for astronauts
@@ -353,8 +357,6 @@ brew "hashicorp/tap/terraform"
 brew "jundot/omlx/omlx", args: ["with-grammar"]
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
-# Beads-native engine for dp-cto orchestration
-brew "raisedadead/tap/dp-engine"
 # Supabase CLI
 brew "supabase/tap/supabase"
 # Password manager that keeps all passwords secure behind one password
