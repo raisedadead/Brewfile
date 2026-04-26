@@ -92,7 +92,7 @@ brew "chezmoi"
 # Cut, copy, and paste anything, anywhere, all from the terminal
 brew "clipboard"
 # CLI tool for Cloudflare Workers
-brew "cloudflare-wrangler", link: false
+brew "cloudflare-wrangler"
 # Cross-platform make
 brew "cmake"
 # GNU File, Shell, and Text utilities
