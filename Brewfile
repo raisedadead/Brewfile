@@ -9,6 +9,8 @@ tap "oven-sh/bun"
 tap "raisedadead/tap"
 tap "supabase/tap"
 tap "xdevplatform/tap"
+# Run your GitHub Actions locally
+brew "act"
 # GNU multiple precision arithmetic library
 brew "gmp"
 # Static analysis and lint tool, for (ba)sh scripts
@@ -494,7 +496,7 @@ go "github.com/caddyserver/xcaddy/cmd/xcaddy"
 cargo "tldr-cli"
 uv "claude-swap"
 uv "cocoindex-code[full]"
-uv "fastedits[mlx]"
+uv "fastedits[mcp,mlx]"
 uv "mlx-lm"
 uv "skills-ref"
 uv "specify-cli"
