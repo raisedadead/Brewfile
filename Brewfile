@@ -6,6 +6,7 @@ tap "electrikmilk/cherri"
 tap "hashicorp/tap"
 tap "jundot/omlx", "https://github.com/jundot/omlx"
 tap "oven-sh/bun"
+tap "parallel-web/tap"
 tap "raisedadead/tap"
 tap "supabase/tap"
 tap "xdevplatform/tap"
@@ -402,6 +403,8 @@ cask "mongodb-compass"
 cask "mullvad-vpn"
 # Replacement for Docker Desktop
 cask "orbstack"
+# CLI for the Parallel API - search, extract, research, and enrich data
+cask "parallel-web/tap/parallel-cli"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Window snapping tool
