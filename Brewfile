@@ -204,6 +204,12 @@ brew "gum"
 brew "helm"
 # HTTP load generator, ApacheBench (ab) replacement
 brew "hey"
+# YAML Parser
+brew "libyaml"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
+# Client library for huggingface.co hub
+brew "hf"
 # Curl statistics made simple
 brew "httpstat"
 # Image format providing lossless and lossy compression for web images
@@ -232,12 +238,8 @@ brew "libcbor"
 brew "libfido2"
 # X.Org: Header files for the XFIXES extension
 brew "libxfixes"
-# YAML Parser
-brew "libyaml"
 # C library for reading, creating, and modifying zip archives
 brew "libzip"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.14"
 # CLI for the Linode API
 brew "linode-cli"
 # Access large language models from the command-line
@@ -304,6 +306,8 @@ brew "shfmt"
 brew "sops"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Open source Firebase alternative
+brew "supabase"
 # User interface to the TELNET protocol
 brew "telnet"
 # Terminal multiplexer
@@ -360,8 +364,6 @@ brew "hashicorp/tap/terraform"
 brew "jundot/omlx/omlx", args: ["with-grammar"]
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
-# Supabase CLI
-brew "supabase/tap/supabase"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line interface for 1Password
@@ -462,7 +464,6 @@ vscode "formulahendry.auto-close-tag"
 vscode "formulahendry.auto-complete-tag"
 vscode "formulahendry.auto-rename-tag"
 vscode "foxundermoon.shell-format"
-vscode "github.copilot-chat"
 vscode "github.vscode-pull-request-github"
 vscode "golang.go"
 vscode "hashicorp.hcl"
