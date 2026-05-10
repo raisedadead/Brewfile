@@ -4,7 +4,6 @@ tap "charmbracelet/tap"
 tap "cloudflare/cloudflare"
 tap "electrikmilk/cherri"
 tap "hashicorp/tap"
-tap "jundot/omlx", "https://github.com/jundot/omlx"
 tap "oven-sh/bun"
 tap "parallel-web/tap"
 tap "raisedadead/tap"
@@ -104,6 +103,8 @@ brew "coreutils"
 brew "cryptography"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Search DuckDuckGo from the terminal
+brew "ddgr"
 # Secure runtime for JavaScript and TypeScript
 brew "deno"
 # Load/unload environment variables based on $PWD
@@ -122,6 +123,8 @@ brew "exercism"
 brew "exiftool"
 # Modern, maintained replacement for ls
 brew "eza"
+# Open-source framework for augmenting humans using AI
+brew "fabric-ai"
 # Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
 # Simple, fast and user-friendly alternative to find
@@ -242,8 +245,6 @@ brew "libxfixes"
 brew "libzip"
 # CLI for the Linode API
 brew "linode-cli"
-# Access large language models from the command-line
-brew "llm"
 # Curses-based tool for viewing and analyzing log files
 brew "lnav"
 # CLI for Node.js style checker and lint tool for Markdown files
@@ -360,8 +361,6 @@ brew "charmbracelet/tap/freeze"
 brew "electrikmilk/cherri/cherri"
 # Terraform
 brew "hashicorp/tap/terraform"
-# LLM inference server optimized for Apple Silicon
-brew "jundot/omlx/omlx", args: ["with-grammar"]
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
 # Password manager that keeps all passwords secure behind one password
@@ -494,6 +493,7 @@ go "gotest.tools/gotestsum"
 go "github.com/grafana/grafanactl/cmd/grafanactl"
 go "github.com/kencx/keyb"
 go "github.com/evilmartians/lefthook"
+go "github.com/f1bonacc1/process-compose"
 go "honnef.co/go/tools/cmd/staticcheck"
 go "github.com/wailsapp/wails/v2/cmd/wails"
 go "github.com/caddyserver/xcaddy/cmd/xcaddy"
