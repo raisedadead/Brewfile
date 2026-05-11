@@ -67,8 +67,6 @@ brew "libgit2"
 brew "oniguruma"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Memory upgrade for your coding agent
-brew "beads"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
 # Perl compatible regular expressions library with a new API
