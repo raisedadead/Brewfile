@@ -151,6 +151,8 @@ brew "gdbm"
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Highly customizable changelog generator
+brew "git-cliff"
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
 # Library for decimal floating point arithmetic
@@ -159,6 +161,8 @@ brew "mpdecimal"
 brew "python@3.13"
 # Quickly rewrite git repository history
 brew "git-filter-repo"
+# Audit git repos for secrets
+brew "gitleaks"
 # Render markdown on the CLI
 brew "glow"
 # Asynchronous event library
@@ -497,6 +501,7 @@ cargo "tldr-cli"
 uv "claude-swap"
 uv "cocoindex-code[full]"
 uv "fastedits[mcp,mlx]"
+uv "mdformat", with: ["mdformat-footnote", "mdformat-frontmatter", "mdformat-gfm"]
 uv "mlx-lm"
 uv "skills-ref"
 uv "specify-cli"
