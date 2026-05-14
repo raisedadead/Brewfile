@@ -439,6 +439,7 @@ mas "Command X", id: 6448461551
 mas "Cursor Pro", id: 1447043133
 mas "Dato", id: 1470584107
 mas "Day Progress", id: 6450280202
+mas "Flighty", id: 1358823008
 mas "Hyperduck", id: 6444667067
 mas "Keystroke Pro", id: 1572206224
 mas "Lungo", id: 1263070803
