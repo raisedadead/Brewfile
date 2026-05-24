@@ -309,7 +309,7 @@ brew "shfmt"
 brew "sops"
 # Cross-shell prompt for astronauts
 brew "starship"
-# Open source Firebase alternative
+# Postgres development platform
 brew "supabase"
 # User interface to the TELNET protocol
 brew "telnet"
