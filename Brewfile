@@ -91,8 +91,6 @@ brew "certifi"
 brew "chezmoi"
 # Cut, copy, and paste anything, anywhere, all from the terminal
 brew "clipboard"
-# CLI tool for Cloudflare Workers
-brew "cloudflare-wrangler"
 # Cross-platform make
 brew "cmake"
 # GNU File, Shell, and Text utilities
@@ -165,8 +163,6 @@ brew "git-filter-repo"
 brew "gitleaks"
 # Render markdown on the CLI
 brew "glow"
-# Asynchronous event library
-brew "libevent"
 # International domain name library (IDNA2008, Punycode and TR46)
 brew "libidn2"
 # ASN.1 structure parser library
@@ -175,14 +171,14 @@ brew "libtasn1"
 brew "nettle"
 # Library to load and enumerate PKCS#11 modules
 brew "p11-kit"
-# Validating, recursive, caching DNS resolver
-brew "unbound"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
 # Common error values for all GnuPG components
 brew "libgpg-error"
 # Assuan IPC Library
 brew "libassuan"
+# Asynchronous event library
+brew "libevent"
 # Cryptographic library based on the code from GnuPG
 brew "libgcrypt"
 # X.509 and CMS library
@@ -193,6 +189,8 @@ brew "libusb"
 brew "npth"
 # Passphrase entry dialog utilizing the Assuan protocol
 brew "pinentry"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
@@ -255,6 +253,8 @@ brew "markdownlint-cli"
 brew "mas"
 # Run a Kubernetes cluster locally
 brew "minikube"
+# Deep clean and optimize your Mac
+brew "mole"
 # 'traceroute' and 'ping' in a single tool
 brew "mtr"
 # Open source relational database management system
@@ -400,6 +400,8 @@ cask "iterm2"
 cask "jordanbaird-ice"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
+# Deep clean, analyze, and optimize app
+cask "mole-app"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
 # VPN client
@@ -443,7 +445,6 @@ mas "Flighty", id: 1358823008
 mas "Hyperduck", id: 6444667067
 mas "Keystroke Pro", id: 1572206224
 mas "Lungo", id: 1263070803
-mas "Parcel", id: 375589283
 mas "Structured", id: 1499198946
 mas "Tot", id: 1491071483
 mas "Unsplash Wallpapers", id: 1284863847
@@ -506,3 +507,12 @@ uv "mdformat", with: ["mdformat-footnote", "mdformat-frontmatter", "mdformat-gfm
 uv "mlx-lm"
 uv "skills-ref"
 uv "specify-cli"
+npm "@earendil-works/pi-coding-agent"
+npm "@freecodecamp/universe-cli"
+npm "@playwright/cli"
+npm "cavemem"
+npm "context-mode"
+npm "corepack"
+npm "pi-autoresearch"
+npm "pnpm"
+npm "wrangler"
