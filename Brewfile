@@ -371,8 +371,6 @@ cask "1password"
 cask "1password-cli"
 # Image editing and design software
 cask "affinity"
-# Cross platform SQL editor and database management app
-cask "beekeeper-studio"
 # Display management tool
 cask "betterdisplay"
 # Screen recording software
