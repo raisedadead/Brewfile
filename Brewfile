@@ -109,6 +109,8 @@ brew "direnv"
 brew "doctl"
 # Command-line DNS Client for Humans
 brew "doggo"
+# YAML Parser
+brew "libyaml"
 # Select default apps for documents and URL schemes on macOS
 brew "duti"
 # Run arbitrary commands when files change
@@ -207,8 +209,6 @@ brew "gum"
 brew "helm"
 # HTTP load generator, ApacheBench (ab) replacement
 brew "hey"
-# YAML Parser
-brew "libyaml"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.14"
 # Client library for huggingface.co hub
@@ -507,6 +507,7 @@ uv "skills-ref"
 uv "specify-cli"
 npm "@earendil-works/pi-coding-agent"
 npm "@freecodecamp/universe-cli"
+npm "@freecodecamp/veritas"
 npm "@playwright/cli"
 npm "cavemem"
 npm "cloudflare-cli"
