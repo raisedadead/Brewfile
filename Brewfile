@@ -151,8 +151,6 @@ brew "gdbm"
 brew "gh"
 # Distributed revision control system
 brew "git"
-# Highly customizable changelog generator
-brew "git-cliff"
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
 # Library for decimal floating point arithmetic
@@ -381,6 +379,8 @@ cask "claude"
 cask "coderabbit"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
+# All-in-one toolbox for developers
+cask "devutils"
 # Control your Elgato key lights
 cask "elgato-control-center"
 # Assign keys, and then decorate and label them
@@ -404,6 +404,8 @@ cask "mole-app"
 cask "mongodb-compass"
 # VPN client
 cask "mullvad-vpn"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
 # Replacement for Docker Desktop
 cask "orbstack"
 # CLI for the Parallel API - search, extract, research, and enrich data
@@ -488,6 +490,7 @@ vscode "wix.vscode-import-cost"
 vscode "yatki.vscode-surround"
 vscode "yy0931.save-as-root"
 vscode "ziglang.vscode-zig"
+go "github.com/limoges/docker-credential-1password"
 go "golang.org/x/tools/gopls"
 go "gotest.tools/gotestsum"
 go "github.com/grafana/grafanactl/cmd/grafanactl"
