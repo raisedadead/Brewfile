@@ -1,4 +1,5 @@
 tap "anomalyco/tap"
+tap "aprilnea/tap"
 tap "auth0/auth0-cli"
 tap "charmbracelet/tap"
 tap "cloudflare/cloudflare"
@@ -373,6 +374,8 @@ cask "affinity"
 cask "betterdisplay"
 # Screen recording software
 cask "cap"
+# Contacts manager
+cask "cardhop"
 # Anthropic's official Claude AI desktop app
 cask "claude"
 # AI code review CLI
@@ -385,6 +388,8 @@ cask "devutils"
 cask "elgato-control-center"
 # Assign keys, and then decorate and label them
 cask "elgato-stream-deck"
+# Calendar software
+cask "fantastical"
 cask "font-symbols-only-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
@@ -406,6 +411,8 @@ cask "mongodb-compass"
 cask "mullvad-vpn"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Lightweight, local-first companion for Logitech HID++ peripherals
+cask "aprilnea/tap/openlogi"
 # Replacement for Docker Desktop
 cask "orbstack"
 # CLI for the Parallel API - search, extract, research, and enrich data
