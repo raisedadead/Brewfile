@@ -423,8 +423,6 @@ cask "whatsapp"
 cask "raisedadead/tap/wt"
 # Auth-enabled curl-like CLI for the X API
 cask "xdevplatform/tap/xurl"
-# Multiplayer code editor
-cask "zed"
 mas "1Password for Safari", id: 1569813296
 mas "Command X", id: 6448461551
 mas "Cursor Pro", id: 1447043133
