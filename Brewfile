@@ -42,8 +42,6 @@ brew "xz"
 brew "zstd"
 # Browser automation CLI for AI agents
 brew "agent-browser"
-# Code searching, linting, rewriting
-brew "ast-grep"
 # Improved shell history for zsh, bash, fish and nushell
 brew "atuin"
 # Macro processing language
@@ -84,8 +82,6 @@ brew "libxcb"
 brew "libx11"
 # X.Org: Library for common extensions to the X11 protocol
 brew "libxext"
-# Object-file caching compiler wrapper
-brew "ccache"
 # Mozilla CA bundle for Python
 brew "certifi"
 # Manage your dotfiles across multiple diverse machines, securely
@@ -100,8 +96,6 @@ brew "coreutils"
 brew "cryptography"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
-# DuckDuckGo from the terminal
-brew "ddgr"
 # Secure runtime for JavaScript and TypeScript
 brew "deno"
 # Load/unload environment variables based on $PWD
@@ -118,8 +112,6 @@ brew "duti"
 brew "entr"
 # Command-line tool to interact with exercism.io
 brew "exercism"
-# Perl lib for reading and writing EXIF metadata
-brew "exiftool"
 # Modern, maintained replacement for ls
 brew "eza"
 # Open-source framework for augmenting humans using AI
@@ -162,8 +154,6 @@ brew "python@3.13"
 brew "git-filter-repo"
 # Audit git repos for secrets
 brew "gitleaks"
-# Render markdown on the CLI
-brew "glow"
 # International domain name library (IDNA2008, Punycode and TR46)
 brew "libidn2"
 # ASN.1 structure parser library
@@ -218,8 +208,6 @@ brew "httpstat"
 brew "webp"
 # Tools and libraries to manipulate images in select formats
 brew "imagemagick"
-# Interactive JSON filter using jq
-brew "jnv"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Handy way to save and run project-specific commands
@@ -250,8 +238,6 @@ brew "lnav"
 brew "markdownlint-cli"
 # Mac App Store command-line interface
 brew "mas"
-# Run a Kubernetes cluster locally
-brew "minikube"
 # Deep clean and optimize your Mac
 brew "mole"
 # 'traceroute' and 'ping' in a single tool
@@ -270,8 +256,6 @@ brew "neovim"
 brew "ninja"
 # Port scanning utility for large networks
 brew "nmap"
-# Modern shell for the GitHub era
-brew "nushell"
 # Prompt theme engine for any shell
 brew "oh-my-posh"
 # Perl compatible regular expressions library
@@ -332,8 +316,6 @@ brew "watch"
 brew "wget"
 # Lookup tool for domain names and other internet resources
 brew "whois"
-# Library to create, extract, and modify Windows Imaging files
-brew "wimlib"
 # Friendly and fast tool for sending HTTP requests
 brew "xh"
 # Linter for YAML files
@@ -517,7 +499,6 @@ uv "skills-ref"
 uv "specify-cli"
 npm "@earendil-works/pi-coding-agent"
 npm "@freecodecamp/universe-cli"
-npm "@freecodecamp/veritas"
 npm "@playwright/cli"
 npm "cavemem"
 npm "cloudflare-cli"
