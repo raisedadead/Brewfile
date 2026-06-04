@@ -395,8 +395,6 @@ cask "mongodb-compass"
 cask "mullvad-vpn"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
-# Local-first alternative to Logitech Options+ for HID++ devices
-cask "openlogi"
 # Replacement for Docker Desktop
 cask "orbstack"
 # CLI for the Parallel API - search, extract, research, and enrich data
