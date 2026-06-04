@@ -337,15 +337,15 @@ brew "zsh"
 # Additional completion definitions for zsh
 brew "zsh-completions"
 # The AI coding agent built for the terminal.
-brew "anomalyco/tap/opencode"
+brew "anomalyco/tap/opencode", trusted: true
 # Generate images of code and terminal output.
-brew "charmbracelet/tap/freeze"
+brew "charmbracelet/tap/freeze", trusted: true
 # Siri Shortcuts programming language
-brew "electrikmilk/cherri/cherri"
+brew "electrikmilk/cherri/cherri", trusted: true
 # Terraform
-brew "hashicorp/tap/terraform"
+brew "hashicorp/tap/terraform", trusted: true
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
-brew "oven-sh/bun/bun"
+brew "oven-sh/bun/bun", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line interface for 1Password
@@ -393,8 +393,8 @@ cask "mongodb-compass"
 cask "mullvad-vpn"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
-# Lightweight, local-first companion for Logitech HID++ peripherals
-cask "aprilnea/tap/openlogi"
+# Local-first alternative to Logitech Options+ for HID++ devices
+cask "openlogi"
 # Replacement for Docker Desktop
 cask "orbstack"
 # CLI for the Parallel API - search, extract, research, and enrich data
