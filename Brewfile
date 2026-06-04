@@ -1,14 +1,14 @@
 tap "anomalyco/tap"
 tap "aprilnea/tap"
-tap "auth0/auth0-cli"
+tap "auth0/auth0-cli", trusted: true
 tap "charmbracelet/tap"
-tap "cloudflare/cloudflare"
+tap "cloudflare/cloudflare", trusted: true
 tap "electrikmilk/cherri"
 tap "hashicorp/tap"
 tap "oven-sh/bun"
-tap "parallel-web/tap"
-tap "raisedadead/tap"
-tap "supabase/tap"
+tap "parallel-web/tap", trusted: true
+tap "raisedadead/tap", trusted: true
+tap "supabase/tap", trusted: true
 tap "xdevplatform/tap"
 # Run your GitHub Actions locally
 brew "act"
@@ -383,6 +383,8 @@ cask "google-drive"
 cask "iterm2"
 # Menu bar manager
 cask "jordanbaird-ice"
+# Discover, download, and run local LLMs
+cask "lm-studio"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
 # Deep clean, analyze, and optimize app
