@@ -379,6 +379,8 @@ cask "ghostty"
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
+# Testing client for REST, GraphQL, and HTTP APIs
+cask "httpie-desktop"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Menu bar manager
@@ -480,6 +482,7 @@ vscode "ziglang.vscode-zig"
 go "github.com/limoges/docker-credential-1password"
 go "golang.org/x/tools/gopls"
 go "gotest.tools/gotestsum"
+go "golang.org/x/vuln/cmd/govulncheck"
 go "github.com/grafana/grafanactl/cmd/grafanactl"
 go "github.com/kencx/keyb"
 go "github.com/evilmartians/lefthook"
