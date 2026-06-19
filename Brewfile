@@ -66,6 +66,8 @@ brew "libgit2"
 brew "oniguruma"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Open source, extensible AI agent that goes beyond code suggestions
+brew "block-goose-cli"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
 # Perl compatible regular expressions library with a new API
@@ -282,6 +284,8 @@ brew "rtmpdump"
 brew "rust"
 # Command-line tool for the Amazon S3 service
 brew "s3cmd"
+# Security health metrics for Open Source
+brew "scorecard"
 # 7-Zip is a file archiver with a high compression ratio
 brew "sevenzip"
 # BDD unit testing framework for dash, bash, ksh, zsh and all POSIX shells
