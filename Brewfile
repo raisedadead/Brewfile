@@ -1,5 +1,4 @@
 tap "anomalyco/tap"
-tap "aprilnea/tap"
 tap "auth0/auth0-cli", trusted: true
 tap "charmbracelet/tap"
 tap "cloudflare/cloudflare", trusted: true
@@ -9,7 +8,6 @@ tap "oven-sh/bun"
 tap "parallel-web/tap", trusted: true
 tap "raisedadead/tap", trusted: true
 tap "supabase/tap", trusted: true
-tap "xdevplatform/tap"
 # Run your GitHub Actions locally
 brew "act"
 # GNU multiple precision arithmetic library
@@ -421,14 +419,14 @@ cask "spotify"
 cask "steam"
 # Mesh VPN based on WireGuard
 cask "tailscale-app"
+# Web browser
+cask "thebrowsercompany-dia"
 # Open-source code editor
 cask "visual-studio-code"
 # Native desktop client for WhatsApp
 cask "whatsapp"
 # Git worktree manager with bare repo support
 cask "raisedadead/tap/wt"
-# Auth-enabled curl-like CLI for the X API
-cask "xdevplatform/tap/xurl"
 mas "1Password for Safari", id: 1569813296
 mas "Command X", id: 6448461551
 mas "Cursor Pro", id: 1447043133
