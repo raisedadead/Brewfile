@@ -417,6 +417,8 @@ cask "spacelauncher"
 cask "spotify"
 # Video game digital distribution service
 cask "steam"
+# Native terminal coding agents command center
+cask "supacode"
 # Mesh VPN based on WireGuard
 cask "tailscale-app"
 # Web browser
