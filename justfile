@@ -91,7 +91,7 @@ backup-brewfile:
 dump *args="": check-brew backup-brewfile
     #!/usr/bin/env bash
     set -euo pipefail
-    FLAGS=(--force --describe --file={{ brewfile }})
+    FLAGS=(--force --file={{ brewfile }})
     if [[ "{{ args }}" == *"--all"* ]]; then
         MODE="Everything"
     else
@@ -246,7 +246,7 @@ drift: check-brew
     #!/usr/bin/env bash
     TMPFILE=$(mktemp)
     trap "rm -f $TMPFILE" EXIT
-    brew bundle dump --force --describe --file="$TMPFILE"
+    brew bundle dump --force --file="$TMPFILE"
     DRIFT=$(diff <(grep -v '^#\|^$' {{ brewfile }} | sort) <(grep -v '^#\|^$' "$TMPFILE" | sort) || true)
     if [ -z "$DRIFT" ]; then
         echo "Brewfile is in sync with installed packages."
