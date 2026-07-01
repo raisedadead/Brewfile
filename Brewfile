@@ -3,6 +3,7 @@ tap "auth0/auth0-cli", trusted: true
 tap "charmbracelet/tap"
 tap "cloudflare/cloudflare", trusted: true
 tap "electrikmilk/cherri"
+tap "getsentry/tools"
 tap "hashicorp/tap"
 tap "oven-sh/bun"
 tap "parallel-web/tap", trusted: true
@@ -90,6 +91,8 @@ brew "chezmoi"
 brew "clipboard"
 # Cross-platform make
 brew "cmake"
+# Create and run Linux containers using lightweight virtual machines
+brew "container"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Cryptographic recipes and primitives for Python
@@ -242,6 +245,8 @@ brew "mas"
 brew "mole"
 # 'traceroute' and 'ping' in a single tool
 brew "mtr"
+# Tail multiple files in one terminal simultaneously
+brew "multitail"
 # Open source relational database management system
 brew "mysql-client@8.0"
 # Free (GNU) replacement for the Pico text editor
@@ -344,6 +349,8 @@ brew "anomalyco/tap/opencode", trusted: true
 brew "charmbracelet/tap/freeze", trusted: true
 # Siri Shortcuts programming language
 brew "electrikmilk/cherri/cherri", trusted: true
+# Sentry command-line tool for error monitoring and debugging
+brew "getsentry/tools/sentry", trusted: true
 # Terraform
 brew "hashicorp/tap/terraform", trusted: true
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
