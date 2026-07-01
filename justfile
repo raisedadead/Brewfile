@@ -166,7 +166,7 @@ update: check-brew
     #!/usr/bin/env bash
     set -uo pipefail
     brew update
-    brew upgrade || echo "Some packages failed to upgrade (see above)."
+    brew upgrade --yes || echo "Some packages failed to upgrade (see above)."
     brew cleanup
     brew doctor || true
 
