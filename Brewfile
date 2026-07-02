@@ -199,6 +199,8 @@ brew "gron"
 brew "gum"
 # Kubernetes package manager
 brew "helm"
+# Agent multiplexer that lives in your terminal
+brew "herdr"
 # HTTP load generator, ApacheBench (ab) replacement
 brew "hey"
 # Interpreted, interactive, object-oriented programming language
