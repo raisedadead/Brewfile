@@ -157,6 +157,8 @@ brew "python@3.13"
 brew "git-filter-repo"
 # Audit git repos for secrets
 brew "gitleaks"
+# Render markdown on the CLI
+brew "glow"
 # International domain name library (IDNA2008, Punycode and TR46)
 brew "libidn2"
 # ASN.1 structure parser library
@@ -171,8 +173,6 @@ brew "gnutls"
 brew "libgpg-error"
 # Assuan IPC Library
 brew "libassuan"
-# Asynchronous event library
-brew "libevent"
 # Cryptographic library based on the code from GnuPG
 brew "libgcrypt"
 # X.509 and CMS library
@@ -183,8 +183,6 @@ brew "libusb"
 brew "npth"
 # Passphrase entry dialog utilizing the Assuan protocol
 brew "pinentry"
-# Validating, recursive, caching DNS resolver
-brew "unbound"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
@@ -229,6 +227,8 @@ brew "kustomize"
 brew "lazygit"
 # CBOR protocol implementation for C and others
 brew "libcbor"
+# Asynchronous event library
+brew "libevent"
 # Provides library functionality for FIDO U2F & FIDO 2.0, including USB
 brew "libfido2"
 # X.Org: Header files for the XFIXES extension
@@ -313,6 +313,8 @@ brew "tree"
 brew "tree-sitter-cli"
 # Minimal terminal-based typing speed tester
 brew "typtea"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
 # C++ Library Manager
@@ -426,8 +428,6 @@ cask "spacelauncher"
 cask "spotify"
 # Video game digital distribution service
 cask "steam"
-# Native terminal coding agents command center
-cask "supacode"
 # Mesh VPN based on WireGuard
 cask "tailscale-app"
 # Web browser
