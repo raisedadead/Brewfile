@@ -369,16 +369,10 @@ cask "affinity"
 cask "betterdisplay"
 # Screen recording software
 cask "cap"
-# Contacts manager
-cask "cardhop"
 # Anthropic's official Claude AI desktop app
 cask "claude"
-# AI code review CLI
-cask "coderabbit"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
-# All-in-one toolbox for developers
-cask "devutils"
 # Control your Elgato key lights
 cask "elgato-control-center"
 # Assign keys, and then decorate and label them
@@ -392,8 +386,6 @@ cask "ghostty"
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
-# Testing client for REST, GraphQL, and HTTP APIs
-cask "httpie-desktop"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Menu bar manager
@@ -430,8 +422,6 @@ cask "spotify"
 cask "steam"
 # Mesh VPN based on WireGuard
 cask "tailscale-app"
-# Web browser
-cask "thebrowsercompany-dia"
 # Open-source code editor
 cask "visual-studio-code"
 # Native desktop client for WhatsApp
@@ -443,7 +433,6 @@ mas "Command X", id: 6448461551
 mas "Cursor Pro", id: 1447043133
 mas "Dato", id: 1470584107
 mas "Day Progress", id: 6450280202
-mas "Flighty", id: 1358823008
 mas "Hyperduck", id: 6444667067
 mas "Keystroke Pro", id: 1572206224
 mas "Lungo", id: 1263070803
