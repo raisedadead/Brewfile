@@ -388,8 +388,6 @@ cask "google-chrome"
 cask "google-drive"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# Menu bar manager
-cask "jordanbaird-ice"
 # Discover, download, and run local LLMs
 cask "lm-studio"
 # Open-source cross-platform alternative to AirDrop
@@ -422,6 +420,8 @@ cask "spotify"
 cask "steam"
 # Mesh VPN based on WireGuard
 cask "tailscale-app"
+# Menu bar manager
+cask "thaw"
 # Open-source code editor
 cask "visual-studio-code"
 # Native desktop client for WhatsApp
@@ -499,7 +499,7 @@ uv "fastedits[mcp,mlx]"
 uv "mdformat", with: ["mdformat-footnote", "mdformat-frontmatter", "mdformat-gfm"]
 uv "mlx-lm"
 uv "skills-ref"
-uv "specify-cli"
+uv "specify-cli", source: "git+https://github.com/github/spec-kit.git"
 npm "@earendil-works/pi-coding-agent"
 npm "@freecodecamp/universe-cli"
 npm "@playwright/cli"
