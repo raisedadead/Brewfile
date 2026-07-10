@@ -99,6 +99,8 @@ brew "coreutils"
 brew "cryptography"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
 # Secure runtime for JavaScript and TypeScript
 brew "deno"
 # Load/unload environment variables based on $PWD
@@ -205,8 +207,6 @@ brew "python@3.14"
 brew "hf"
 # Curl statistics made simple
 brew "httpstat"
-# Image format providing lossless and lossy compression for web images
-brew "webp"
 # Tools and libraries to manipulate images in select formats
 brew "imagemagick"
 # Lightweight and flexible command-line JSON processor
