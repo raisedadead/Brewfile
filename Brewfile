@@ -263,8 +263,6 @@ brew "ninja"
 brew "nmap"
 # Prompt theme engine for any shell
 brew "oh-my-posh"
-# Perl compatible regular expressions library
-brew "pcre"
 # Package compiler and linker metadata toolkit
 brew "pkgconf"
 # PDF rendering library (based on the xpdf-3.0 code base)
