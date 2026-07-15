@@ -3,8 +3,10 @@ tap "auth0/auth0-cli", trusted: true
 tap "charmbracelet/tap"
 tap "cloudflare/cloudflare", trusted: true
 tap "electrikmilk/cherri"
+tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
 tap "getsentry/tools"
 tap "hashicorp/tap"
+tap "nikitabobko/tap"
 tap "oven-sh/bun"
 tap "parallel-web/tap", trusted: true
 tap "raisedadead/tap", trusted: true
@@ -199,6 +201,8 @@ brew "gron"
 brew "gum"
 # Kubernetes package manager
 brew "helm"
+# Agent multiplexer that lives in your terminal
+brew "herdr"
 # HTTP load generator, ApacheBench (ab) replacement
 brew "hey"
 # Interpreted, interactive, object-oriented programming language
@@ -349,6 +353,10 @@ brew "anomalyco/tap/opencode", trusted: true
 brew "charmbracelet/tap/freeze", trusted: true
 # Siri Shortcuts programming language
 brew "electrikmilk/cherri/cherri", trusted: true
+# A window border system for macOS
+brew "felixkratz/formulae/borders", trusted: true
+# Custom macOS statusbar with shell plugin, interaction and graph support
+brew "felixkratz/formulae/sketchybar", trusted: true
 # Sentry command-line tool for error monitoring and debugging
 brew "getsentry/tools/sentry", trusted: true
 # Terraform
@@ -359,6 +367,8 @@ brew "oven-sh/bun/bun", trusted: true
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
+# AeroSpace is an i3-like tiling window manager for macOS
+cask "nikitabobko/tap/aerospace", trusted: true
 # Image editing and design software
 cask "affinity"
 # Display management tool
@@ -402,8 +412,6 @@ cask "orbstack"
 cask "parallel-web/tap/parallel-cli"
 # Control your tools with a few keystrokes
 cask "raycast"
-# Window snapping tool
-cask "rectangle-pro"
 # Screenshot measurement and annotation tool
 cask "shottr"
 # Sound and audio controller
