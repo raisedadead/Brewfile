@@ -375,8 +375,6 @@ cask "affinity"
 cask "betterdisplay"
 # Screen recording software
 cask "cap"
-# OpenAI's official ChatGPT desktop app
-cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
 # Control your Elgato key lights
