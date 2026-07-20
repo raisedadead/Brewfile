@@ -6,6 +6,7 @@ tap "electrikmilk/cherri"
 tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
 tap "getsentry/tools"
 tap "hashicorp/tap"
+tap "muquit/markdown-serve", "https://github.com/muquit/markdown-serve.git", trusted: true
 tap "nikitabobko/tap"
 tap "oven-sh/bun"
 tap "parallel-web/tap", trusted: true
@@ -361,6 +362,7 @@ brew "felixkratz/formulae/sketchybar", trusted: true
 brew "getsentry/tools/sentry", trusted: true
 # Terraform
 brew "hashicorp/tap/terraform", trusted: true
+brew "muquit/markdown-serve/markdown-serve"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun", trusted: true
 # Password manager that keeps all passwords secure behind one password
@@ -505,6 +507,7 @@ uv "specify-cli", source: "git+https://github.com/github/spec-kit.git"
 npm "@earendil-works/pi-coding-agent"
 npm "@freecodecamp/universe-cli"
 npm "@playwright/cli"
+npm "@xenova/transformers"
 npm "cavemem"
 npm "cloudflare-cli"
 npm "context-mode"
