@@ -1,5 +1,6 @@
 tap "anomalyco/tap"
 tap "auth0/auth0-cli", trusted: true
+tap "automic-vault/isotopes", trusted: { casks: ["automic-vault"] }
 tap "charmbracelet/tap"
 tap "cloudflare/cloudflare", trusted: true
 tap "electrikmilk/cherri"
