@@ -4,6 +4,7 @@ tap "automic-vault/isotopes", trusted: { casks: ["automic-vault"] }
 tap "charmbracelet/tap"
 tap "cloudflare/cloudflare", trusted: true
 tap "electrikmilk/cherri"
+tap "entireio/tap"
 tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
 tap "getsentry/tools"
 tap "hashicorp/tap"
@@ -334,7 +335,7 @@ brew "xh"
 # Linter for YAML files
 brew "yamllint"
 # Blazing fast terminal file manager written in Rust, based on async I/O
-brew "yazi"
+brew "yazi", args: ["HEAD"]
 # Process YAML, JSON, XML, CSV and properties documents from the CLI
 brew "yq"
 # Programming language designed for robustness, optimality, and clarity
@@ -355,8 +356,6 @@ brew "anomalyco/tap/opencode", trusted: true
 brew "charmbracelet/tap/freeze", trusted: true
 # Siri Shortcuts programming language
 brew "electrikmilk/cherri/cherri", trusted: true
-# A window border system for macOS
-brew "felixkratz/formulae/borders", trusted: true
 # Custom macOS statusbar with shell plugin, interaction and graph support
 brew "felixkratz/formulae/sketchybar", trusted: true
 # Sentry command-line tool for error monitoring and debugging
@@ -384,6 +383,8 @@ cask "claude"
 cask "elgato-control-center"
 # Assign keys, and then decorate and label them
 cask "elgato-stream-deck"
+# CLI for Entire
+cask "entireio/tap/entire", trusted: true
 # Calendar software
 cask "fantastical"
 cask "font-symbols-only-nerd-font"
@@ -395,14 +396,10 @@ cask "google-chrome"
 cask "google-drive"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# Discover, download, and run local LLMs
-cask "lm-studio"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
 # Deep clean, analyze, and optimize app
 cask "mole-app"
-# Interactive tool for analyzing MongoDB data
-cask "mongodb-compass"
 # VPN client
 cask "mullvad-vpn"
 # Knowledge base that works on top of a local folder of plain text Markdown files
@@ -435,11 +432,8 @@ cask "whatsapp"
 cask "raisedadead/tap/wt"
 mas "1Password for Safari", id: 1569813296
 mas "Command X", id: 6448461551
-mas "Cursor Pro", id: 1447043133
 mas "Dato", id: 1470584107
-mas "Day Progress", id: 6450280202
 mas "Hyperduck", id: 6444667067
-mas "Keystroke Pro", id: 1572206224
 mas "Lungo", id: 1263070803
 mas "Structured", id: 1499198946
 mas "Tot", id: 1491071483
