@@ -388,6 +388,8 @@ cask "entireio/tap/entire", trusted: true
 # Calendar software
 cask "fantastical"
 cask "font-symbols-only-nerd-font"
+# Messaging app for WhatsApp, Facebook Messenger, Slack, Telegram and more
+cask "franz"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Web browser
