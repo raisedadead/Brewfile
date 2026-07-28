@@ -373,6 +373,8 @@ cask "1password-cli"
 cask "nikitabobko/tap/aerospace", trusted: true
 # Image editing and design software
 cask "affinity"
+# Universal chat app powered by Matrix
+cask "beeper"
 # Display management tool
 cask "betterdisplay"
 # Screen recording software
