@@ -1,10 +1,11 @@
+tap "agavra/tap"
 tap "anomalyco/tap"
 tap "auth0/auth0-cli", trusted: true
 tap "automic-vault/isotopes", trusted: { casks: ["automic-vault"] }
 tap "charmbracelet/tap"
 tap "cloudflare/cloudflare", trusted: true
 tap "electrikmilk/cherri"
-tap "entireio/tap"
+tap "entireio/tap", trusted: true
 tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
 tap "getsentry/tools"
 tap "hashicorp/tap"
@@ -390,8 +391,6 @@ cask "entireio/tap/entire", trusted: true
 # Calendar software
 cask "fantastical"
 cask "font-symbols-only-nerd-font"
-# Messaging app for WhatsApp, Facebook Messenger, Slack, Telegram and more
-cask "franz"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Web browser
@@ -443,6 +442,7 @@ mas "Structured", id: 1499198946
 mas "Tot", id: 1491071483
 mas "Unsplash Wallpapers", id: 1284863847
 mas "Velja", id: 1607635845
+mas "Yubico Authenticator", id: 1497506650
 vscode "1password.op-vscode"
 vscode "ahmadalli.vscode-nginx-conf"
 vscode "alefragnani.project-manager"
@@ -505,6 +505,7 @@ uv "skills-ref"
 uv "specify-cli", source: "git+https://github.com/github/spec-kit.git"
 npm "@earendil-works/pi-coding-agent"
 npm "@freecodecamp/universe-cli"
+npm "@pen.dev/cli"
 npm "@playwright/cli"
 npm "@xenova/transformers"
 npm "cavemem"
