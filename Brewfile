@@ -1,7 +1,6 @@
-tap "agavra/tap"
 tap "anomalyco/tap"
 tap "auth0/auth0-cli", trusted: true
-tap "automic-vault/isotopes", trusted: { casks: ["automic-vault"] }
+tap "automic-vault/isotopes"
 tap "charmbracelet/tap"
 tap "cloudflare/cloudflare", trusted: true
 tap "electrikmilk/cherri"
@@ -59,6 +58,8 @@ brew "autoconf-archive"
 brew "automake"
 # Nuke a whole AWS account and delete all its resources
 brew "aws-nuke"
+# Securely store and access AWS credentials in development environments
+brew "aws-vault"
 # C string library for manipulating Unicode strings
 brew "libunistring"
 # Text-based UI library
@@ -374,6 +375,8 @@ cask "1password-cli"
 cask "nikitabobko/tap/aerospace", trusted: true
 # Image editing and design software
 cask "affinity"
+# Command-line security layer for developer environments
+cask "automic-vault/isotopes/automic-vault", trusted: true
 # Universal chat app powered by Matrix
 cask "beeper"
 # Display management tool
