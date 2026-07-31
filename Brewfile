@@ -290,6 +290,8 @@ brew "ripgrep"
 brew "rtk"
 # Tool for downloading RTMP streaming media
 brew "rtmpdump"
+# Extremely fast Python linter, written in Rust
+brew "ruff"
 # Safe, concurrent, practical language
 brew "rust"
 # Command-line tool for the Amazon S3 service
