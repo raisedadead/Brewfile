@@ -502,7 +502,6 @@ go "github.com/wailsapp/wails/v2/cmd/wails"
 go "github.com/caddyserver/xcaddy/cmd/xcaddy"
 cargo "tldr-cli"
 uv "claude-swap"
-uv "cocoindex-code[full]"
 uv "fastedits[mcp,mlx]"
 uv "mdformat", with: ["mdformat-footnote", "mdformat-frontmatter", "mdformat-gfm"]
 uv "mlx-lm"
