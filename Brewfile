@@ -204,6 +204,8 @@ brew "goreleaser"
 brew "gron"
 # Tool for glamorous shell scripts
 brew "gum"
+# Smarter Dockerfile linter to validate best practices
+brew "hadolint"
 # Kubernetes package manager
 brew "helm"
 # Agent multiplexer that lives in your terminal
@@ -379,8 +381,6 @@ cask "nikitabobko/tap/aerospace", trusted: true
 cask "affinity"
 # Command-line security layer for developer environments
 cask "automic-vault/isotopes/automic-vault", trusted: true
-# Universal chat app powered by Matrix
-cask "beeper"
 # Display management tool
 cask "betterdisplay"
 # Screen recording software
