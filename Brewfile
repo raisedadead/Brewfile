@@ -393,8 +393,6 @@ cask "elgato-control-center"
 cask "elgato-stream-deck"
 # CLI for Entire
 cask "entireio/tap/entire", trusted: true
-# Calendar software
-cask "fantastical"
 cask "font-symbols-only-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
