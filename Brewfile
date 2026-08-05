@@ -272,6 +272,8 @@ brew "neovim"
 brew "ninja"
 # Port scanning utility for large networks
 brew "nmap"
+# Modern shell for the GitHub era
+brew "nushell"
 # Prompt theme engine for any shell
 brew "oh-my-posh"
 # Package compiler and linker metadata toolkit
@@ -368,7 +370,6 @@ brew "felixkratz/formulae/sketchybar", trusted: true
 brew "getsentry/tools/sentry", trusted: true
 # Terraform
 brew "hashicorp/tap/terraform", trusted: true
-brew "muquit/markdown-serve/markdown-serve"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun", trusted: true
 # Password manager that keeps all passwords secure behind one password
