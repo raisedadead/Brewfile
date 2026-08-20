@@ -2,16 +2,12 @@ tap "anomalyco/tap"
 tap "auth0/auth0-cli", trusted: true
 tap "automic-vault/isotopes"
 tap "charmbracelet/tap"
-tap "cloudflare/cloudflare", trusted: true
-tap "entireio/tap", trusted: true
 tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
 tap "getsentry/tools"
 tap "hashicorp/tap"
-tap "muquit/markdown-serve", "https://github.com/muquit/markdown-serve.git", trusted: true
 tap "nikitabobko/tap"
 tap "oven-sh/bun"
 tap "parallel-web/tap", trusted: true
-tap "supabase/tap", trusted: true
 # Run your GitHub Actions locally
 brew "act"
 # GNU multiple precision arithmetic library
@@ -104,8 +100,6 @@ brew "coreutils"
 brew "cryptography"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
-# Image format providing lossless and lossy compression for web images
-brew "webp"
 # Load/unload environment variables based on $PWD
 brew "direnv"
 # Command-line tool for DigitalOcean
@@ -208,6 +202,8 @@ brew "python@3.14"
 brew "hf"
 # Curl statistics made simple
 brew "httpstat"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
 # Tools and libraries to manipulate images in select formats
 brew "imagemagick"
 # Lightweight and flexible command-line JSON processor
