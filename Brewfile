@@ -433,8 +433,6 @@ cask "thaw"
 cask "visual-studio-code"
 # Native desktop client for WhatsApp
 cask "whatsapp"
-# Git worktree manager with bare repo support
-cask "raisedadead/tap/wt"
 mas "1Password for Safari", id: 1569813296
 mas "Command X", id: 6448461551
 mas "Dato", id: 1470584107
