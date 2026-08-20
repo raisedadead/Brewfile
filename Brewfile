@@ -342,8 +342,6 @@ brew "whois"
 brew "xh"
 # Linter for YAML files
 brew "yamllint"
-# Blazing fast terminal file manager written in Rust, based on async I/O
-brew "yazi", args: ["HEAD"]
 # Process YAML, JSON, XML, CSV and properties documents from the CLI
 brew "yq"
 # Programming language designed for robustness, optimality, and clarity
