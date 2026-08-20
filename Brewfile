@@ -12,7 +12,6 @@ tap "muquit/markdown-serve", "https://github.com/muquit/markdown-serve.git", tru
 tap "nikitabobko/tap"
 tap "oven-sh/bun"
 tap "parallel-web/tap", trusted: true
-tap "raisedadead/tap", trusted: true
 tap "supabase/tap", trusted: true
 # Run your GitHub Actions locally
 brew "act"
@@ -338,6 +337,8 @@ brew "watch"
 brew "wget"
 # Lookup tool for domain names and other internet resources
 brew "whois"
+# CLI for Git worktree management, designed for parallel AI agent workflows
+brew "worktrunk"
 # Friendly and fast tool for sending HTTP requests
 brew "xh"
 # Linter for YAML files
