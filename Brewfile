@@ -3,7 +3,6 @@ tap "auth0/auth0-cli", trusted: true
 tap "automic-vault/isotopes"
 tap "charmbracelet/tap"
 tap "cloudflare/cloudflare", trusted: true
-tap "electrikmilk/cherri"
 tap "entireio/tap", trusted: true
 tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
 tap "getsentry/tools"
@@ -107,14 +106,10 @@ brew "cryptography"
 brew "curl"
 # Image format providing lossless and lossy compression for web images
 brew "webp"
-# Secure runtime for JavaScript and TypeScript
-brew "deno"
 # Load/unload environment variables based on $PWD
 brew "direnv"
 # Command-line tool for DigitalOcean
 brew "doctl"
-# Command-line DNS Client for Humans
-brew "doggo"
 # YAML Parser
 brew "libyaml"
 # Select default apps for documents and URL schemes on macOS
@@ -125,16 +120,12 @@ brew "entr"
 brew "exercism"
 # Modern, maintained replacement for ls
 brew "eza"
-# Open-source framework for augmenting humans using AI
-brew "fabric-ai"
 # Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
-# CLI application for interacting with a Cloudflare account
-brew "flarectl"
 # Fast and simple Node.js version manager
 brew "fnm"
 # Terminal JSON viewer
@@ -361,8 +352,6 @@ brew "zsh-completions"
 brew "anomalyco/tap/opencode", trusted: true
 # Generate images of code and terminal output.
 brew "charmbracelet/tap/freeze", trusted: true
-# Siri Shortcuts programming language
-brew "electrikmilk/cherri/cherri", trusted: true
 # Custom macOS statusbar with shell plugin, interaction and graph support
 brew "felixkratz/formulae/sketchybar", trusted: true
 # Sentry command-line tool for error monitoring and debugging
@@ -391,8 +380,6 @@ cask "claude"
 cask "elgato-control-center"
 # Assign keys, and then decorate and label them
 cask "elgato-stream-deck"
-# CLI for Entire
-cask "entireio/tap/entire", trusted: true
 cask "font-symbols-only-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
