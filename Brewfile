@@ -1,5 +1,4 @@
 tap "anomalyco/tap"
-tap "auth0/auth0-cli", trusted: true
 tap "automic-vault/isotopes"
 tap "charmbracelet/tap"
 tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
