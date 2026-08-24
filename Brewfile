@@ -423,7 +423,6 @@ mas "Hyperduck", id: 6444667067
 mas "Lungo", id: 1263070803
 mas "Structured", id: 1499198946
 mas "Tot", id: 1491071483
-mas "Unsplash Wallpapers", id: 1284863847
 mas "Velja", id: 1607635845
 mas "Yubico Authenticator", id: 1497506650
 vscode "1password.op-vscode"
