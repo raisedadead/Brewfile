@@ -1,5 +1,5 @@
 tap "anomalyco/tap"
-tap "automic-vault/isotopes"
+tap "automic-vault/isotopes", trusted: { casks: ["automic-vault"] }
 tap "charmbracelet/tap"
 tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
 tap "getsentry/tools"
@@ -40,7 +40,7 @@ brew "zstd"
 # Browser automation CLI for AI agents
 brew "agent-browser"
 # Improved shell history for zsh, bash, fish and nushell
-brew "atuin"
+brew "atuin", restart_service: :changed
 # Macro processing language
 brew "m4"
 # Automatic configure script builder
@@ -361,8 +361,6 @@ cask "1password-cli@beta"
 cask "nikitabobko/tap/aerospace", trusted: true
 # Image editing and design software
 cask "affinity"
-# Command-line security layer for developer environments
-cask "automic-vault/isotopes/automic-vault", trusted: true
 # Display management tool
 cask "betterdisplay"
 # Screen recording software
