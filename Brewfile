@@ -191,8 +191,6 @@ brew "gum"
 brew "hadolint"
 # Kubernetes package manager
 brew "helm"
-# Agent multiplexer that lives in your terminal
-brew "herdr"
 # HTTP load generator, ApacheBench (ab) replacement
 brew "hey"
 # Interpreted, interactive, object-oriented programming language
@@ -357,8 +355,8 @@ brew "hashicorp/tap/terraform", trusted: true
 brew "oven-sh/bun/bun", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
-# Command-line interface for 1Password
-cask "1password-cli"
+# Command-line helper for the 1Password password manager
+cask "1password-cli@beta"
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "nikitabobko/tap/aerospace", trusted: true
 # Image editing and design software
