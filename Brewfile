@@ -1,12 +1,10 @@
 tap "anomalyco/tap"
-tap "automic-vault/isotopes", trusted: { casks: ["automic-vault"] }
 tap "charmbracelet/tap"
 tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
 tap "getsentry/tools"
 tap "hashicorp/tap"
 tap "nikitabobko/tap"
 tap "oven-sh/bun"
-tap "parallel-web/tap", trusted: true
 # Run your GitHub Actions locally
 brew "act"
 # GNU multiple precision arithmetic library
@@ -235,6 +233,8 @@ brew "lnav"
 brew "markdownlint-cli"
 # Mac App Store command-line interface
 brew "mas"
+# Control and observe media playback from the command-line
+brew "media-control"
 # Deep clean and optimize your Mac
 brew "mole"
 # 'traceroute' and 'ping' in a single tool
@@ -285,6 +285,8 @@ brew "rust"
 brew "s3cmd"
 # Security health metrics for Open Source
 brew "scorecard"
+# Display and control your Android device
+brew "scrcpy"
 # 7-Zip is a file archiver with a high compression ratio
 brew "sevenzip"
 # BDD unit testing framework for dash, bash, ksh, zsh and all POSIX shells
@@ -361,6 +363,10 @@ cask "1password-cli@beta"
 cask "nikitabobko/tap/aerospace", trusted: true
 # Image editing and design software
 cask "affinity"
+# Continuity tools for use with Android devices
+cask "airsync"
+# Android SDK component
+cask "android-platform-tools"
 # Display management tool
 cask "betterdisplay"
 # Screen recording software
@@ -390,8 +396,6 @@ cask "mullvad-vpn"
 cask "obsidian"
 # Replacement for Docker Desktop
 cask "orbstack"
-# CLI for the Parallel API - search, extract, research, and enrich data
-cask "parallel-web/tap/parallel-cli"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Screenshot measurement and annotation tool
@@ -416,7 +420,6 @@ mas "1Password for Safari", id: 1569813296
 mas "Command X", id: 6448461551
 mas "Dato", id: 1470584107
 mas "Hyperduck", id: 6444667067
-mas "Lungo", id: 1263070803
 mas "Structured", id: 1499198946
 mas "Tot", id: 1491071483
 mas "Velja", id: 1607635845
@@ -483,6 +486,7 @@ npm "@earendil-works/pi-coding-agent"
 npm "@freecodecamp/universe-cli"
 npm "@pen.dev/cli"
 npm "@playwright/cli"
+npm "@raisedadead/pi-long-session"
 npm "@xenova/transformers"
 npm "cavemem"
 npm "cloudflare-cli"
@@ -490,4 +494,5 @@ npm "context-mode"
 npm "corepack"
 npm "pi-autoresearch"
 npm "pnpm"
+npm "portless"
 npm "wrangler"
