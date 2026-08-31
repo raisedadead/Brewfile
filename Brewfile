@@ -38,7 +38,7 @@ brew "zstd"
 # Browser automation CLI for AI agents
 brew "agent-browser"
 # Improved shell history for zsh, bash, fish and nushell
-brew "atuin", restart_service: :changed
+brew "atuin"
 # Macro processing language
 brew "m4"
 # Automatic configure script builder
@@ -233,6 +233,8 @@ brew "lnav"
 brew "markdownlint-cli"
 # Mac App Store command-line interface
 brew "mas"
+# CommonMark compliant Markdown formatter
+brew "mdformat"
 # Control and observe media playback from the command-line
 brew "media-control"
 # Deep clean and optimize your Mac
@@ -361,8 +363,6 @@ cask "1password"
 cask "1password-cli@beta"
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "nikitabobko/tap/aerospace", trusted: true
-# Image editing and design software
-cask "affinity"
 # Continuity tools for use with Android devices
 cask "airsync"
 # Android SDK component
@@ -414,13 +414,10 @@ cask "spotify"
 cask "steam"
 # Mesh VPN based on WireGuard
 cask "tailscale-app"
-# Menu bar manager
-cask "thaw"
 # Open-source code editor
 cask "visual-studio-code"
 # Native desktop client for WhatsApp
 cask "whatsapp"
-mas "1Password for Safari", id: 1569813296
 mas "Command X", id: 6448461551
 mas "Dato", id: 1470584107
 mas "Hyperduck", id: 6444667067
