@@ -233,8 +233,6 @@ brew "lnav"
 brew "markdownlint-cli"
 # Mac App Store command-line interface
 brew "mas"
-# CommonMark compliant Markdown formatter
-brew "mdformat"
 # Control and observe media playback from the command-line
 brew "media-control"
 # Deep clean and optimize your Mac
@@ -369,10 +367,16 @@ cask "airsync"
 cask "android-platform-tools"
 # Display management tool
 cask "betterdisplay"
+# Virtual Audio Driver
+cask "blackhole-2ch"
 # Screen recording software
 cask "cap"
 # Anthropic's official Claude AI desktop app
 cask "claude"
+# Tool to remove unnecessary files and folders from disk
+cask "cleanmymac"
+# Command-line interface for CleanMyMac
+cask "cleanmymac-cli"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
 # Control your Elgato key lights
@@ -477,7 +481,7 @@ go "github.com/wailsapp/wails/v2/cmd/wails"
 go "github.com/caddyserver/xcaddy/cmd/xcaddy"
 cargo "tldr-cli"
 uv "claude-swap"
-uv "mdformat", with: ["mdformat-footnote", "mdformat-frontmatter", "mdformat-gfm"]
+uv "mdformat", with: ["mdformat-gfm"]
 uv "mlx-lm"
 uv "skills-ref"
 uv "specify-cli", source: "git+https://github.com/github/spec-kit.git"
@@ -485,7 +489,6 @@ npm "@earendil-works/pi-coding-agent"
 npm "@freecodecamp/universe-cli"
 npm "@pen.dev/cli"
 npm "@playwright/cli"
-npm "@raisedadead/pi-long-session"
 npm "@xenova/transformers"
 npm "cavemem"
 npm "cloudflare-cli"
