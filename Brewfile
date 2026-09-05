@@ -371,6 +371,8 @@ cask "betterdisplay"
 cask "blackhole-2ch"
 # Screen recording software
 cask "cap"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
 # Tool to remove unnecessary files and folders from disk
