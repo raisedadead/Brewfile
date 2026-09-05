@@ -65,6 +65,8 @@ brew "oniguruma"
 brew "bat"
 # Open source, extensible AI agent that goes beyond code suggestions
 brew "block-goose-cli"
+# Yet another cross-platform graphical process/system monitor
+brew "bottom"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
 # Perl compatible regular expressions library with a new API
