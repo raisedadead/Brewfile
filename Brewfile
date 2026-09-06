@@ -261,6 +261,8 @@ brew "nmap"
 brew "nushell"
 # Prompt theme engine for any shell
 brew "oh-my-posh"
+# Drop-in replacement for Terraform. Infrastructure as Code Tool
+brew "opentofu"
 # Package compiler and linker metadata toolkit
 brew "pkgconf"
 # PDF rendering library (based on the xpdf-3.0 code base)
@@ -420,6 +422,8 @@ cask "spotify"
 cask "steam"
 # Mesh VPN based on WireGuard
 cask "tailscale-app"
+# Terminal-based web browser
+cask "terminal-browser"
 # Open-source code editor
 cask "visual-studio-code"
 # Native desktop client for WhatsApp
