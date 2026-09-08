@@ -365,10 +365,10 @@ cask "1password"
 cask "1password-cli@beta"
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "nikitabobko/tap/aerospace", trusted: true
-# Continuity tools for use with Android devices
-cask "airsync"
 # Android SDK component
 cask "android-platform-tools"
+# Tool to flash OS images to SD cards & USB drives
+cask "balenaetcher"
 # Display management tool
 cask "betterdisplay"
 # Virtual Audio Driver
