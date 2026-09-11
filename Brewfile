@@ -4,6 +4,7 @@ tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
 tap "getsentry/tools"
 tap "hashicorp/tap"
 tap "nikitabobko/tap"
+tap "nkzw-tech/tap"
 tap "oven-sh/bun"
 # Run your GitHub Actions locally
 brew "act"
@@ -385,6 +386,8 @@ cask "cleanmymac"
 cask "cleanmymac-cli"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
+# Visual diff tool for Git changes
+cask "nkzw-tech/tap/codiff", trusted: true
 # Control your Elgato key lights
 cask "elgato-control-center"
 # Assign keys, and then decorate and label them
