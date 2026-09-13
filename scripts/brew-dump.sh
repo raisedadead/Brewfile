@@ -3,7 +3,7 @@ set -euo pipefail
 
 if [[ $# -eq 1 && "$1" == --all ]]; then
   set --
-elif [[ $# -eq 0 ]]; then
+elif [[ $# -eq 0 && -t 0 && -t 1 ]]; then
   command -v gum >/dev/null || {
     printf 'Install gum: brew install gum\n' >&2
     exit 1

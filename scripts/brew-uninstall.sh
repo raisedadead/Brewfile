@@ -5,6 +5,11 @@ if (($#)); then
   exec brew uninstall "$@"
 fi
 
+if [[ ! -t 0 || ! -t 1 ]]; then
+  printf 'Use: just uninstall PACKAGE…\n' >&2
+  exit 1
+fi
+
 command -v gum >/dev/null || {
   printf 'Install gum: brew install gum\n' >&2
   exit 1

@@ -7,10 +7,10 @@ Run `just` to list commands. Homebrew and Just are required. Pickers use Gum.
 | Command | Action |
 | --- | --- |
 | `just install PACKAGE…` | Install named packages. Accepts Homebrew flags. |
-| `just uninstall` | Pick formulae, casks, taps, or App Store apps to remove. |
+| `just uninstall` | Pick entries to remove. Without a terminal, show how to pass package names. |
 | `just uninstall PACKAGE…` | Remove named packages. Accepts Homebrew flags. |
 | `just install-brewfile` | Install and upgrade Brewfile entries. |
-| `just dump` | Pick a scope, back up the Brewfile, then dump installed entries. |
+| `just dump` | Pick a scope in a terminal; otherwise dump everything. Back up the Brewfile first. |
 | `just dump --all` | Dump without a picker. |
 | `just dump --no-mas --no-vscode` | Dump without App Store apps or VS Code extensions. |
 | `just check` | List missing or outdated Brewfile entries. Return failure if work is needed. |
@@ -22,6 +22,8 @@ Run `just` to list commands. Homebrew and Just are required. Pickers use Gum.
 | `just outdated` | List outdated packages, including auto-updating casks. |
 | `just audit` | Report outdated packages, unused dependencies, and service status. |
 | `just diff` | Show Brewfile changes against HEAD. |
+| `just commit` | Commit only the Brewfile. Preserve other staged files. |
+| `just sync` | Push with Git's configured remote. No automatic rebase. |
 
 The audit uses local Homebrew metadata. Run `brew update` to refresh it.
 It does not measure package use or scan for vulnerabilities. It writes no reports.
@@ -37,9 +39,8 @@ with `just diff` before committing.
 Cancel a picker to leave packages and the Brewfile unchanged. App Store removal
 requires administrator privileges. Tap removal does not remove its packages.
 
-Use Git directly to commit and push the Brewfile. The recipes do not sync Git.
-The former `save`, `sync`, `push`, `commit`,
-skip-install variants, and audit options were removed.
+Run `just dump && just commit && just sync` to save and push the inventory.
+The former `save`, `push`, skip-install variants, and audit options were removed.
 Use Homebrew directly for selective bundle installs.
 
 ## License

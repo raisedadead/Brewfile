@@ -58,3 +58,16 @@ audit:
 
 diff:
     git diff HEAD -- Brewfile
+
+[no-exit-message]
+commit:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    if git diff --quiet HEAD -- Brewfile; then
+        printf 'No Brewfile changes.\n'
+        exit 0
+    fi
+    git commit --only -m "chore: update brewfile $(date +%F)" -- Brewfile
+
+sync:
+    git push
