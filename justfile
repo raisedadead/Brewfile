@@ -19,10 +19,16 @@ install-brewfile:
     brew bundle install --file=Brewfile
 
 dump *args:
+    if [ -f Brewfile ]; then cp Brewfile Brewfile.bak; fi
     brew bundle dump --force --file=Brewfile "$@"
 
+[no-exit-message]
 check:
-    brew bundle check --file=Brewfile
+    @brew bundle check --file=Brewfile --verbose
+
+[no-exit-message]
+drift:
+    @HOMEBREW_NO_AUTO_UPDATE=1 brew bundle cleanup --file=Brewfile </dev/null
 
 update:
     brew update
@@ -43,7 +49,7 @@ outdated:
 
 audit:
     @printf '\nOutdated packages\n'
-    brew outdated --greedy
+    HOMEBREW_NO_AUTO_UPDATE=1 brew outdated --greedy
     @printf '\nUnused dependencies\n'
     brew autoremove --dry-run
     @printf '\nServices\n'
