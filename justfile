@@ -12,15 +12,16 @@ help:
 install +packages:
     brew install "$@"
 
-uninstall +packages:
-    brew uninstall "$@"
+[no-exit-message]
+uninstall *packages:
+    @bash scripts/brew-uninstall.sh "$@"
 
 install-brewfile:
     brew bundle install --file=Brewfile
 
+[no-exit-message]
 dump *args:
-    if [ -f Brewfile ]; then cp Brewfile Brewfile.bak; fi
-    brew bundle dump --force --file=Brewfile "$@"
+    @bash scripts/brew-dump.sh "$@"
 
 [no-exit-message]
 check:

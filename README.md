@@ -2,14 +2,16 @@
 
 Apps, tools, and utilities for my macOS machines.
 
-Run `just` to list commands. Homebrew and Just are required.
+Run `just` to list commands. Homebrew and Just are required. Pickers use Gum.
 
 | Command | Action |
 | --- | --- |
 | `just install PACKAGE…` | Install named packages. Accepts Homebrew flags. |
+| `just uninstall` | Pick formulae, casks, taps, or App Store apps to remove. |
 | `just uninstall PACKAGE…` | Remove named packages. Accepts Homebrew flags. |
 | `just install-brewfile` | Install and upgrade Brewfile entries. |
-| `just dump` | Copy the Brewfile to `Brewfile.bak`, then replace it with the installed inventory. |
+| `just dump` | Pick a scope, back up the Brewfile, then dump installed entries. |
+| `just dump --all` | Dump without a picker. |
 | `just dump --no-mas --no-vscode` | Dump without App Store apps or VS Code extensions. |
 | `just check` | List missing or outdated Brewfile entries. Return failure if work is needed. |
 | `just drift` | Preview packages outside the Brewfile and removable cached files. Return failure if packages would be removed. |
@@ -32,8 +34,11 @@ Use `just install-brewfile` to install or update unmet entries.
 Each dump replaces `Brewfile.bak` with the previous Brewfile. Review changes
 with `just diff` before committing.
 
-Use Git directly to commit and push the Brewfile. The recipes do not sync Git
-or show interactive package pickers. The former `save`, `sync`, `push`, `commit`,
+Cancel a picker to leave packages and the Brewfile unchanged. App Store removal
+requires administrator privileges. Tap removal does not remove its packages.
+
+Use Git directly to commit and push the Brewfile. The recipes do not sync Git.
+The former `save`, `sync`, `push`, `commit`,
 skip-install variants, and audit options were removed.
 Use Homebrew directly for selective bundle installs.
 
