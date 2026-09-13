@@ -24,7 +24,7 @@ dump *args:
 
 [no-exit-message]
 check:
-    @brew bundle check --file=Brewfile --verbose
+    @brew bundle check --file=Brewfile --verbose 2>&1 | awk -f scripts/brew-check.awk
 
 [no-exit-message]
 drift:
