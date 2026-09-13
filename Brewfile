@@ -100,6 +100,8 @@ brew "coreutils"
 brew "cryptography"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Modern diagram scripting language that turns text to diagrams
+brew "d2"
 # Load/unload environment variables based on $PWD
 brew "direnv"
 # Command-line tool for DigitalOcean
@@ -366,8 +368,6 @@ cask "1password"
 cask "1password-cli@beta"
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "nikitabobko/tap/aerospace", trusted: true
-# AI notepad for meetings
-cask "anarlog"
 # Android SDK component
 cask "android-platform-tools"
 # Tool to flash OS images to SD cards & USB drives
@@ -401,8 +401,6 @@ cask "ghostty"
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
-# Terminal emulator as alternative to Apple's Terminal app
-cask "iterm2"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
 # Deep clean, analyze, and optimize app
