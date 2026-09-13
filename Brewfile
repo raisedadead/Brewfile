@@ -401,6 +401,8 @@ cask "ghostty"
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
+# Homebrew's official GUI
+cask "homebrew-app"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
 # Deep clean, analyze, and optimize app
