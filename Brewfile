@@ -388,8 +388,6 @@ cask "cleanmymac"
 cask "cleanmymac-cli"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
-# Visual diff tool for Git changes
-cask "nkzw-tech/tap/codiff", trusted: true
 # Control your Elgato key lights
 cask "elgato-control-center"
 # Assign keys, and then decorate and label them
@@ -401,8 +399,8 @@ cask "ghostty"
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
-# Homebrew's official GUI
-cask "homebrew-app"
+# Free cross-platform office suite, fresh version
+cask "libreoffice"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
 # Deep clean, analyze, and optimize app
