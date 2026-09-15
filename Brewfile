@@ -408,6 +408,8 @@ cask "mole-app"
 cask "mullvad-vpn"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Local-first, agent-native design tool
+cask "open-design"
 # Replacement for Docker Desktop
 cask "orbstack"
 # Control your tools with a few keystrokes
