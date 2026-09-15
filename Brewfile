@@ -4,7 +4,6 @@ tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
 tap "getsentry/tools"
 tap "hashicorp/tap"
 tap "nikitabobko/tap"
-tap "nkzw-tech/tap"
 tap "oven-sh/bun"
 # Run your GitHub Actions locally
 brew "act"
