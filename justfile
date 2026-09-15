@@ -33,7 +33,7 @@ drift:
 
 update:
     brew update
-    brew upgrade
+    brew upgrade --yes
 
 clean:
     brew autoremove --dry-run
