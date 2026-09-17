@@ -371,6 +371,8 @@ cask "nikitabobko/tap/aerospace", trusted: true
 cask "android-platform-tools"
 # Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
+# Menu bar icon organiser
+cask "bartender"
 # Display management tool
 cask "betterdisplay"
 # Virtual Audio Driver
@@ -436,10 +438,13 @@ cask "visual-studio-code"
 cask "whatsapp"
 mas "Command X", id: 6448461551
 mas "Dato", id: 1470584107
+mas "Flighty", id: 1358823008
 mas "Hyperduck", id: 6444667067
 mas "Structured", id: 1499198946
 mas "Tot", id: 1491071483
 mas "Velja", id: 1607635845
+mas "Velja", id: 1607635845
+mas "Xcode", id: 497799835
 mas "Yubico Authenticator", id: 1497506650
 vscode "1password.op-vscode"
 vscode "ahmadalli.vscode-nginx-conf"
