@@ -430,8 +430,6 @@ cask "spotify"
 cask "steam"
 # Mesh VPN based on WireGuard
 cask "tailscale-app"
-# Terminal-based web browser
-cask "terminal-browser"
 # Open-source code editor
 cask "visual-studio-code"
 # Native desktop client for WhatsApp
