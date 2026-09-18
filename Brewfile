@@ -265,6 +265,8 @@ brew "nushell"
 brew "oh-my-posh"
 # Drop-in replacement for Terraform. Infrastructure as Code Tool
 brew "opentofu"
+# Sliding, tiling window manager for MacOS
+brew "paneru"
 # Package compiler and linker metadata toolkit
 brew "pkgconf"
 # PDF rendering library (based on the xpdf-3.0 code base)
@@ -414,6 +416,8 @@ cask "mullvad-vpn"
 cask "obsidian"
 # Local-first, agent-native design tool
 cask "open-design"
+# Local-first alternative to Logitech Options+ for HID++ devices
+cask "openlogi"
 # Replacement for Docker Desktop
 cask "orbstack"
 # Control your tools with a few keystrokes
