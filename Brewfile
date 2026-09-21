@@ -183,6 +183,8 @@ brew "gnupg"
 brew "go"
 # Fast linters runner for Go
 brew "golangci-lint"
+# CLI for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more
+brew "googleworkspace-cli"
 # Deliver Go binaries as fast and easily as possible
 brew "goreleaser"
 # Make JSON greppable
@@ -371,8 +373,6 @@ cask "1password-cli@beta"
 cask "nikitabobko/tap/aerospace", trusted: true
 # Android SDK component
 cask "android-platform-tools"
-# Tool to flash OS images to SD cards & USB drives
-cask "balenaetcher"
 # Menu bar icon organiser
 cask "bartender"
 # Display management tool
@@ -398,6 +398,8 @@ cask "elgato-stream-deck"
 # Software custom-built for content creation
 cask "elgato-wave-link"
 cask "font-symbols-only-nerd-font"
+# Set of tools to manage resources and applications hosted on Google Cloud
+cask "gcloud-cli"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Web browser
@@ -439,12 +441,12 @@ cask "visual-studio-code"
 # Native desktop client for WhatsApp
 cask "whatsapp"
 mas "Command X", id: 6448461551
+mas "CrystalFetch", id: 6454431289
 mas "Dato", id: 1470584107
 mas "Flighty", id: 1358823008
 mas "Hyperduck", id: 6444667067
 mas "Structured", id: 1499198946
 mas "Tot", id: 1491071483
-mas "Velja", id: 1607635845
 mas "Velja", id: 1607635845
 mas "Xcode", id: 497799835
 mas "Yubico Authenticator", id: 1497506650
