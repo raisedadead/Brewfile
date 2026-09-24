@@ -375,8 +375,12 @@ cask "1password-cli@beta"
 cask "nikitabobko/tap/aerospace", trusted: true
 # Android SDK component
 cask "android-platform-tools"
-# Menu bar icon organiser
-cask "bartender"
+# Agent orchestration platform
+cask "antigravity"
+# Terminal interface for Antigravity agents
+cask "antigravity-cli"
+# AI Coding Agent IDE
+cask "antigravity-ide"
 # Display management tool
 cask "betterdisplay"
 # Virtual Audio Driver
