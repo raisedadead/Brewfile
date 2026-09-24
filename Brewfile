@@ -89,6 +89,8 @@ brew "certifi"
 brew "chezmoi"
 # Cut, copy, and paste anything, anywhere, all from the terminal
 brew "clipboard"
+# Cloudflare Tunnel client (formerly Argo Tunnel)
+brew "cloudflared"
 # Cross-platform make
 brew "cmake"
 # Create and run Linux containers using lightweight virtual machines
@@ -362,7 +364,7 @@ brew "felixkratz/formulae/sketchybar", trusted: true
 # Sentry command-line tool for error monitoring and debugging
 brew "getsentry/tools/sentry", trusted: true
 # Terraform
-brew "hashicorp/tap/terraform", trusted: true
+brew "hashicorp/tap/terraform", link: false, trusted: true
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun", trusted: true
 # Password manager that keeps all passwords secure behind one password
