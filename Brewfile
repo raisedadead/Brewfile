@@ -5,6 +5,7 @@ tap "getsentry/tools"
 tap "hashicorp/tap"
 tap "nikitabobko/tap"
 tap "oven-sh/bun"
+tap "raisedadead/tap"
 # Run your GitHub Actions locally
 brew "act"
 # GNU multiple precision arithmetic library
@@ -367,6 +368,8 @@ brew "getsentry/tools/sentry", trusted: true
 brew "hashicorp/tap/terraform", trusted: true
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun", trusted: true
+# Places floating windows for the AeroSpace window manager
+brew "raisedadead/tap/aeroplace", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line helper for the 1Password password manager
