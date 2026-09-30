@@ -312,6 +312,8 @@ brew "sops"
 brew "starship"
 # Postgres development platform
 brew "supabase"
+# Modern and pretty fancy file manager for the terminal
+brew "superfile"
 # User interface to the TELNET protocol
 brew "telnet"
 # Terminal multiplexer
