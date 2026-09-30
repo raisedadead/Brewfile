@@ -16,28 +16,6 @@ brew "shellcheck"
 brew "actionlint"
 # Simple, modern, secure file encryption
 brew "age"
-# Generic-purpose lossless compression algorithm by Google
-brew "brotli"
-# Asynchronous DNS library
-brew "c-ares"
-# Mozilla CA certificate store
-brew "ca-certificates"
-# HTTP/2 C Library
-brew "libnghttp2"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@3"
-# Extremely Fast Compression algorithm
-brew "lz4"
-# Library for command-line editing
-brew "readline"
-# Command-line interface for SQLite
-brew "sqlite"
-# General-purpose data compression with high compression ratio
-brew "xz"
-# Zstandard is a real-time compression algorithm
-brew "zstd"
-# Browser automation CLI for AI agents
-brew "agent-browser"
 # Improved shell history for zsh, bash, fish and nushell
 brew "atuin"
 # Macro processing language
@@ -56,6 +34,12 @@ brew "aws-vault"
 brew "libunistring"
 # Text-based UI library
 brew "ncurses"
+# Library for command-line editing
+brew "readline"
+# Mozilla CA certificate store
+brew "ca-certificates"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
 # C library implementing the SSH2 protocol
 brew "libssh2"
 # C library of Git core methods that is re-entrant and linkable
@@ -64,12 +48,14 @@ brew "libgit2"
 brew "oniguruma"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Open source, extensible AI agent that goes beyond code suggestions
-brew "block-goose-cli"
 # Yet another cross-platform graphical process/system monitor
 brew "bottom"
+# Generic-purpose lossless compression algorithm by Google
+brew "brotli"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
+# Asynchronous DNS library
+brew "c-ares"
 # Perl compatible regular expressions library with a new API
 brew "pcre2"
 # X.Org: Protocol Headers
@@ -100,10 +86,16 @@ brew "container"
 brew "coreutils"
 # Cryptographic recipes and primitives for Python
 brew "cryptography"
+# HTTP/2 C Library
+brew "libnghttp2"
+# Extremely Fast Compression algorithm
+brew "lz4"
+# General-purpose data compression with high compression ratio
+brew "xz"
+# Zstandard is a real-time compression algorithm
+brew "zstd"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
-# Modern diagram scripting language that turns text to diagrams
-brew "d2"
 # Load/unload environment variables based on $PWD
 brew "direnv"
 # Command-line tool for DigitalOcean
@@ -148,6 +140,8 @@ brew "git"
 brew "git-delta"
 # Library for decimal floating point arithmetic
 brew "mpdecimal"
+# Command-line interface for SQLite
+brew "sqlite"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.13"
 # Quickly rewrite git repository history
@@ -198,14 +192,10 @@ brew "gum"
 brew "hadolint"
 # Kubernetes package manager
 brew "helm"
-# HTTP load generator, ApacheBench (ab) replacement
-brew "hey"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.14"
 # Client library for huggingface.co hub
 brew "hf"
-# Curl statistics made simple
-brew "httpstat"
 # Image format providing lossless and lossy compression for web images
 brew "webp"
 # Tools and libraries to manipulate images in select formats
@@ -214,8 +204,6 @@ brew "imagemagick"
 brew "jq"
 # Handy way to save and run project-specific commands
 brew "just"
-# Modern load testing tool, using Go and JavaScript
-brew "k6"
 # Kubernetes CLI To Manage Your Clusters In Style!
 brew "k9s"
 # FAST Kubernetes manifests validator, with support for Custom Resources!
@@ -264,14 +252,10 @@ brew "neovim"
 brew "ninja"
 # Port scanning utility for large networks
 brew "nmap"
-# Modern shell for the GitHub era
-brew "nushell"
 # Prompt theme engine for any shell
 brew "oh-my-posh"
 # Drop-in replacement for Terraform. Infrastructure as Code Tool
 brew "opentofu"
-# Sliding, tiling window manager for MacOS
-brew "paneru"
 # Package compiler and linker metadata toolkit
 brew "pkgconf"
 # PDF rendering library (based on the xpdf-3.0 code base)
@@ -308,10 +292,6 @@ brew "shellspec"
 brew "shfmt"
 # Editor of encrypted files
 brew "sops"
-# Cross-shell prompt for astronauts
-brew "starship"
-# Postgres development platform
-brew "supabase"
 # Modern and pretty fancy file manager for the terminal
 brew "superfile"
 # User interface to the TELNET protocol
@@ -380,26 +360,14 @@ cask "1password-cli@beta"
 cask "nikitabobko/tap/aerospace", trusted: true
 # Android SDK component
 cask "android-platform-tools"
-# Agent orchestration platform
-cask "antigravity"
-# Terminal interface for Antigravity agents
-cask "antigravity-cli"
-# AI Coding Agent IDE
-cask "antigravity-ide"
 # Display management tool
 cask "betterdisplay"
-# Virtual Audio Driver
-cask "blackhole-2ch"
 # Screen recording software
 cask "cap"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
-# Tool to remove unnecessary files and folders from disk
-cask "cleanmymac"
-# Command-line interface for CleanMyMac
-cask "cleanmymac-cli"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
 # Control your Elgato key lights
@@ -429,16 +397,12 @@ cask "mullvad-vpn"
 cask "obsidian"
 # Local-first, agent-native design tool
 cask "open-design"
-# Local-first alternative to Logitech Options+ for HID++ devices
-cask "openlogi"
 # Replacement for Docker Desktop
 cask "orbstack"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Screenshot measurement and annotation tool
 cask "shottr"
-# Sound and audio controller
-cask "soundsource"
 # App launcher/switcher
 cask "spacelauncher"
 # Music streaming service
