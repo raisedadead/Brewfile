@@ -258,6 +258,8 @@ brew "oh-my-posh"
 brew "opentofu"
 # Package compiler and linker metadata toolkit
 brew "pkgconf"
+# Fast, disk space efficient package manager
+brew "pnpm"
 # PDF rendering library (based on the xpdf-3.0 code base)
 brew "poppler"
 # Generic machine emulator and virtualizer
