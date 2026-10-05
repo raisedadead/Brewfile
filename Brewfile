@@ -407,6 +407,8 @@ cask "raycast"
 cask "shottr"
 # App launcher/switcher
 cask "spacelauncher"
+# Music streaming service
+cask "spotify"
 # Video game digital distribution service
 cask "steam"
 # Mesh VPN based on WireGuard
