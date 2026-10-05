@@ -407,12 +407,12 @@ cask "raycast"
 cask "shottr"
 # App launcher/switcher
 cask "spacelauncher"
-# Music streaming service
-cask "spotify"
 # Video game digital distribution service
 cask "steam"
 # Mesh VPN based on WireGuard
 cask "tailscale-app"
+# Menu bar manager
+cask "thaw@beta"
 # Open-source code editor
 cask "visual-studio-code"
 # Native desktop client for WhatsApp
