@@ -1,4 +1,4 @@
-tap "anomalyco/tap"
+tap "automic-vault/isotopes", trusted: { casks: ["automic-vault"] }
 tap "charmbracelet/tap"
 tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
 tap "getsentry/tools"
