@@ -340,8 +340,6 @@ brew "zoxide"
 brew "zsh"
 # Additional completion definitions for zsh
 brew "zsh-completions"
-# The AI coding agent built for the terminal.
-brew "anomalyco/tap/opencode", trusted: true
 # Generate images of code and terminal output.
 brew "charmbracelet/tap/freeze", trusted: true
 # Custom macOS statusbar with shell plugin, interaction and graph support
@@ -482,13 +480,8 @@ go "github.com/f1bonacc1/process-compose"
 go "honnef.co/go/tools/cmd/staticcheck"
 go "github.com/wailsapp/wails/v2/cmd/wails"
 go "github.com/caddyserver/xcaddy/cmd/xcaddy"
-cargo "tldr-cli"
-uv "claude-swap"
 uv "mdformat", with: ["mdformat-frontmatter", "mdformat-gfm"]
-uv "mlx-lm"
 uv "skills-ref"
-uv "specify-cli", source: "git+https://github.com/github/spec-kit.git"
-npm "@earendil-works/pi-coding-agent"
 npm "@freecodecamp/universe-cli"
 npm "@playwright/cli"
 npm "@xenova/transformers"
