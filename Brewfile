@@ -1,4 +1,4 @@
-tap "automic-vault/isotopes", trusted: { casks: ["automic-vault"] }
+tap "automic-vault/isotopes"
 tap "charmbracelet/tap"
 tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
 tap "getsentry/tools"
@@ -26,20 +26,34 @@ brew "autoconf"
 brew "autoconf-archive"
 # Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
-# Nuke a whole AWS account and delete all its resources
-brew "aws-nuke"
-# Securely store and access AWS credentials in development environments
-brew "aws-vault"
-# C string library for manipulating Unicode strings
-brew "libunistring"
-# Text-based UI library
-brew "ncurses"
-# Library for command-line editing
-brew "readline"
 # Mozilla CA certificate store
 brew "ca-certificates"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
+# Nuke a whole AWS account and delete all its resources
+brew "aws-nuke"
+# Securely store and access AWS credentials in development environments
+brew "aws-vault"
+# Extremely Fast Compression algorithm
+brew "lz4"
+# Library for decimal floating point arithmetic
+brew "mpdecimal"
+# Library for command-line editing
+brew "readline"
+# Command-line interface for SQLite
+brew "sqlite"
+# General-purpose data compression with high compression ratio
+brew "xz"
+# Zstandard is a real-time compression algorithm
+brew "zstd"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
+# Official Amazon AWS command-line interface
+brew "awscli"
+# C string library for manipulating Unicode strings
+brew "libunistring"
+# Text-based UI library
+brew "ncurses"
 # C library implementing the SSH2 protocol
 brew "libssh2"
 # C library of Git core methods that is re-entrant and linkable
@@ -88,12 +102,6 @@ brew "coreutils"
 brew "cryptography"
 # HTTP/2 C Library
 brew "libnghttp2"
-# Extremely Fast Compression algorithm
-brew "lz4"
-# General-purpose data compression with high compression ratio
-brew "xz"
-# Zstandard is a real-time compression algorithm
-brew "zstd"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Load/unload environment variables based on $PWD
@@ -138,10 +146,6 @@ brew "gh"
 brew "git"
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
-# Library for decimal floating point arithmetic
-brew "mpdecimal"
-# Command-line interface for SQLite
-brew "sqlite"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.13"
 # Quickly rewrite git repository history
@@ -192,8 +196,6 @@ brew "gum"
 brew "hadolint"
 # Kubernetes package manager
 brew "helm"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.14"
 # Client library for huggingface.co hub
 brew "hf"
 # Image format providing lossless and lossy compression for web images
@@ -360,6 +362,8 @@ cask "1password-cli@beta"
 cask "nikitabobko/tap/aerospace", trusted: true
 # Android SDK component
 cask "android-platform-tools"
+# Command-line security layer for developer environments
+cask "automic-vault/isotopes/automic-vault", trusted: true
 # Display management tool
 cask "betterdisplay"
 # Screen recording software
