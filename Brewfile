@@ -258,6 +258,8 @@ brew "nmap"
 brew "oh-my-posh"
 # Drop-in replacement for Terraform. Infrastructure as Code Tool
 brew "opentofu"
+# PAM module for reattaching to the user's GUI (Aqua) session
+brew "pam-reattach"
 # Package compiler and linker metadata toolkit
 brew "pkgconf"
 # Fast, disk space efficient package manager
@@ -389,6 +391,8 @@ cask "ghostty"
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
+# AI teammates that work across your apps and tools
+cask "grok-bot"
 # Free cross-platform office suite, fresh version
 cask "libreoffice"
 # Open-source cross-platform alternative to AirDrop
