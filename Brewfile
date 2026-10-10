@@ -254,6 +254,8 @@ brew "neovim"
 brew "ninja"
 # Port scanning utility for large networks
 brew "nmap"
+# Modern shell for the GitHub era
+brew "nushell"
 # Prompt theme engine for any shell
 brew "oh-my-posh"
 # Drop-in replacement for Terraform. Infrastructure as Code Tool
@@ -356,6 +358,8 @@ brew "hashicorp/tap/terraform", trusted: true
 brew "oven-sh/bun/bun", trusted: true
 # Places floating windows for the AeroSpace window manager
 brew "raisedadead/tap/aeroplace", trusted: true
+# Claude and Codex usage for SketchyBar with a native panel
+brew "raisedadead/tap/sketchyusage", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line helper for the 1Password password manager
