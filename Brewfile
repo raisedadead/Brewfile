@@ -28,8 +28,6 @@ brew "autoconf-archive"
 brew "automake"
 # Mozilla CA certificate store
 brew "ca-certificates"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@3"
 # Nuke a whole AWS account and delete all its resources
 brew "aws-nuke"
 # Securely store and access AWS credentials in development environments
@@ -60,6 +58,8 @@ brew "libssh2"
 brew "libgit2"
 # Regular expressions library
 brew "oniguruma"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Yet another cross-platform graphical process/system monitor
