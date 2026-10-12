@@ -27,26 +27,14 @@ brew "autoconf"
 brew "autoconf-archive"
 # Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
-# Mozilla CA certificate store
-brew "ca-certificates"
-# Extremely Fast Compression algorithm
-brew "lz4"
-# Library for decimal floating point arithmetic
-brew "mpdecimal"
-# Library for command-line editing
-brew "readline"
-# Command-line interface for SQLite
-brew "sqlite"
-# General-purpose data compression with high compression ratio
-brew "xz"
-# Zstandard is a real-time compression algorithm
-brew "zstd"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.14"
 # C string library for manipulating Unicode strings
 brew "libunistring"
 # Text-based UI library
 brew "ncurses"
+# Library for command-line editing
+brew "readline"
+# Mozilla CA certificate store
+brew "ca-certificates"
 # C library implementing the SSH2 protocol
 brew "libssh2"
 # C library of Git core methods that is re-entrant and linkable
@@ -97,6 +85,12 @@ brew "coreutils"
 brew "cryptography"
 # HTTP/2 C Library
 brew "libnghttp2"
+# Extremely Fast Compression algorithm
+brew "lz4"
+# General-purpose data compression with high compression ratio
+brew "xz"
+# Zstandard is a real-time compression algorithm
+brew "zstd"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Load/unload environment variables based on $PWD
@@ -141,6 +135,10 @@ brew "gh"
 brew "git"
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
+# Library for decimal floating point arithmetic
+brew "mpdecimal"
+# Command-line interface for SQLite
+brew "sqlite"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.13"
 # Quickly rewrite git repository history
@@ -247,6 +245,8 @@ brew "tree-sitter"
 brew "neovim"
 # Small build system for use with gyp or CMake
 brew "ninja"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
 # Port scanning utility for large networks
 brew "nmap"
 # Modern shell for the GitHub era
