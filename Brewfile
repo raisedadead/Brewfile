@@ -29,10 +29,6 @@ brew "autoconf-archive"
 brew "automake"
 # Mozilla CA certificate store
 brew "ca-certificates"
-# Nuke a whole AWS account and delete all its resources
-brew "aws-nuke"
-# Securely store and access AWS credentials in development environments
-brew "aws-vault"
 # Extremely Fast Compression algorithm
 brew "lz4"
 # Library for decimal floating point arithmetic
@@ -47,8 +43,6 @@ brew "xz"
 brew "zstd"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.14"
-# Official Amazon AWS command-line interface
-brew "awscli"
 # C string library for manipulating Unicode strings
 brew "libunistring"
 # Text-based UI library
@@ -287,8 +281,6 @@ brew "rtmpdump"
 brew "ruff"
 # Safe, concurrent, practical language
 brew "rust"
-# Command-line tool for the Amazon S3 service
-brew "s3cmd"
 # Security health metrics for Open Source
 brew "scorecard"
 # Display and control your Android device
