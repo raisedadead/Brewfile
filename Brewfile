@@ -3,6 +3,7 @@ tap "charmbracelet/tap"
 tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
 tap "getsentry/tools"
 tap "hashicorp/tap"
+tap "lightpanda-io/browser"
 tap "nikitabobko/tap"
 tap "oven-sh/bun"
 tap "raisedadead/tap"
@@ -354,6 +355,8 @@ brew "felixkratz/formulae/sketchybar", trusted: true
 brew "getsentry/tools/sentry", trusted: true
 # Terraform
 brew "hashicorp/tap/terraform", trusted: true
+# Headless browser for AI agents and automation (nightly build)
+brew "lightpanda-io/browser/lightpanda", trusted: true
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun", trusted: true
 # Places floating windows for the AeroSpace window manager
