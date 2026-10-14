@@ -373,6 +373,8 @@ cask "chatgpt"
 cask "claude"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
+# Elgato FACECAM configuration tool
+cask "elgato-camera-hub"
 # Control your Elgato key lights
 cask "elgato-control-center"
 # Assign keys, and then decorate and label them
