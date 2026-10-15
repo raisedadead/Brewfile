@@ -345,7 +345,7 @@ brew "felixkratz/formulae/sketchybar", trusted: true
 brew "getsentry/tools/sentry", trusted: true
 # Terraform
 brew "hashicorp/tap/terraform", trusted: true
-# Headless browser for AI agents and automation (nightly build)
+# Headless browser for AI agents and automation
 brew "lightpanda-io/browser/lightpanda", trusted: true
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun", trusted: true
