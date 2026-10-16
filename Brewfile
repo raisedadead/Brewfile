@@ -243,8 +243,6 @@ brew "tree-sitter"
 brew "neovim"
 # Small build system for use with gyp or CMake
 brew "ninja"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.14"
 # Port scanning utility for large networks
 brew "nmap"
 # Modern shell for the GitHub era
@@ -261,6 +259,8 @@ brew "pkgconf"
 brew "pnpm"
 # PDF rendering library (based on the xpdf-3.0 code base)
 brew "poppler"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
 # Generic machine emulator and virtualizer
 brew "qemu"
 # Ruby version manager
