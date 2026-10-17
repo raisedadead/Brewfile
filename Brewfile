@@ -412,8 +412,6 @@ cask "raycast"
 cask "shottr"
 # App launcher/switcher
 cask "spacelauncher"
-# Music streaming service
-cask "spotify"
 # Video game digital distribution service
 cask "steam"
 # Mesh VPN based on WireGuard
@@ -425,9 +423,7 @@ cask "visual-studio-code"
 # Native desktop client for WhatsApp
 cask "whatsapp"
 mas "Command X", id: 6448461551
-mas "CrystalFetch", id: 6454431289
 mas "Dato", id: 1470584107
-mas "Flighty", id: 1358823008
 mas "Hyperduck", id: 6444667067
 mas "Structured", id: 1499198946
 mas "Tot", id: 1491071483
