@@ -49,6 +49,8 @@ brew "bat"
 brew "bottom"
 # Generic-purpose lossless compression algorithm by Google
 brew "brotli"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
+brew "btop"
 # Asynchronous DNS library
 brew "c-ares"
 # Perl compatible regular expressions library with a new API
