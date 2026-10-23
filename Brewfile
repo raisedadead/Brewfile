@@ -247,8 +247,6 @@ brew "neovim"
 brew "ninja"
 # Port scanning utility for large networks
 brew "nmap"
-# Modern shell for the GitHub era
-brew "nushell"
 # Prompt theme engine for any shell
 brew "oh-my-posh"
 # Drop-in replacement for Terraform. Infrastructure as Code Tool
@@ -394,8 +392,6 @@ cask "google-chrome"
 cask "google-drive"
 # AI teammates that work across your apps and tools
 cask "grok-bot"
-# Free cross-platform office suite, fresh version
-cask "libreoffice"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
 # Deep clean, analyze, and optimize app
@@ -414,8 +410,6 @@ cask "shottr"
 cask "spacelauncher"
 # Music streaming service
 cask "spotify"
-# Video game digital distribution service
-cask "steam"
 # Mesh VPN based on WireGuard
 cask "tailscale-app"
 # Menu bar manager
