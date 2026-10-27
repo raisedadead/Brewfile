@@ -367,8 +367,6 @@ cask "automic-vault/isotopes/automic-vault", trusted: true
 cask "betterdisplay"
 # Screen recording software
 cask "cap"
-# OpenAI's official ChatGPT desktop app
-cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
 # OpenAI's coding agent that runs in your terminal
