@@ -345,6 +345,8 @@ brew "charmbracelet/tap/freeze", trusted: true
 brew "felixkratz/formulae/sketchybar", trusted: true
 # Sentry command-line tool for error monitoring and debugging
 brew "getsentry/tools/sentry", trusted: true
+# Packer
+brew "hashicorp/tap/packer", trusted: true
 # Terraform
 brew "hashicorp/tap/terraform", trusted: true
 # Headless browser for AI agents and automation
@@ -406,8 +408,6 @@ cask "orbstack"
 cask "raycast"
 # Screenshot measurement and annotation tool
 cask "shottr"
-# App launcher/switcher
-cask "spacelauncher"
 # Music streaming service
 cask "spotify"
 # Mesh VPN based on WireGuard
