@@ -301,8 +301,6 @@ brew "tmux"
 brew "tree"
 # Parser generator tool
 brew "tree-sitter-cli"
-# Terminal UI OS (Terminal Multiplexer)
-brew "tuios"
 # Minimal terminal-based typing speed tester
 brew "typtea"
 # Validating, recursive, caching DNS resolver
