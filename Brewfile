@@ -7,6 +7,7 @@ tap "lightpanda-io/browser"
 tap "nikitabobko/tap"
 tap "oven-sh/bun"
 tap "raisedadead/tap"
+tap "vultr/vultr-cli"
 # Run your GitHub Actions locally
 brew "act"
 # GNU multiple precision arithmetic library
@@ -355,6 +356,8 @@ brew "oven-sh/bun/bun", trusted: true
 brew "raisedadead/tap/aeroplace", trusted: true
 # Claude and Codex usage for SketchyBar with a native panel
 brew "raisedadead/tap/sketchyusage", trusted: true
+# Official command-line tool for Vultr services
+brew "vultr/vultr-cli/vultr-cli", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line helper for the 1Password password manager
