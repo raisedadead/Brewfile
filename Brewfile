@@ -230,6 +230,8 @@ brew "mas"
 brew "media-control"
 # Deep clean and optimize your Mac
 brew "mole"
+# Atlas CLI enables you to manage your MongoDB Atlas
+brew "mongodb-atlas-cli"
 # 'traceroute' and 'ping' in a single tool
 brew "mtr"
 # Tail multiple files in one terminal simultaneously
