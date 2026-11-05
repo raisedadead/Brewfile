@@ -8,6 +8,7 @@ tap "nikitabobko/tap"
 tap "oven-sh/bun"
 tap "raisedadead/tap"
 tap "vultr/vultr-cli"
+tap "wix-incubator/brew", "https://github.com/wix-incubator/homebrew-brew.git"
 # Run your GitHub Actions locally
 brew "act"
 # GNU multiple precision arithmetic library
