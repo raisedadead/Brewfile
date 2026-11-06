@@ -304,6 +304,8 @@ brew "tmux"
 brew "tree"
 # Parser generator tool
 brew "tree-sitter-cli"
+# Find and verify credentials
+brew "trufflehog"
 # Minimal terminal-based typing speed tester
 brew "typtea"
 # Validating, recursive, caching DNS resolver
