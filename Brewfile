@@ -378,6 +378,8 @@ cask "cap"
 cask "claude"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
+# Voice and text chat software
+cask "discord"
 # Elgato FACECAM configuration tool
 cask "elgato-camera-hub"
 # Control your Elgato key lights
@@ -403,6 +405,10 @@ cask "localsend"
 cask "mole-app"
 # VPN client
 cask "mullvad-vpn"
+# App to write, plan, collaborate, and get organised
+cask "notion"
+# Calendar for professionals and teams
+cask "notion-calendar"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Replacement for Docker Desktop
