@@ -430,6 +430,7 @@ cask "whatsapp"
 # Multiplayer code editor
 cask "zed"
 mas "Command X", id: 6448461551
+mas "Dato", id: 1470584107
 mas "Hyperduck", id: 6444667067
 mas "Structured", id: 1499198946
 mas "Tot", id: 1491071483
