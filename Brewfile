@@ -190,10 +190,16 @@ brew "gum"
 brew "hadolint"
 # Kubernetes package manager
 brew "helm"
-# Client library for huggingface.co hub
-brew "hf"
 # Image format providing lossless and lossy compression for web images
 brew "webp"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Self-improving AI agent that creates skills from experience
+brew "hermes-agent"
+# Client library for huggingface.co hub
+brew "hf"
 # Tools and libraries to manipulate images in select formats
 brew "imagemagick"
 # Lightweight and flexible command-line JSON processor
@@ -264,8 +270,6 @@ brew "pkgconf"
 brew "pnpm"
 # PDF rendering library (based on the xpdf-3.0 code base)
 brew "poppler"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.14"
 # Generic machine emulator and virtualizer
 brew "qemu"
 # Ruby version manager
@@ -274,8 +278,6 @@ brew "rbenv"
 brew "rclone"
 # SVG rendering tool and library
 brew "resvg"
-# Search tool like grep and The Silver Searcher
-brew "ripgrep"
 # CLI proxy to minimize LLM token consumption
 brew "rtk"
 # Tool for downloading RTMP streaming media
@@ -382,8 +384,6 @@ cask "cap"
 cask "claude"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
-# Voice and text chat software
-cask "discord"
 # Elgato FACECAM configuration tool
 cask "elgato-camera-hub"
 # Control your Elgato key lights
@@ -401,6 +401,8 @@ cask "ghostty"
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
+# Open-source desktop AI agent
+cask "hermes-desktop"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
 # Deep clean, analyze, and optimize app
