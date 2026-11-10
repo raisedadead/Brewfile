@@ -200,6 +200,8 @@ brew "imagemagick"
 brew "jq"
 # Handy way to save and run project-specific commands
 brew "just"
+# Little helper to run CNCF's k3s in Docker
+brew "k3d"
 # Kubernetes CLI To Manage Your Clusters In Style!
 brew "k9s"
 # FAST Kubernetes manifests validator, with support for Custom Resources!
