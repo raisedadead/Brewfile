@@ -399,8 +399,6 @@ cask "ghostty"
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
-# AI teammates that work across your apps and tools
-cask "grok-bot"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
 # Deep clean, analyze, and optimize app
