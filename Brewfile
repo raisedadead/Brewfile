@@ -401,6 +401,8 @@ cask "ghostty"
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
+# AI teammates that work across your apps and tools
+cask "grok-bot"
 # Open-source desktop AI agent
 cask "hermes-desktop"
 # Open-source cross-platform alternative to AirDrop
