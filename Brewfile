@@ -454,3 +454,5 @@ go "github.com/wailsapp/wails/v2/cmd/wails"
 go "github.com/caddyserver/xcaddy/cmd/xcaddy"
 uv "mdformat", with: ["mdformat-frontmatter", "mdformat-gfm"]
 uv "skills-ref"
+npm "@xenova/transformers"
+npm "cavemem"
