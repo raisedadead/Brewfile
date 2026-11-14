@@ -1,5 +1,6 @@
 tap "automic-vault/isotopes"
 tap "charmbracelet/tap"
+tap "deepanshumishraa/tap"
 tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
 tap "getsentry/tools"
 tap "hashicorp/tap"
@@ -348,6 +349,8 @@ brew "zsh"
 brew "zsh-completions"
 # Generate images of code and terminal output.
 brew "charmbracelet/tap/freeze", trusted: true
+# Read PDFs, markdown files and web articles in the terminal, and review diffs
+brew "deepanshumishraa/tap/leaf", trusted: true
 # Custom macOS statusbar with shell plugin, interaction and graph support
 brew "felixkratz/formulae/sketchybar", trusted: true
 # Sentry command-line tool for error monitoring and debugging
