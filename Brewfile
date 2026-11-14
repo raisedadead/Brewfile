@@ -199,6 +199,10 @@ brew "webp"
 brew "python@3.14"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Code searching, linting, rewriting
+brew "ast-grep"
+# Maintained ctags implementation
+brew "universal-ctags"
 # Self-improving AI agent that creates skills from experience
 brew "hermes-agent"
 # Client library for huggingface.co hub
