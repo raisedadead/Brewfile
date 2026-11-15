@@ -19,6 +19,8 @@ brew "shellcheck"
 brew "actionlint"
 # Simple, modern, secure file encryption
 brew "age"
+# Code searching, linting, rewriting
+brew "ast-grep"
 # Improved shell history for zsh, bash, fish and nushell
 brew "atuin"
 # Macro processing language
@@ -199,10 +201,6 @@ brew "webp"
 brew "python@3.14"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Code searching, linting, rewriting
-brew "ast-grep"
-# Maintained ctags implementation
-brew "universal-ctags"
 # Self-improving AI agent that creates skills from experience
 brew "hermes-agent"
 # Client library for huggingface.co hub
@@ -321,6 +319,8 @@ brew "trufflehog"
 brew "typtea"
 # Validating, recursive, caching DNS resolver
 brew "unbound"
+# Maintained ctags implementation
+brew "universal-ctags"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
 # C++ Library Manager
@@ -416,6 +416,8 @@ cask "grok-bot"
 cask "hermes-desktop"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
+# Intercept, modify, replay, save HTTP/S traffic
+cask "mitmproxy"
 # Deep clean, analyze, and optimize app
 cask "mole-app"
 # VPN client
@@ -464,8 +466,6 @@ go "github.com/caddyserver/xcaddy/cmd/xcaddy"
 uv "mdformat", with: ["mdformat-frontmatter", "mdformat-gfm"]
 uv "skills-ref"
 npm "@playwright/cli"
-npm "@xenova/transformers"
-npm "cavemem"
 npm "cf"
 npm "portless"
 npm "wrangler"
