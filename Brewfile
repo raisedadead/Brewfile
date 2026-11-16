@@ -1,4 +1,5 @@
-tap "automic-vault/isotopes"
+tap "automic-vault/isotopes", trusted: { casks: ["automic-vault"] }
+tap "can1357/tap"
 tap "charmbracelet/tap"
 tap "deepanshumishraa/tap"
 tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
@@ -353,6 +354,8 @@ brew "zoxide"
 brew "zsh"
 # Additional completion definitions for zsh
 brew "zsh-completions"
+# Coding agent with the IDE wired in
+brew "can1357/tap/omp", trusted: true
 # Generate images of code and terminal output.
 brew "charmbracelet/tap/freeze", trusted: true
 # Read PDFs, markdown files and web articles in the terminal, and review diffs
@@ -383,8 +386,6 @@ cask "1password-cli@beta"
 cask "nikitabobko/tap/aerospace", trusted: true
 # Android SDK component
 cask "android-platform-tools"
-# Command-line security layer for developer environments
-cask "automic-vault/isotopes/automic-vault", trusted: true
 # Display management tool
 cask "betterdisplay"
 # Screen recording software
