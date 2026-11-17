@@ -9,6 +9,7 @@ tap "lightpanda-io/browser"
 tap "nikitabobko/tap"
 tap "oven-sh/bun"
 tap "raisedadead/tap"
+tap "rtk-ai/tap", trusted: { formulae: ["rtk"] }
 tap "vultr/vultr-cli"
 # Run your GitHub Actions locally
 brew "act"
