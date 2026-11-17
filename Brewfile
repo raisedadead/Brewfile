@@ -9,7 +9,7 @@ tap "lightpanda-io/browser"
 tap "nikitabobko/tap"
 tap "oven-sh/bun"
 tap "raisedadead/tap"
-tap "rtk-ai/tap", trusted: { formulae: ["rtk"] }
+tap "rtk-ai/tap"
 tap "vultr/vultr-cli"
 # Run your GitHub Actions locally
 brew "act"
@@ -285,8 +285,6 @@ brew "rbenv"
 brew "rclone"
 # SVG rendering tool and library
 brew "resvg"
-# CLI proxy to minimize LLM token consumption
-brew "rtk"
 # Tool for downloading RTMP streaming media
 brew "rtmpdump"
 # Extremely fast Python linter, written in Rust
@@ -377,6 +375,8 @@ brew "oven-sh/bun/bun", trusted: true
 brew "raisedadead/tap/aeroplace", trusted: true
 # Claude and Codex usage for SketchyBar with a native panel
 brew "raisedadead/tap/sketchyusage", trusted: true
+# Rust Token Killer - High-performance CLI proxy to minimize LLM token consumption
+brew "rtk-ai/tap/rtk", trusted: true
 # Official command-line tool for Vultr services
 brew "vultr/vultr-cli/vultr-cli", trusted: true
 # Password manager that keeps all passwords secure behind one password
