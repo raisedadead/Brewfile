@@ -392,8 +392,6 @@ cask "1password-cli@beta"
 cask "nikitabobko/tap/aerospace", trusted: true
 # Android SDK component
 cask "android-platform-tools"
-# Chromium-based web browser with a vertical tab sidebar
-cask "ardia"
 # Display management tool
 cask "betterdisplay"
 # Screen recording software
