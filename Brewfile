@@ -10,6 +10,7 @@ tap "nikitabobko/tap"
 tap "oven-sh/bun"
 tap "raisedadead/tap"
 tap "rtk-ai/tap"
+tap "voidzero-dev/vite-plus", "https://github.com/voidzero-dev/vite-plus"
 tap "vultr/vultr-cli"
 # Run your GitHub Actions locally
 brew "act"
@@ -305,6 +306,8 @@ brew "shfmt"
 brew "sops"
 # Modern and pretty fancy file manager for the terminal
 brew "superfile"
+# Netcat-like tool over Tailscale's data plane, without its control plane
+brew "tailcat"
 # User interface to the TELNET protocol
 brew "telnet"
 # Terminal multiplexer
@@ -377,6 +380,8 @@ brew "raisedadead/tap/aeroplace", trusted: true
 brew "raisedadead/tap/sketchyusage", trusted: true
 # Rust Token Killer - High-performance CLI proxy to minimize LLM token consumption
 brew "rtk-ai/tap/rtk", trusted: true
+# Unified toolchain for the web
+brew "voidzero-dev/vite-plus/vp"
 # Official command-line tool for Vultr services
 brew "vultr/vultr-cli/vultr-cli", trusted: true
 # Password manager that keeps all passwords secure behind one password
