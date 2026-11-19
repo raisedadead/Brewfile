@@ -387,6 +387,8 @@ cask "1password-cli@beta"
 cask "nikitabobko/tap/aerospace", trusted: true
 # Android SDK component
 cask "android-platform-tools"
+# Chromium-based web browser with a vertical tab sidebar
+cask "ardia"
 # Display management tool
 cask "betterdisplay"
 # Screen recording software
@@ -403,6 +405,8 @@ cask "elgato-control-center"
 cask "elgato-stream-deck"
 # Software custom-built for content creation
 cask "elgato-wave-link"
+# Web browser
+cask "firefox"
 cask "font-symbols-only-nerd-font"
 # Set of tools to manage resources and applications hosted on Google Cloud
 cask "gcloud-cli"
