@@ -278,6 +278,8 @@ brew "pkgconf"
 brew "pnpm"
 # PDF rendering library (based on the xpdf-3.0 code base)
 brew "poppler"
+# Static type checker for Python
+brew "pyright"
 # Generic machine emulator and virtualizer
 brew "qemu"
 # Ruby version manager
@@ -318,6 +320,8 @@ brew "tree"
 brew "tree-sitter-cli"
 # Find and verify credentials
 brew "trufflehog"
+# Language Server Protocol implementation for TypeScript wrapping tsserver
+brew "typescript-language-server"
 # Minimal terminal-based typing speed tester
 brew "typtea"
 # Validating, recursive, caching DNS resolver
