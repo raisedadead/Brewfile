@@ -451,8 +451,6 @@ cask "shottr"
 cask "spotify"
 # Mesh VPN based on WireGuard
 cask "tailscale-app"
-# Menu bar manager
-cask "thaw@beta"
 # Native desktop client for WhatsApp
 cask "whatsapp"
 # Multiplayer code editor
